@@ -193,6 +193,7 @@ public class ManageApplications extends InstrumentedFragment
 
     // whether showing substratum overlays.
     private boolean mShowSubstratum;
+    private boolean mShowSubstratumIcons;
 
     // if app and icon overlay installed
     private boolean mAppOverlayInstalled;
@@ -927,9 +928,17 @@ public class ManageApplications extends InstrumentedFragment
             if (mOverrideFilter != null) {
                 filterObj = mOverrideFilter;
             }
+
             if (!mManageApplications.mShowSystem && !mManageApplications.mShowSubstratum) {
                 filterObj = new CompoundFilter(filterObj,
                         ApplicationsState.FILTER_DOWNLOADED_AND_LAUNCHER);
+            }
+            if (!mManageApplications.mShowSubstratum) {
+                filterObj = new CompoundFilter(filterObj,
+
+            if (!mManageApplications.mShowSystem) {
+                filterObj = new CompoundFilter(filterObj,
+                                               ApplicationsState.FILTER_DOWNLOADED_AND_LAUNCHER);
             }
             if (!mManageApplications.mShowSubstratum) {
                 filterObj = new CompoundFilter(filterObj,
