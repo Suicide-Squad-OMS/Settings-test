@@ -581,13 +581,13 @@ public class ManageApplications extends InstrumentedFragment
                 && mListType != LIST_TYPE_HIGH_POWER);
 
         mOptionsMenu.findItem(R.id.show_substratum).setVisible(!mShowSubstratum
-                && mListType != LIST_TYPE_HIGH_POWER);
+                && mListType != LIST_TYPE_HIGH_POWER && mAppOverlayInstalled);
         mOptionsMenu.findItem(R.id.hide_substratum).setVisible(mShowSubstratum
-                && mListType != LIST_TYPE_HIGH_POWER);
+                && mListType != LIST_TYPE_HIGH_POWER && mAppOverlayInstalled);
         mOptionsMenu.findItem(R.id.show_substratum_icons).setVisible(!mShowSubstratumIcons
-                && mListType != LIST_TYPE_HIGH_POWER);
+                && mListType != LIST_TYPE_HIGH_POWER && mIconOverlayInstalled);
         mOptionsMenu.findItem(R.id.hide_substratum_icons).setVisible(mShowSubstratumIcons
-                && mListType != LIST_TYPE_HIGH_POWER);
+                && mListType != LIST_TYPE_HIGH_POWER && mIconOverlayInstalled);
     }
 
     @Override
