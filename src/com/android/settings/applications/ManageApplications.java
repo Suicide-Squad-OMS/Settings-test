@@ -192,6 +192,10 @@ public class ManageApplications extends InstrumentedFragment
     // whether showing substratum overlays.
     private boolean mShowSubstratum;
 
+    // if app and icon overlay installed
+    private boolean mAppOverlayInstalled;
+    private boolean mIconOverlayInstalled;
+
     private ApplicationsState mApplicationsState;
 
     public int mListType;
@@ -549,7 +553,10 @@ public class ManageApplications extends InstrumentedFragment
         mOptionsMenu = null;
     }
 
-    void updateOptionsMenu() {
+     void updateOptionsMenu() {
+        mAppOverlayInstalled = isOverlayInstalled("app");
+        mIconOverlayInstalled = isOverlayInstalled("icon");
+
         if (mOptionsMenu == null) {
             return;
         }
@@ -567,9 +574,13 @@ public class ManageApplications extends InstrumentedFragment
                 && mListType != LIST_TYPE_HIGH_POWER);
 
         mOptionsMenu.findItem(R.id.show_substratum).setVisible(!mShowSubstratum
-                && mListType != LIST_TYPE_HIGH_POWER);
+                && mListType != LIST_TYPE_HIGH_POWER && mAppOverlayInstalled);
         mOptionsMenu.findItem(R.id.hide_substratum).setVisible(mShowSubstratum
-                && mListType != LIST_TYPE_HIGH_POWER);
+                && mListType != LIST_TYPE_HIGH_POWER && mAppOverlayInstalled);
+        mOptionsMenu.findItem(R.id.show_substratum_icons).setVisible(!mShowSubstratumIcons
+                && mListType != LIST_TYPE_HIGH_POWER && mIconOverlayInstalled);
+        mOptionsMenu.findItem(R.id.hide_substratum_icons).setVisible(mShowSubstratumIcons
+                && mListType != LIST_TYPE_HIGH_POWER && mIconOverlayInstalled);
     }
 
     @Override
@@ -651,6 +662,29 @@ public class ManageApplications extends InstrumentedFragment
         }
         mFilterAdapter.setFilterEnabled(FILTER_APPS_ENABLED, hasDisabledApps);
         mFilterAdapter.setFilterEnabled(FILTER_APPS_DISABLED, hasDisabledApps);
+    }
+
+    boolean isOverlayInstalled(String type) {
+        List<ApplicationInfo> packages = getActivity().getPackageManager()
+                .getInstalledApplications(PackageManager.GET_META_DATA);
+
+        for (ApplicationInfo packageInfo : packages) {
+            if (packageInfo.metaData != null) {
+                if (type.equals("app")) {
+                    if (packageInfo.metaData
+                                    .getString("Substratum_Parent") != null) {
+                        return true;
+                    }
+                }
+                if (type.equals("icon")) {
+                    if (packageInfo.metaData
+                                    .getString("Substratum_IconPack") != null) {
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
     }
 
     static class FilterSpinnerAdapter extends ArrayAdapter<CharSequence> {
