@@ -114,8 +114,6 @@
   <string name="rr_title">Kişiselleştirme</string>
   <string name="rr_title_summary">#Getresurrected</string>
   <string name="rr_config_main_title">Resurrection Remix</string>
-  <string name="rr_ota_fab_title">OTA yüzen tuşu göster</string>
-  <string name="rr_ota_fab_summary">Yapılandırmalarda yüzen düğmeyi göstermek/gizlemek için Etkinleştir/Devre Dışı Bırak. Anahtar kullanıldığında bir kez Gir/Çık</string>
   <string name="rr_statusbar_title">Durum çubuğu</string>
   <string name="rr_sb_gestures_title">Durum çubuğu hareketleri</string>
   <string name="qs_advanced_title">Gelişmiş</string>
@@ -271,6 +269,8 @@
   <!-- Toast Icons -->
   <string name="toast_icon_title">Tost simgesi</string>
   <string name="toast_icon_summary">Tost ile gelen uygulama simgesini görüntüler</string>
+  <string name="toast_text_color">Bildirim Yazı Rengi</string>
+  <string name="toast_icon_color">Bildirim Simge Rengi</string>
   <!-- Bluetooth status -->
   <string name="bluetooth_battery_title">Bluetooth pil durumunu göster</string>
   <string name="bluetooth_battery_summary">Eğer mümkün ise şu anda bağlı olan bluetooth cihazı için pil durumunu gösterir.</string>
@@ -1017,6 +1017,7 @@
   <string name="status_bar_battery_style_circle">Daire</string>
   <string name="status_bar_battery_style_text">Metin</string>
   <string name="status_bar_battery_style_hidden">Gizli</string>
+  <string name="status_bar_battery_style_solid">Düz</string>
   <!-- Status bar - Battery percentage -->
   <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
   <string name="status_bar_battery_percentage_default">Gizli</string>
@@ -1894,4 +1895,25 @@
   <string name="show_enter_key_title">Enter tuşunu göster</string>
   <string name="show_enter_key_summary">Klavyede ifade tuşu yerine enter tuşunu göstermeye zorlar</string>
   <!-- XOSP Blur personalizations -->
+  <string name="blurred_status_bar_expanded_enabled_pref_summary">Durum çubuğunu aşağı çektiğinizde arka plan bulanıklaşır</string>
+  <string name="translucent_notifications_pref_summary">Bildirimlerin arka planını yarı saydam olarak ayarlayın</string>
+  <string name="translucent_quick_settings_pref_summary">Hızlı ayarların arka planını şeffaf yapar</string>
+  <string name="transluency_level_universal">Şeffaflık seviyesi</string>
+  <string name="blur_light_color">Aydınlık görüntü renk filtresi</string>
+  <string name="blur_dark_color">Karanlık görüntü renk filtresi</string>
+  <string name="blur_mixed_color">Karışık görüntü renk filtresi</string>
+  <string name="blur_colors_notice">Bu renkler ne yapıyor?</string>
+  <string name="blur_expstatus_cat">Genişletilmiş durum çubuğu </string>
+  <string name="blur_notifications_cat">Bildirimler</string>
+  <string name="blur_qs_cat">Hızlı ayarlar</string>
+  <string name="blur_recents_cat">Son uygulamalar</string>
+  <string name="blur_colors_cat">Bulanıklaştırma renk filtreleri</string>
+  <string name="blur_notices_cat">Uyarılar</string>
+  <string name="blurred_scale">Bulanıklık ölçeği</string>
+  <string name="blurred_scale_summary">Bulanık görüntünün kalitesi</string>
+  <string name="blurred_radius">Bulanıklık yarıçapı</string>
+  <string name="blurred_radius_summary">Bulanıklık miktarı</string>
+  <string name="blur_cat_notice">Uyarı</string>
+  <string name="rr_build_type_title">Yapı türü</string>
+  <string name="rr_build_type_default">Resmi olmayan</string>
 </resources>
