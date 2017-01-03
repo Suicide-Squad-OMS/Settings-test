@@ -130,6 +130,7 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
     private Preference mPhoneRingtonePreference;
     private Preference mNotificationRingtonePreference;
     private Preference mAlarmRingtonePreference;
+    private VolumeSeekBarPreference mRingOrNotificationPreference;
     private TwoStatePreference mVibrateWhenRinging;
     private ComponentName mSuppressor;
     private int mRingerMode = -1;
