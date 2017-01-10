@@ -1941,4 +1941,7 @@
   <string name="qs_date_time_center_summary">Wymaga jednej lub więcej ikon do wyłączenia</string>
   <!-- Settings drawer switch -->
   <string name="show_settings_drawer_title">Pokaż folder z ustawieniami</string>
+  <string name="show_settings_drawer_enabled">Ustawienia szuflady włączone</string>
+  <string name="show_settings_drawer_disabled">Ustawienia szuflady wyłaczone</string>
+  <!-- Custom LCD density -->
 </resources>
