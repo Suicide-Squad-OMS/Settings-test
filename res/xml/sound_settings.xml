@@ -61,12 +61,10 @@
                 android:icon="@drawable/ring_notif_increasing"
                 android:dependency="increasing_ring" />
 
-
         <!-- Also vibrate for calls -->
         <SwitchPreference
                 android:key="vibrate_when_ringing"
                 android:title="@string/vibrate_when_ringing_title" />
-
 
         <!-- Interruptions -->
         <com.android.settingslib.RestrictedPreference
