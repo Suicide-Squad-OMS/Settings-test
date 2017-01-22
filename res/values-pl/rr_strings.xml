@@ -1985,7 +1985,6 @@
   <string name="custom_density_settings">Własna gęstość pikseli</string>
   <string name="custom_density_summary">
 <xliff:g name="count" example="520">%d </xliff:g> Gęstość pikseli</string>
- Gęstość pikseli <xliff:g name="count" example="520">%d </xliff:g></string>
   <!-- Header images -->
   <string name="status_bar_custom_header_title">Niestandardowy obraz nagłówka</string>
   <string name="status_bar_custom_header_summary">Włącz obraz w nagłówku panelu powiadomień</string>

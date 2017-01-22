@@ -1967,7 +1967,6 @@
   <string name="custom_density_settings">Egyéni LCD képpont-sűrűség</string>
   <string name="custom_density_summary">
 	<xliff:g name="count" example="520">%d</xliff:g> Képpont-sűrűség</string>
-    <xliff:g name="count" example="520">%d</xliff:g> Képpont-sűrűség</string>
   <!-- Header images -->
   <string name="status_bar_custom_header_title">Egyéni fejléckép</string>
   <string name="status_bar_custom_header_summary">Értesítési panel egyéni kép engedélyezése</string>

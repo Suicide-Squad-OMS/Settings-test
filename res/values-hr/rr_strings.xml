@@ -1983,8 +1983,7 @@
   <!-- Custom LCD density -->
   <string name="custom_density_settings">Prilagođena gustoća LCD-a</string>
   <string name="custom_density_summary">
-	<xliff:g name="count" example="520">%d</xliff:g> gustoća piksela</string>
-    <xliff:g name="count" example="520">%d</xliff:g> Gustoća piksela</string>
+	<xliff:g name="count" example="520">%d</xliff:g> gustoća piksela</string>   
   <!-- Header images -->
   <string name="status_bar_custom_header_title">Prilagođena slika u zaglavlju</string>
   <string name="status_bar_custom_header_summary">Omogućite sliku zaglavlja u ploči obavijesti</string>

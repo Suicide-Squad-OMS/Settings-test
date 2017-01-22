@@ -1993,7 +1993,6 @@ Esta configuración sobrescribirá cualquier resumen personalizado anterior.</st
   <string name="custom_density_settings">Densidad de pixel LCD personalizada</string>
   <string name="custom_density_summary">
 <xliff:g name="count" example="520">%d</xliff:g> Pixel de densidad</string>
-<xliff:g name="count" example="520">%d</xliff:g> Densidad de píxel</string>
   <!-- Header images -->
   <string name="status_bar_custom_header_title">Imagen personalizada en la barra de estado</string>
   <string name="status_bar_custom_header_summary">Habilitar cabecera personalizada en el panel de notificaciones</string>

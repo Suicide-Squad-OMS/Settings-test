@@ -1986,7 +1986,6 @@
   <string name="custom_density_settings">Densité de pixels LCD personnalisée</string>
   <string name="custom_density_summary">
 	<xliff:g name="count" example="520">%d</xliff:g> Pixels de densité</string>
-    	<xliff:g name="count" example="520">%d</xliff:g> Pixels de densité</string>
   <!-- Header images -->
   <string name="status_bar_custom_header_title">Image d\'en-tête personnalisée</string>
   <string name="status_bar_custom_header_summary">Activer l\'image d\'en-tête du panneau de notification</string>

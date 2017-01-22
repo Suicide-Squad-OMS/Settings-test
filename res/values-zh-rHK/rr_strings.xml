@@ -1986,7 +1986,6 @@
   <string name="custom_density_settings">自訂 LCD 密度像素</string>
   <string name="custom_density_summary">
 <xliff:g name="count" example="520">%d</xliff:g> 密度像素</string>
-<xliff:g name="count" example="520">%d</xliff:g> 像素密度</string>
   <!-- Header images -->
   <string name="status_bar_custom_header_title">自訂標題圖片</string>
   <string name="status_bar_custom_header_summary">啟用通知面板標題圖片</string>
