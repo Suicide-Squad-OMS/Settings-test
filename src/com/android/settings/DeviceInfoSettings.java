@@ -52,7 +52,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.regex.Matcher;
+import java.util.regex.Matcher;		
 import java.util.regex.Pattern;
 
 import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
@@ -60,7 +60,7 @@ import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 public class DeviceInfoSettings extends SettingsPreferenceFragment implements Indexable {
 
     private static final String LOG_TAG = "DeviceInfoSettings";
-    private static final String FILENAME_PROC_VERSION = "/proc/version";
+	private static final String FILENAME_PROC_VERSION = "/proc/version";
 
     private static final String KEY_MANUAL = "manual";
     private static final String KEY_REGULATORY_INFO = "regulatory_info";
@@ -144,21 +144,16 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         findPreference(KEY_MOD_VERSION).setEnabled(true);
         findPreference(KEY_BUILD_TYPE).setEnabled(true);
         findPreference(KEY_DEVICE_CPU).setEnabled(true);
-        findPreference(KEY_MOD_VERSION).setEnabled(true);
-        findPreference(KEY_BUILD_TYPE).setEnabled(true);          
+        setValueSummary(KEY_MOD_VERSION, "ro.modversion");
         findPreference(KEY_MOD_VERSION).setEnabled(true);
         findPreference(KEY_BUILD_TYPE).setEnabled(true);
-        setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());
+             
+        setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());		
         findPreference(KEY_KERNEL_VERSION).setEnabled(true);
-
-        String buildtype = SystemProperties.get("rr.build.type","unofficial");
-        if (buildtype.equalsIgnoreCase("unofficial")) {
-        removePreference(KEY_MAINTAINER);
-        }
         setValueSummary(KEY_QGP_VERSION, PROPERTY_QGP_VERSION);
         // Remove QGP Version if property is not present
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_QGP_VERSION,
-                PROPERTY_QGP_VERSION);
+                PROPERTY_QGP_VERSION);       
         setValueSummary(KEY_MBN_VERSION, PROPERTY_MBN_VERSION);
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_MBN_VERSION,
 		PROPERTY_MBN_VERSION);
@@ -359,9 +354,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             if (b != null && b.getBoolean(CarrierConfigManager.KEY_CI_ACTION_ON_SYS_UPDATE_BOOL)) {
                 ciActionOnSysUpdate(b);
             }
-        } else if (preference.getKey().equals(KEY_KERNEL_VERSION)) {
-            setStringSummary(KEY_KERNEL_VERSION, getKernelVersion());
-            return true;
+		} else if (preference.getKey().equals(KEY_KERNEL_VERSION)) {		
+             setStringSummary(KEY_KERNEL_VERSION, getKernelVersion());		
+             return true;
         }
         return super.onPreferenceTreeClick(preference);
     }
@@ -448,8 +443,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         intent.setPackage(reporterPackage);
         startActivityForResult(intent, 0);
     }
-
-    private String getKernelVersion() {
+	private String getKernelVersion() {
         String procVersionStr;
         try {
             procVersionStr = readLine(FILENAME_PROC_VERSION);
