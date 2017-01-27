@@ -69,6 +69,15 @@
   <!-- Share RR ROM -->
   <!-- RR Changelog-->
   <!--RR Configurations-->
+  <string name="fab_reset">Nulstil</string>
+  <string name="rr_reset_settings">Nulstil indstillinger</string>
+  <string name="rr_reset_yes">Ja</string>
+  <string name="rr_category_title">Brugertilpasning</string>
+  <string name="rr_title">Konfigurationer</string>
+  <string name="qs_advanced_title">Avanceret</string>
+  <string name="rr_notification_panel_title">Paneler</string>
+  <string name="rr_tuner">System UI tuner</string>
+  <string name="rr_battery">Batteri</string>
   <string name="rr_sb_icons">Systemikoner</string>
   <string name="rr_sb_battery">Statusbjælke</string>
   <string name="recents_ui_title">Generel UI</string>
@@ -222,4 +231,11 @@
   <!-- Center Date + Time in header -->
   <!-- Settings drawer switch -->
   <!-- Custom LCD density -->
+  <!-- Header images -->
+  <!-- Task Manager -->
+  <!-- SystemUI restart prompt -->
+  <!-- Wakelock blocker -->
+  <!-- DUI Double Tap to Sleep -->
+  <!--One handed mode -->
+  <!-- Dashboard columns -->
 </resources>

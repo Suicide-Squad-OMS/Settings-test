@@ -39,6 +39,11 @@
   <string name="rr_donate_summary">支持 Resurrection ROM</string>
   <string name="app_name">Resurrection</string>
   <string name="devs">开发人员</string>
+  <string name="about_r0m_summary"> 关于 Resurrection Remix OS</string>
+  <string name="rr_donate">捐助开发者</string>
+  <string name="rr_donate_summary">支持 Resurrection Remix OS</string>
+  <string name="app_name">Resurrection Remix OS</string>
+  <string name="devs">开发者标签</string>
   <string name="github_westcrip">https://github.com/westcripp</string>
   <string name="github_varund7726">https://github.com/varund7726</string>
   <string name="github_akhilnarang">https://github.com/akhilnarang</string>
@@ -57,6 +62,11 @@
   <string name="rr_source_summary">Resurrection 源码</string>
   <string name="rr_irc_title">加入我们的 IRC 聊天室</string>
   <string name="rr_irc_summary">#aokp-sgs2 @ irc.freenode.net</string>
+  <string name="rr_website_summary">获取 Resurrection Remix OS 的相关信息</string>
+  <string name="rr_forum_title">论坛</string>
+  <string name="rr_forum_summary">我想要成为 Resurrection 论坛的成员</string>
+  <string name="rr_source_title">Github</string>
+  <string name="rr_source_summary">Resurrection Remix OS 源码</string>
   <string name="rr_facebook_title">Facebook</string>
   <string name="rr_facebook_summary">Facebook 社区</string>
   <string name="rr_google_plus_title">Google+</string>
@@ -66,20 +76,26 @@
   <string name="sourcebase_title">源代码库</string>
   <string name="title_about">关于 resurrection</string>
   <string name="dev_categorie_title">开发人员 &amp; 维护人员</string>
+  <string name="dev_categorie_title">开发者标签</string>
   <string name="rr_lockscreen_title">锁屏</string>
   <string name="rr_ls_gestures">手势操作</string>
   <string name="rr_ls_ui">锁定用户界面</string>
   <string name="rr_ls_security">安全</string>
   <string name="updater_title">更新</string>
+  <string name="altan_summary">● 创始人 \n● 项目领导人 \n● 主要开发者 \n● UX 设计师 \n● 维护者</string>
+  <string name="akhil_summary">● 开发者 \n● 维护者 \n● Javascript管理者</string>
+  <string name="brian_summary">● 开发者 \n● 维护者</string>
   <string name="device_maintainers_title">设备和维护人员</string>
   <string name="device_maintainers_title_summary">设备列表和 Resurrection ROM 维护人员</string>
   <string name="maintainers_note_title">注意</string>
   <string name="maintainers_note_title_summary">如果你想要你的名字出现在设备维护人员的名单中，通过环聊发一条包含你ROM链接的消息给 Varun Date</string>
   <!-- The Drill -->
   <string name="rr_drill_title">演习</string>
+  <string name="drill_summary">Logcat 或 滚开🙄🙄</string>
   <!-- RR Feature lists-->
   <string name="features_title">ROM 功能列表</string>
   <string name="features_title_summary">查看可用的ROM功能</string>
+  <string name="features_title">功能</string>
   <string name="features_loading">加载列表...</string>
   <string name="features_error">无法加载列表</string>
   <string name="features_unknown">未知</string>
@@ -89,6 +105,7 @@
   <!-- Share RR ROM -->
   <string name="share_rr">分享 ROM</string>
   <string name="share_rr_summary">让人们知道你在用Resurrection Rom</string>
+  <string name="share_rr_summary">分享 Resurrection Remix OS 给其他人</string>
   <string name="share_message">试用 Resurrection Remix ROM! https://plus.google.com/communities/109352646351468373340</string>
   <string name="share_chooser_title">分享 Resurrection Remix...</string>
   <!-- RR Changelog-->
@@ -109,7 +126,6 @@
   <string name="rr_reset_message">要重置所有ResurrectionRemix配置为默认值吗</string>
   <string name="rr_reset_settings">重置设置</string>
   <string name="rr_reset_yes">确认</string>
-  <string name="rr_reset_cencel">取消</string>
   <string name="rr_category_title">个性化</string>
   <string name="rr_title">配置</string>
   <string name="rr_title_summary">个性设置</string>
@@ -143,6 +159,7 @@
   <string name="clock_custom_summary">自定义状态栏中时钟与日期样式</string>
   <string name="status_bar_logo_summary">Resurrection Logo选项</string>
   <string name="sb_custom_logos_summary">状态栏自定义图标</string>
+  <string name="sb_custom_logos_summary">自定义状态栏图标</string>
   <string name="rr_battery_summary">自定义状态栏中电池图标及电池栏样式</string>
   <string name="rr_sb_icons_summary">启用/禁用状态栏图标</string>
   <string name="ticker_screen_summary">自定义通知栏播放通知的样式</string>
@@ -151,6 +168,10 @@
   <string name="carrier_summary">启用/禁用状态栏运营商标签并自定义样式 </string>
   <string name="rr_sb_gestures_summary">启用/禁用状态栏手势</string>
   <string name="breathing_notifications_summary">当有通知时，例如短信，未接来电或者语音邮件等，状态栏将会展示呼吸效果</string>
+  <string name="network_traffic_summary">启用/禁用状态栏网速监控并修改样式</string>
+  <string name="carrier_summary">启用/禁用状态栏运营商标签并自定义样式 </string>
+  <string name="rr_sb_gestures_summary">启用/禁用状态栏手势</string>
+  <string name="breathing_notifications_summary">当有通知时，例如短信、未接来电或者语音邮件等，状态栏将会展示呼吸效果</string>
   <string name="rr_trans_summary">自定义通知面板各种元素，例如透明和边缘</string>
   <string name="rr_volume_summary">自定义音量面板各种元素，例如透明和边缘</string>
   <string name="rr_power_summary">电源菜单选项</string>
@@ -161,6 +182,9 @@
   <string name="rr_qs_pulldown_summary">选择快速下拉方式</string>
   <string name="qs_tile_layout_summary">你可以自定义快速设置的布局</string>
   <string name="qs_advanced_summary">更易用的一些快速设置选项</string>
+  <string name="rr_qs_pulldown_summary">调整快捷下拉菜单设置</string>
+  <string name="qs_tile_layout_summary">自定义快速设置磁贴布局</string>
+  <string name="qs_advanced_summary">杂项</string>
   <string name="rr_ls_gesture_summary">锁屏相关的手势操作</string>
   <string name="rr_ls_ui_summary">自定义锁屏界面</string>
   <string name="lockscreen_targets_summary">锁屏快捷方式</string>
@@ -168,6 +192,7 @@
   <string name="rr_ls_security_summary">屏幕锁定安全性</string>
   <string name="gesture_anywhere_summary">自定义手势操作</string>
   <string name="app_sidebar_summary">侧边栏</string>
+  <string name="app_sidebar_summary">在侧边栏添加应用或者活动以便于快捷启动</string>
   <string name="app_circle_bar_summary">在触摸屏幕右侧后显示环形应用启动器</string>
   <string name="pa_pie_control_summary">启用屏幕边缘滑动导航组件</string>
   <string name="rr_navbar_summary">虚拟按键设置</string>
@@ -182,6 +207,8 @@
   <string name="misc_weather_settings_summary">自定义cLock的各种选项</string>
   <string name="system_app_remover_summary">卸载系统内置应用</string>
   <string name="rr_updater_summary">检查更新和其他相关链接</string>
+  <string name="system_app_remover_summary">删除不必要的系统应用</string>
+  <string name="rr_updater_summary">检查 OTA 更新和其他链接</string>
   <!-- AOKP custom system animations -->
   <string name="animation_title">动画</string>
   <string name="system_animation_title">系统动画</string>
@@ -1369,13 +1396,13 @@
   <string name="status_bar_double_tap_to_sleep_title">双击休眠</string>
   <string name="status_bar_double_tap_to_sleep_summary">双击状态栏来关闭屏幕</string>
   <string name="qs_wifi_easy_toggle_title">WiFi 快捷切换键</string>
-  <string name="qs_wifi_easy_toggle_summary">设置使点击即可开启或关闭 WiFi ，而不是打开设置界面</string>
+  <string name="qs_wifi_easy_toggle_summary">点击即可开启或关闭 WiFi ，而不是打开设置界面</string>
   <!-- BT easy toggle -->
   <string name="qs_bt_easy_toggle_title">蓝牙快捷切换键</string>
-  <string name="qs_bt_easy_toggle_summary">设置使点击即可开启或关闭蓝牙 ，而不是打开设置界面</string>
+  <string name="qs_bt_easy_toggle_summary">点击即可开启或关闭蓝牙 ，而不是打开设置界面</string>
   <!-- Battery Saver easy toggle -->
   <string name="qs_battery_easy_toggle_title">一键切换省电模式</string>
-  <string name="qs_battery_easy_toggle_summary">点击电池磁块不打开设置直接切换省电模式</string>
+  <string name="qs_battery_easy_toggle_summary">点击电池磁块不打开设置直接切换至省电模式</string>
   <string name="qs_music_tile_track_optional_title">音乐磁贴</string>
   <string name="qs_music_tile_track_optional_summary">在快捷设置中显示音乐磁贴</string>
   <string name="quick_settings_vibrate_title">触摸时使用振动反馈</string>
@@ -1833,6 +1860,7 @@
   <string name="three_finger_gesture_summary">滑动三指截屏</string>
   <!-- Lockscreen Colors -->
   <string name="lockscreen_colors">自定义颜色</string>
+  <string name="lockscreen_colors_summary">高级颜色选项</string>
   <string name="lockscreen_phone_icon_color">锁定屏幕左下角的快捷方式</string>
   <string name="lockscreen_lock_icon_color">锁屏界面锁图标</string>
   <string name="lockscreen_camera_icon_color">锁屏界面右下角的快捷方式</string>
@@ -1928,6 +1956,10 @@
   <string name="rr_build_type_default">非官方版</string>
   <string name="rr_maintainer_title">维护者</string>
   <string name="rr_maintainer_default">未知</string>
+  <!-- brightness slider -->
+  <string name="show_brightness">亮度滑块</string>
+  <string name="qs_brightness_slider_on">滑块已启用</string>
+  <string name="qs_brightness_slider_off">滑块已禁用</string>
   <!-- QS Header Icons -->
   <string name="rr_header_title">标头</string>
   <string name="rr_header_summary">自定义页眉的各种元素</string>
@@ -1951,4 +1983,44 @@
   <string name="custom_density_settings">自定义LCD密度（DPI）</string>
   <string name="custom_density_summary">
 <xliff:g name="count" example="520">%d </xliff:g>Lcd密度</string>
+  <!-- Header images -->
+  <string name="status_bar_custom_header_title">自定义顶部图像</string>
+  <string name="status_bar_custom_header_summary">启用通知面板顶部界面图像</string>
+  <string name="daylight_header_pack_title">情景图像</string>
+  <string name="status_bar_custom_header_shadow_title">顶部图片阴影</string>
+  <string name="status_bar_custom_header_shadow_summary">保持明亮图像更好的可见度</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider_title">静态</string>
+  <string name="daylight_header_provider_title">动态</string>
+  <string name="custom_header_provider_title">顶部图像</string>
+  <string name="custom_header_browse_title">浏览已安装的顶部选项</string>
+  <string name="custom_header_browse_summary">长按任意图片以用于静态模式</string>
+  <!-- Task Manager -->
+  <string name="enable_task_manager_title">任务管理器</string>
+  <string name="enable_task_manager_summary">启用/禁用在扩展状态栏区域显示任务管理器按钮。</string>
+  <string name="task_manager_kill_button">清除应用按钮</string>
+  <string name="task_manager_left_button_title">通知按钮</string>
+  <string name="task_manager_left_button_summary">启用/禁用在任务管理器的清除通知</string>
+  <string name="task_manager_right_button_title">服务按钮</string>
+  <string name="task_manager_right_button_summary">启用/禁用在任务管理器运行服务的按钮</string>
+  <string name="task_manager_kill_button_default">默认</string>
+  <string name="task_manager_kill_button_1">圆形</string>
+  <string name="task_manager_kill_button_2">文本</string>
+  <string name="task_manager_kill_button_3">经典样式</string>
+  <!-- SystemUI restart prompt -->
+  <!-- Wakelock blocker -->
+  <string name="wakelock_blocker_title">唤醒拦截器</string>
+  <string name="wakelock_blocker_summary">阻断系统唤醒</string>
+  <string name="wakelock_blocker_save">保存</string>
+  <string name="wakelock_list_header">可用唤醒</string>
+  <string name="wakelock_blocker_reload">重新加载</string>
+  <string name="wakelock_blocker_warning_title">谨慎操作</string>
+  <string name="wakelock_blocker_warning">阻断唤醒有可能会导致系统不稳定，崩溃或数据丢失。</string>
+  <!-- DUI Double Tap to Sleep -->
+  <string name="smartbar_doubletap_sleep_title">双击睡眠</string>
+  <string name="smartbar_doubletap_sleep_summary">双击导航栏的空白区域以关闭屏幕</string>
+  <!--One handed mode -->
+  <string name="one_handed_mode_title">单手模式</string>
+  <string name="one_handed_mode_summary">启用在导航栏上滑动以启动单手模式</string>
+  <!-- Dashboard columns -->
 </resources>

@@ -94,6 +94,7 @@
   <string name="rr_reset_yes">כן</string>
   <string name="rr_category_title">התאמה אישית</string>
   <string name="rr_title">הגדרות</string>
+  <string name="rr_ota_fab_title">הצג כפתור צף </string>
   <string name="rr_statusbar_title">שורת סטטוס</string>
   <string name="rr_sb_gestures_title">מחוות שורת המצב</string>
   <string name="qs_advanced_title">הגדרות מתקדמות</string>
@@ -247,4 +248,11 @@
   <!-- Center Date + Time in header -->
   <!-- Settings drawer switch -->
   <!-- Custom LCD density -->
+  <!-- Header images -->
+  <!-- Task Manager -->
+  <!-- SystemUI restart prompt -->
+  <!-- Wakelock blocker -->
+  <!-- DUI Double Tap to Sleep -->
+  <!--One handed mode -->
+  <!-- Dashboard columns -->
 </resources>

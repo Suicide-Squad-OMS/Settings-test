@@ -87,7 +87,7 @@
   <string name="fab_about">RR에 대하여</string>
   <string name="fab_layout">레이아웃 업데이트</string>
   <string name="rr_reset_yes">예</string>
-  <string name="rr_reset_cencel">취소</string>
+  <string name="rr_reset_cancel">취소</string>
   <string name="rr_title_summary">#Getresurrected</string>
   <string name="rr_config_main_title">Resurrection Remix</string>
   <string name="rr_statusbar_title">상태 표시줄</string>
@@ -272,4 +272,11 @@
   <!-- Center Date + Time in header -->
   <!-- Settings drawer switch -->
   <!-- Custom LCD density -->
+  <!-- Header images -->
+  <!-- Task Manager -->
+  <!-- SystemUI restart prompt -->
+  <!-- Wakelock blocker -->
+  <!-- DUI Double Tap to Sleep -->
+  <!--One handed mode -->
+  <!-- Dashboard columns -->
 </resources>

@@ -39,6 +39,11 @@
   <string name="rr_donate_summary">Pokažite svoju podršku Resurrection ROM-u</string>
   <string name="app_name">Resurrection</string>
   <string name="devs">Razvojni programeri</string>
+  <string name="about_r0m_summary">Sve o Resurrection Remix OS-u</string>
+  <string name="rr_donate">Donirajte razvoju</string>
+  <string name="rr_donate_summary">Pokažite svoju podršku Resurrection Remix OS-u</string>
+  <string name="app_name">Resurrection Remix OS</string>
+  <string name="devs">Oznaka programera</string>
   <string name="github_westcrip">https://github.com/westcripp</string>
   <string name="github_varund7726">https://github.com/varund7726</string>
   <string name="github_akhilnarang">https://github.com/akhilnarang</string>
@@ -57,6 +62,11 @@
   <string name="rr_source_summary">Resurrectionovi izvori</string>
   <string name="rr_irc_title">Pridružite mi se na IRC-u</string>
   <string name="rr_irc_summary">#aokp-sgs2 @ irc.freenode.net</string>
+  <string name="rr_website_summary">Saznajte više informacija o Resurrection Remix OS-u</string>
+  <string name="rr_forum_title">Forum</string>
+  <string name="rr_forum_summary">Postanite član Resurrection foruma</string>
+  <string name="rr_source_title">Github</string>
+  <string name="rr_source_summary">Izvori Resurrection Remix OS-a</string>
   <string name="rr_facebook_title">Facebook</string>
   <string name="rr_facebook_summary">Facebook zajednica</string>
   <string name="rr_google_plus_title">Google+</string>
@@ -66,20 +76,26 @@
   <string name="sourcebase_title">Baza izvora</string>
   <string name="title_about">O Resurrectionu</string>
   <string name="dev_categorie_title">Razvojni programer i održavatelj</string>
+  <string name="dev_categorie_title">Oznaka programera</string>
   <string name="rr_lockscreen_title">Zaključani zaslon</string>
   <string name="rr_ls_gestures">Geste</string>
   <string name="rr_ls_ui">Sučelje zaključanog zaslona</string>
   <string name="rr_ls_security">Sigurnost</string>
   <string name="updater_title">Ažuriranja</string>
+  <string name="altan_summary">● Osnivač \n● Voditelj projekta \n● Glavni programer \n● Dizajner korisničkog iskustva \n● Održavatelj</string>
+  <string name="akhil_summary">● Programer \n● Održavatelj \n● Majstor Javascripta</string>
+  <string name="brian_summary">● Programer \n● Održavatelj</string>
   <string name="device_maintainers_title">Uređaji i održavatelji</string>
   <string name="device_maintainers_title_summary">Popis uređaja i njihovih održavatelja Resurrection ROM-a</string>
   <string name="maintainers_note_title">Napomena</string>
   <string name="maintainers_note_title_summary">Pošaljite poruku Varunu Dateu na Hangoutsima s poveznicom koja vodi na nit o ROM-u ako želite da se vaše ime doda na popis održavatelja uređaja.</string>
   <!-- The Drill -->
   <string name="rr_drill_title">Poruka od programera</string>
+  <string name="drill_summary">Logcat or ili se gubite</string>
   <!-- RR Feature lists-->
   <string name="features_title">Popis značajki ROM-a</string>
   <string name="features_title_summary">Pogledajte dostupne značajke ovoga ROM-a</string>
+  <string name="features_title">Značajke</string>
   <string name="features_loading">Učitavanje popisa...</string>
   <string name="features_error">Nije moguće učitati popis</string>
   <string name="features_unknown">Nepoznato</string>
@@ -91,6 +107,9 @@
   <string name="share_rr_summary">Neka ljudi znaju da upotrebljavate Resurrection ROM</string>
   <string name="share_message">Isprobajte Resurrection Remix ROM! https://plus.google.com/communities/109352646351468373340</string>
   <string name="share_chooser_title">Podijelite Resurrection Remix putem...</string>
+  <string name="share_rr_summary">Neka ljudi znaju da upotrebljavate Resurrection Remix OS</string>
+  <string name="share_message">Isprobajte Resurrection Remix OS! https://plus.google.com/communities/109352646351468373340</string>
+  <string name="share_chooser_title">Podijelite Resurrection Remix OS putem...</string>
   <!-- RR Changelog-->
   <string name="changelog_title">Popis promjena</string>
   <string name="changelog_title_summary">Pogledajte nedavne promjene u ROM-u</string>
@@ -109,7 +128,6 @@
   <string name="rr_reset_message">Želite li ponovno postaviti sve postavke na zadane vrijednosti?</string>
   <string name="rr_reset_settings">Vraćanje postavki</string>
   <string name="rr_reset_yes">Da</string>
-  <string name="rr_reset_cencel">Odustani</string>
   <string name="rr_category_title">Prilagođavanje</string>
   <string name="rr_title">Podešavanja</string>
   <string name="rr_title_summary">#GetResurrected</string>
@@ -143,6 +161,8 @@
   <string name="clock_custom_summary">Prilagođavajte razne elemente sata i datuma u statusnoj traci.</string>
   <string name="status_bar_logo_summary">Omogućite ili onemogućite Resurrectionov logotip u statusnoj traci. Prilagođavajte njegove elemente i položaj.</string>
   <string name="sb_custom_logos_summary">Omogućite ili onemogućite nasumične ikone u statusnoj traci. Prilagođavajte njihove elemente i položaj.</string>
+  <string name="status_bar_logo_summary">Omogućite ili onemogućite Resurrectionov logotip u statusnoj traci. Prilagodite njegove elemente i položaj.</string>
+  <string name="sb_custom_logos_summary">Omogućite ili onemogućite nasumične ikone u statusnoj traci. Prilagodite njihove elemente i položaj.</string>
   <string name="rr_battery_summary">Prilagođavajte elemente baterije u statusnoj traci i baterijsku traku.</string>
   <string name="rr_sb_icons_summary">Omogućite ili onemogućite ikone po vašem izboru u statusnoj traci.</string>
   <string name="ticker_screen_summary">Prilagodite stil tickera u statusnoj traci</string>
@@ -153,6 +173,8 @@
   <string name="breathing_notifications_summary">Dajte obavijestima poput SMS-a, propuštenog poziva ili glasovne pošte efekt disanja.</string>
   <string name="rr_trans_summary">Prilagođavajte razne elemente u ladici obavijesti kao što su prozirnost i obrub.</string>
   <string name="rr_volume_summary">Prilagođavajte razne elemente na ploči glasnoće kao što su prozirnost i obrub.</string>
+  <string name="rr_trans_summary">Prilagodite razne elemente u ladici obavijesti kao što su prozirnost i obrub.</string>
+  <string name="rr_volume_summary">Prilagodite razne elemente na ploči glasnoće kao što su prozirnost i obrub.</string>
   <string name="rr_power_summary">Prilagodite blijeđenje pozadine i prozirnost sučelja izbornika napajanja.</string>
   <string name="rr_recents_ui_summary">Prilagodite razne elemente na ploči nedavnih aplikacija kao što su memorijska traka, cjelozaslonski prikaz, itd.</string>
   <string name="recents_clear_all_summary">Zamijenite izvorni gumb za čišćenje svih aplikacija originalnim plutajućim gumbom i prilagodite njegovu poziciju.</string>
@@ -161,6 +183,9 @@
   <string name="rr_qs_pulldown_summary">Odaberite način povlačenja ploče brzih postavki.</string>
   <string name="qs_tile_layout_summary">Proširite izgled brzih postavki po vašem izboru.</string>
   <string name="qs_advanced_summary">Odaberite razne opcije brzih postavki koje će vam olakšati život.</string>
+  <string name="rr_qs_pulldown_summary">Prilagodite postavke brzog povlačenja ploče</string>
+  <string name="qs_tile_layout_summary">Prilagodite izgled pločica brzih postavki</string>
+  <string name="qs_advanced_summary">Razne prilagodbe brzih postavki</string>
   <string name="rr_ls_gesture_summary">Odaberite razne geste koje funkcioniraju na zaključanom zaslonu.</string>
   <string name="rr_ls_ui_summary">Omogućite, onemogućite i prilagodite razne elemente na zaključanom zaslonu.</string>
   <string name="lockscreen_targets_summary">Prilagodite donje lijeve i desne prečace na zaključanom zaslonu prema vašem izboru.</string>
@@ -171,6 +196,7 @@
   <string name="app_circle_bar_summary">Koristite se kružnom rubnom trakom da postavite svoje brze aplikacije i aktivnosti.</string>
   <string name="pa_pie_control_summary">Prijeđite prstom od ruba za omogućavanje/onemogućavanje pite koja se sastoji od fora značajki i kontrole navigacije.</string>
   <string name="rr_navbar_summary">Omogućite ili onemogućite navigacijsku traku i prilagođavajte je u velikoj mjeri.</string>
+  <string name="rr_navbar_summary">Omogućite ili onemogućite navigacijsku traku i prilagodite je u velikoj mjeri.</string>
   <string name="rr_power_summary">Prilagodite razne opcije na izborniku napajanja.</string>
   <string name="system_animations_summary">Prilagodite animacije svakog prozora u sustavu.</string>
   <string name="rr_power_anim_summary">Omogućite ili onemogućite animacije u izborniku napajanja ili odaberite animacije s popisa animacija.</string>
@@ -182,6 +208,8 @@
   <string name="misc_weather_settings_summary">Prilagodite razne opcije za aplikaciju cClock.</string>
   <string name="system_app_remover_summary">Izbrišite sistemske aplikacije koje vam se ne sviđaju.</string>
   <string name="rr_updater_summary">Provjerite OTA ažuriranja i pogledajte ostale poveznice.</string>
+  <string name="system_app_remover_summary">Izbrišite nepotrebne sistemske aplikacije</string>
+  <string name="rr_updater_summary">Provjerite OTA ažuriranja i pogledajte ostale poveznice</string>
   <!-- AOKP custom system animations -->
   <string name="animation_title">Animacije</string>
   <string name="system_animation_title">Animacije sustava</string>
@@ -1833,6 +1861,7 @@
   <string name="three_finger_gesture_summary">Povucite tri prsta po zaslonu za snimku zaslona</string>
   <!-- Lockscreen Colors -->
   <string name="lockscreen_colors">Prilagodbe boje</string>
+  <string name="lockscreen_colors_summary">Napredne mogućnosti boje</string>
   <string name="lockscreen_phone_icon_color">Donji lijevi prečac zaključanog zaslona</string>
   <string name="lockscreen_lock_icon_color">Ikona lokota na zaklj. zaslonu</string>
   <string name="lockscreen_camera_icon_color">Donji desni prečac zaključanog zaslona</string>
@@ -1928,6 +1957,10 @@
   <string name="rr_build_type_default">Neslužbeno</string>
   <string name="rr_maintainer_title">Održavatelj</string>
   <string name="rr_maintainer_default">Nepoznato</string>
+  <!-- brightness slider -->
+  <string name="show_brightness">Klizač svjetline</string>
+  <string name="qs_brightness_slider_on">Klizač je omogućen</string>
+  <string name="qs_brightness_slider_off">Klizač je onemogućen</string>
   <!-- QS Header Icons -->
   <string name="rr_header_title">Zaglavlje</string>
   <string name="rr_header_summary">Prilagodite različite elemente u zaglavlju</string>
@@ -1950,5 +1983,45 @@
   <!-- Custom LCD density -->
   <string name="custom_density_settings">Prilagođena gustoća LCD-a</string>
   <string name="custom_density_summary">
-	<xliff:g name="count" example="520">%d</xliff:g> gustoća piksela</string>
+	<xliff:g name="count" example="520">%d</xliff:g> gustoća piksela</string>   
+  <!-- Header images -->
+  <string name="status_bar_custom_header_title">Prilagođena slika u zaglavlju</string>
+  <string name="status_bar_custom_header_summary">Omogućite sliku zaglavlja u ploči obavijesti</string>
+  <string name="daylight_header_pack_title">Paket slika zaglavlja</string>
+  <string name="status_bar_custom_header_shadow_title">Sjena slike u zaglavlju</string>
+  <string name="status_bar_custom_header_shadow_summary">Za bolju vidljivost na svijetlim slikama</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider_title">Statično</string>
+  <string name="daylight_header_provider_title">Dinamično</string>
+  <string name="custom_header_provider_title">Pružatelj zaglavlja</string>
+  <string name="custom_header_browse_title">Pregledaj instalirana zaglavlja</string>
+  <string name="custom_header_browse_summary">Pritisnite i držite bilo koju sliku da biste je upotrebljavali u statičnom načinu.</string>
+  <!-- Task Manager -->
+  <string name="enable_task_manager_title">Upravitelj zadataka</string>
+  <string name="enable_task_manager_summary">Omogućite/onemogućite radnju za gumb upravitelja zadataka u proširenom području statusne trake.</string>
+  <string name="task_manager_kill_button">Gumb za zatvaranje zadataka</string>
+  <string name="task_manager_left_button_title">Gumb obavijesti</string>
+  <string name="task_manager_left_button_summary">Omogućite/onemogućite gumb za brisanje obavijesti u upravitelju zadataka</string>
+  <string name="task_manager_right_button_title">Gumb usluga</string>
+  <string name="task_manager_right_button_summary">Omogućite/onemogućite gumb za pristup pokrenutim uslugama u upravitelju zadataka</string>
+  <string name="task_manager_kill_button_default">Zadano</string>
+  <string name="task_manager_kill_button_1">Okruglo</string>
+  <string name="task_manager_kill_button_2">Tekst</string>
+  <string name="task_manager_kill_button_3">Klasično</string>
+  <!-- SystemUI restart prompt -->
+  <!-- Wakelock blocker -->
+  <string name="wakelock_blocker_title">Blokiranje wakelockova</string>
+  <string name="wakelock_blocker_summary">Blokirajte sistemske wakelockove</string>
+  <string name="wakelock_blocker_save">Spremi</string>
+  <string name="wakelock_list_header">Dostupni wakelockovi</string>
+  <string name="wakelock_blocker_reload">Ponovno učitaj</string>
+  <string name="wakelock_blocker_warning_title">Nastavite s oprezom</string>
+  <string name="wakelock_blocker_warning">Blokiranje wakelockova može uzrokovati nestabilnost, rušenja aplikacija ili gubitak podataka.</string>
+  <!-- DUI Double Tap to Sleep -->
+  <string name="smartbar_doubletap_sleep_title">Dvostruki dodir za zaključavanje</string>
+  <string name="smartbar_doubletap_sleep_summary">Dvostruki dodir praznih područja navigacijske trake isključit će zaslon.</string>
+  <!--One handed mode -->
+  <string name="one_handed_mode_title">Jednoručni način</string>
+  <string name="one_handed_mode_summary">Omogućava prelazak prstom preko navigacijske trake za omogućavanje jednoručnog načina rada.</string>
+  <!-- Dashboard columns -->
 </resources>

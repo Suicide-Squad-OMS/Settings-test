@@ -39,6 +39,10 @@
   <string name="rr_donate_summary">Mostra o teu apoio à Resurrection ROM</string>
   <string name="app_name">Resurrection</string>
   <string name="devs">Desenvolvedores</string>
+  <string name="about_r0m_summary">Tudo sobre o Ressurrection Remix OS</string>
+  <string name="rr_donate">Doar para o desenvolvimento</string>
+  <string name="rr_donate_summary">Mostre o seu apoio com a Ressurreição Remix OS</string>
+  <string name="app_name">Resurrection Remix OS</string>
   <string name="github_westcrip">https://github.com/westcripp</string>
   <string name="github_varund7726">https://github.com/varund7726</string>
   <string name="github_akhilnarang">https://github.com/akhilnarang</string>
@@ -66,6 +70,7 @@
   <string name="sourcebase_title">Código base</string>
   <string name="title_about">Sobre a Resurrection</string>
   <string name="dev_categorie_title">Desenvolvido &amp; mantido por</string>
+  <string name="dev_categorie_title">Dev Tag</string>
   <string name="rr_lockscreen_title">Ecrã de bloqueio</string>
   <string name="rr_ls_gestures">Gestos</string>
   <string name="rr_ls_ui">Bloquear IU</string>
@@ -77,9 +82,11 @@
   <string name="maintainers_note_title_summary">Envia uma MP para \'Varun Date\' no Hangouts contendo a ligação para a tua ROM se quiseres o teu nome adicionado na lista de desenvolvedores.</string>
   <!-- The Drill -->
   <string name="rr_drill_title">The Drill</string>
+  <string name="drill_summary">Logcat ou vá embora</string>
   <!-- RR Feature lists-->
   <string name="features_title">Lista de características da ROM</string>
   <string name="features_title_summary">Ver características disponíveis na ROM</string>
+  <string name="features_title">Funcionalidades</string>
   <string name="features_loading">A carregar lista...</string>
   <string name="features_error">Não foi possível carregar a lista</string>
   <string name="features_unknown">Desconhecido</string>
@@ -109,7 +116,6 @@
   <string name="rr_reset_message">Redefinir todas as configurações para valores predefinidos?</string>
   <string name="rr_reset_settings">Restaurar definições</string>
   <string name="rr_reset_yes">Sim</string>
-  <string name="rr_reset_cencel">Cancelar</string>
   <string name="rr_category_title">Personalização</string>
   <string name="rr_title">Configurações</string>
   <string name="rr_title_summary">#Getresurrected</string>
@@ -1932,4 +1938,30 @@
   <string name="show_settings_drawer_enabled">Configurações do drawer ativadas</string>
   <string name="show_settings_drawer_disabled">Configurações do drawer desativadas</string>
   <!-- Custom LCD density -->
+  <string name="custom_density_settings">Densidade do ecrã personalizada</string>
+  <!-- Header images -->
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider_title">Estático</string>
+  <string name="daylight_header_provider_title">Dinâmico</string>
+  <string name="custom_header_provider_title">Fornecedor de cabeçalho</string>
+  <!-- Task Manager -->
+  <string name="enable_task_manager_title">Gestor de tarefas</string>
+  <string name="task_manager_left_button_title">Botão de notificações</string>
+  <string name="task_manager_right_button_title">Botão de serviços</string>
+  <string name="task_manager_kill_button_default">Predefinido</string>
+  <string name="task_manager_kill_button_1">Circular</string>
+  <string name="task_manager_kill_button_2">Texto</string>
+  <string name="task_manager_kill_button_3">Clássico</string>
+  <!-- SystemUI restart prompt -->
+  <!-- Wakelock blocker -->
+  <string name="wakelock_blocker_title">Bloqueador de Wakelock</string>
+  <string name="wakelock_blocker_summary">Bloquear wakelocks do sistema</string>
+  <string name="wakelock_blocker_save">Guardar</string>
+  <string name="wakelock_list_header">Wakelocks disponíveis</string>
+  <string name="wakelock_blocker_reload">Recarregar</string>
+  <string name="wakelock_blocker_warning_title">Prosseguir com cautela</string>
+  <!-- DUI Double Tap to Sleep -->
+  <!--One handed mode -->
+  <string name="one_handed_mode_title">Modo uma mão</string>
+  <!-- Dashboard columns -->
 </resources>

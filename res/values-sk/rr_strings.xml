@@ -109,7 +109,6 @@
   <string name="rr_reset_message">Obnoviť všetky konfigurácie na predvolené hodnoty?</string>
   <string name="rr_reset_settings">Obnoviť nastavenia</string>
   <string name="rr_reset_yes">Áno</string>
-  <string name="rr_reset_cencel">Zrušiť</string>
   <string name="rr_category_title">Personalizácia</string>
   <string name="rr_title">Konfigurácia</string>
   <string name="rr_title_summary">#Getresurrected</string>
@@ -1951,4 +1950,11 @@
   <string name="custom_density_settings">Vlastná hustota pixelov LCD</string>
   <string name="custom_density_summary">
 <xliff:g name="count" example="520">%d</xliff:g> Hustota pixelov</string>
+  <!-- Header images -->
+  <!-- Task Manager -->
+  <!-- SystemUI restart prompt -->
+  <!-- Wakelock blocker -->
+  <!-- DUI Double Tap to Sleep -->
+  <!--One handed mode -->
+  <!-- Dashboard columns -->
 </resources>
