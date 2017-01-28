@@ -145,4 +145,3 @@ public class AccessibilitySettingsForSetupWizard extends SettingsPreferenceFragm
             extras.putString(AccessibilitySettings.EXTRA_SUMMARY, description);
         }
     }
-}
