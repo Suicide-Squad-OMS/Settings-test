@@ -161,7 +161,6 @@ public class Settings extends SettingsActivity {
 	public static class MainSettingsActivity extends SettingsActivity { /* empty */ }
 	public static class KActivity extends SettingsActivity { /* empty */ }
 	public static class MainSettingsLayoutActivity extends SettingsActivity { /* empty */ }
-    public static class SubstratumLaunchActivity extends SettingsActivity { /* empty */ }
 
     // Categories.
     public static class WirelessSettings extends SettingsActivity { /* empty */ }
@@ -179,5 +178,4 @@ public class Settings extends SettingsActivity {
     public static class GestrueAnywhereActivity extends SettingsActivity { /* empty */ }
     public static class AppSidebarActivity extends SettingsActivity { /* empty */ }
     public static class AppCircleBarActivity extends SettingsActivity { /* empty */ }
-    public static class CustomSquashActivity extends SettingsActivity { /* empty */ }
 }
