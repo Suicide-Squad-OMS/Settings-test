@@ -135,6 +135,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
+import com.android.settings.citrus.SubstratumLaunch;
 
 import com.android.settings.rr.MainSettings;
 import com.android.settings.rr.MainSettingsLayout;
@@ -393,7 +394,9 @@ public class SettingsActivity extends SettingsDrawerActivity
             MasterClear.class.getName(),
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
-            AutomaticStorageManagerSettings.class.getName()
+            AutomaticStorageManagerSettings.class.getName(),
+            CustomSquash.class.getName(),
+            SubstratumLaunch.class.getName()
     };
 
 
@@ -1172,6 +1175,15 @@ public class SettingsActivity extends SettingsDrawerActivity
         setTileEnabled(new ComponentName(packageName,
                         Settings.DevelopmentSettingsActivity.class.getName()),
                 showDev, isAdmin, pm);
+
+         boolean substratumSupported = false;
+        try {
+             substratumSupported = (pm.getPackageInfo("projekt.substratum", 0).versionCode > 0);
+         } catch (PackageManager.NameNotFoundException e) {
+         }
+         setTileEnabled(new ComponentName(packageName,
+                 Settings.SubstratumLaunchActivity.class.getName()),
+                 substratumSupported, isAdmin, pm);
 
         boolean kapresent = false;
         try {

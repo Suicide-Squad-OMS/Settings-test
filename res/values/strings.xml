@@ -2045,6 +2045,9 @@
     <string name="emergency_address_summary">Address used by emergency services as your location if you make a 911 call using WiFi</string>
 
 
+<!-- substratum dashboard tile title -->
+    <string name="substratum_settings_title">Substratum</string>
+
     <!-- Sound and alerts settings -->
     <skip/>
     <!-- Main Settings screen setting option name to go into the display settings screen -->
