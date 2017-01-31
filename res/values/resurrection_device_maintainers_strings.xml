@@ -147,7 +147,7 @@
 	<string name="device_m9_summary">M9 \nMaintainer - </string>
 
 	<string name="device_htc_10">HTC 10</string>
-	<string name="device_htc_10_summary">10 \nMaintainer - Aclegg2011 </string>
+	<string name="device_htc_10_summary">10 \nMaintainer -</string>
 	
 	<string name="device_i9300">Galaxy S III</string>
 	<string name="device_i9300_summary">GT-I9300 \nMaintainer - Varun Date</string>
@@ -354,7 +354,7 @@
 	<string name="device_sirius_summary">sirius\nMaintainer - </string>
 	
 	<string name="device_sirius">Xperia Z3</string>
-	<string name="device_sirius_summary">Leo\nMaintainer - Alegg2011</string>
+	<string name="device_sirius_summary">Leo\nMaintainer -</string>
 	
 	<string name="device_maguro">Galaxy Nexus</string>
 	<string name="device_maguro_summary">Maguro\nMaintainer - Varun Date</string>
@@ -376,6 +376,9 @@
 
 	<string name="device_cancro">Xiaomi MI 3</string>
 	<string name="device_cancro_summary">Cancro\nMaintainer - Neal Gosalia</string>
+
+	<string name="device_gemini">Xiaomi MI 5</string>
+	<string name="device_gemini_summary">Gemini\nMaintainer - Fabian Leutenegger</string>
 
 	<string name="device_dior">Xiaomi Redmi Note 4G</string>
 	<string name="device_dior_summary">dior\nMaintainer - Ashish Kotnala</string>
@@ -428,8 +431,8 @@
 	<string name="device_z008">Asus Zenfone 2</string>
 	<string name="device_z008_summary">Z008\nMaintainer - sayeed99</string>
 	
-	<string name="device_zenfone5">Asus Zenfone 5</string>
-	<string name="device_zenfone5_summary">A500CG \nMaintainer -</string>
+	<string name="device_T00F">Asus Zenfone 5</string>
+	<string name="device_T00F_summary">T00F\nMaintainer - Roman "tank0412" Buhtiarov</string>
 
 	<string name="device_ferrari">Xiaomi MI 4i</string>
 	<string name="device_ferrari_summary">ferrari\nMaintainer - haikalizz</string>
