@@ -302,6 +302,8 @@
   <string name="adb_over_network">ADB verkon yli</string>
   <string name="adb_over_network_summary">Salli TCP/IP virheenkorjaus verkon yli (Wi\u2011Fi\u2011, USB\u2011verkot). Tämä asetus nollataan uudelleenkäynnistyksen yhteydessä</string>
   <string name="adb_over_network_warning">VAROITUS: Kun ADB verkon yli on käytössä, laitteesi on vapaa hyökkäyksille kaikissa verkoissa!\n\nKäytä tätä ominaisuutta vain luotettavassa verkossa.\n\nHaluatko varmasti ottaa ominaisuuden käyttöön?</string>
+  <!-- Hostname setting -->
+  <string name="device_hostname">Laitteen verkkonimi</string>
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Voimistuva soittoääni</string>
   <string name="increasing_ring_min_volume_title">Aloitusvoimakkuus</string>
@@ -356,26 +358,4 @@
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">Leijuvat ilmoitukset</string>
   <string name="heads_up_notifications_enabled_summary">Näytä tärkeät ilmoitukset pienessä kelluvassa ikkunassa</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">Vaihda salauksen salasana</string>
-  <string name="crypt_keeper_change_password_summary">Vaihda laitteen salauksessa käytettävä salasana</string>
-  <string name="crypt_keeper_choose_your_password_header">Aseta salauksen salasana</string>
-  <string name="crypt_keeper_replace_password_title">Korvaa salauksen salasana</string>
-  <string name="crypt_keeper_replace_password_summary">Poista erillinen salauksen salasana</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data_category_title">Mobiilidatan käyttö</string>
-  <string name="data_usage_app_restrict_wifi_category_title">Wi\u2011Fi datan käyttö</string>
-  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-  <string name="data_usage_app_restrict_all_data_title">Estä mobiilidatan käyttö</string>
-  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
-  <string name="data_usage_app_restrict_all_data_summary">Estä datan käyttö kun käytetään matkapuhelinverkkoja</string>
-  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-  <string name="data_usage_app_restrict_all_wifi_title">Estä Wi\u2011Fin datan käyttö</string>
-  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
-  <string name="data_usage_app_restrict_all_wifi_summary">Estä datan käyttö kun käytetään Wi\u2011Fi-verkkoja</string>
-  <!-- Volume link notification -->
-  <string name="volume_link_notification_title">Yhdistä soittoääni &amp; ilmoitusäänet</string>
-  <!-- Launch music player when headset is connected -->
-  <string name="headset_connect_player_title">Käynnistä musiikkisovellus</string>
-  <string name="headset_connect_player_summary">Käynnistä musiikkisovellus kytkettäessä kuulokkeet</string>
 </resources>

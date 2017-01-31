@@ -301,6 +301,8 @@
   <string name="adb_over_network">Sare gaineko ADB</string>
   <string name="adb_over_network_summary">Gaitu sare interfaze gaineko TCP/IP arazketa (Wi\u2011Fi, USB sareak). Ezarpen hau gailua berrabiaraztean leheneratzen da</string>
   <string name="adb_over_network_warning">KONTUZ: Sare gaineko ADB gaituta badago, zure telefonoa kanpo erasoak jaso ditzake konektatutako sare guztietatik!\n\n Erabili ezaugarri hau soilik konfiantzako sareetara konektatuta zaudenean.\n\nEzaugarri hau gaitu nahi duzu?</string>
+  <!-- Hostname setting -->
+  <string name="device_hostname">Gailuaren izena</string>
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Dei doinu gorakorra</string>
   <string name="increasing_ring_min_volume_title">Hasierako bolumena</string>
@@ -351,17 +353,8 @@
   <string name="hotstpot_inactivity_timeout_summary_text">Wi\u2011Fi gune eramangarriaren denbora muga: <xliff:g id="timeout">%1$s</xliff:g></string>
   <!-- Wake on plug -->
   <string name="wake_when_plugged_or_unplugged_title">Esnatu kargadorearekin</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Piztu pantaila kargadorea konektatu edo deskonektatzean</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Esnatu pantaila kargadorea konektatu edo deskonektatzean</string>
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">Jakinarazpen flotatzaileak</string>
   <string name="heads_up_notifications_enabled_summary">Bistaratu lehentasunezko jakinarazpenak leiho flotatzaile txiki batean</string>
-  <!-- Encryption password -->
-  <!-- Per-app data restrictions -->
-  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
-  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
-  <!-- Volume link notification -->
-  <string name="volume_link_notification_title">Lotu dei doinuaren eta jakinarazpenen bolumenak</string>
-  <!-- Launch music player when headset is connected -->
 </resources>

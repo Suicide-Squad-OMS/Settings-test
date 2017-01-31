@@ -302,6 +302,8 @@
   <string name="adb_over_network">ADB na rede</string>
   <string name="adb_over_network_summary">Activar a depuración TCP/IP sobre as interfaces de rede (Wi\u2011FI, redes USB). Esta configuración restabelecese ao reiniciar</string>
   <string name="adb_over_network_warning">AVISO: Cando está habilitado ADB sobre red, o dispositivo está aberto a intrusións en tódalas redes conectadas.\n\nUtilice esta función tan só cando estea conectado a redes de confianza.\n\nDe verdade desexa activar esta función?</string>
+  <!-- Hostname setting -->
+  <string name="device_hostname">Nome do dispositivo</string>
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Aumentando o volume de chamada</string>
   <string name="increasing_ring_min_volume_title">Volume inicial</string>
@@ -356,26 +358,4 @@
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">Notificacións emerxentes</string>
   <string name="heads_up_notifications_enabled_summary">Amosar notificacions de prioridad nunha pequena xanela flotante</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">Cambiar contrasinal do cifrado</string>
-  <string name="crypt_keeper_change_password_summary">Cambiar o contrasinal usada para o cifrado do dispositivo</string>
-  <string name="crypt_keeper_choose_your_password_header">Establecer contrasinal do cifrado</string>
-  <string name="crypt_keeper_replace_password_title">Reemplazar contrasinal do cifrado</string>
-  <string name="crypt_keeper_replace_password_summary">Quitar contrasinal do cifrado separado</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data_category_title">Aceso aos datos móbiles</string>
-  <string name="data_usage_app_restrict_wifi_category_title">Acesso a datos Wi\u2011Fi</string>
-  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-  <string name="data_usage_app_restrict_all_data_title">Desabilitar todos os acesos de datos móbiles</string>
-  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
-  <string name="data_usage_app_restrict_all_data_summary">Evitar calquer uso de aceso a dados através de redes móbiles</string>
-  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-  <string name="data_usage_app_restrict_all_wifi_title">Desabilitar todos os acesos dos datos no Wi\u2011Fi</string>
-  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
-  <string name="data_usage_app_restrict_all_wifi_summary">Evitar calquer uso de aceso a datos através de redes Wi\u2011Fi</string>
-  <!-- Volume link notification -->
-  <string name="volume_link_notification_title">Asociar volumes de chamada e notificacións</string>
-  <!-- Launch music player when headset is connected -->
-  <string name="headset_connect_player_title">Iniciar aplicación de música</string>
-  <string name="headset_connect_player_summary">Iniciar a aplicación de música por defecto ao conectar auriculares</string>
 </resources>

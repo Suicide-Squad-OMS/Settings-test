@@ -121,7 +121,6 @@ public class AccessibilitySettingsForSetupWizard extends SettingsPreferenceFragm
             return;
         } else {
             mScreenReaderPreference.setEnabled(true);
-        }
 
             ServiceInfo serviceInfo = info.getResolveInfo().serviceInfo;
             String title = info.getResolveInfo().loadLabel(getPackageManager()).toString();

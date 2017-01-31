@@ -193,11 +193,11 @@ public class ManageApplications extends InstrumentedFragment
 
     // whether showing substratum overlays.
     private boolean mShowSubstratum;
+    private boolean mShowSubstratumIcons;
 
     // if app and icon overlay installed
     private boolean mAppOverlayInstalled;
     private boolean mIconOverlayInstalled;
-    private boolean mShowSubstratumIcons;
 
     private ApplicationsState mApplicationsState;
 
@@ -580,13 +580,13 @@ public class ManageApplications extends InstrumentedFragment
                 && mListType != LIST_TYPE_HIGH_POWER);
 
         mOptionsMenu.findItem(R.id.show_substratum).setVisible(!mShowSubstratum
-                && mListType != LIST_TYPE_HIGH_POWER);
+                && mListType != LIST_TYPE_HIGH_POWER && mAppOverlayInstalled);
         mOptionsMenu.findItem(R.id.hide_substratum).setVisible(mShowSubstratum
-                && mListType != LIST_TYPE_HIGH_POWER);
+                && mListType != LIST_TYPE_HIGH_POWER && mAppOverlayInstalled);
         mOptionsMenu.findItem(R.id.show_substratum_icons).setVisible(!mShowSubstratumIcons
-                && mListType != LIST_TYPE_HIGH_POWER);
+                && mListType != LIST_TYPE_HIGH_POWER && mIconOverlayInstalled);
         mOptionsMenu.findItem(R.id.hide_substratum_icons).setVisible(mShowSubstratumIcons
-                && mListType != LIST_TYPE_HIGH_POWER);
+                && mListType != LIST_TYPE_HIGH_POWER && mIconOverlayInstalled);
     }
 
     @Override
@@ -929,7 +929,7 @@ public class ManageApplications extends InstrumentedFragment
             }
             if (!mManageApplications.mShowSystem && !mManageApplications.mShowSubstratum) {
                 filterObj = new CompoundFilter(filterObj,
-                        ApplicationsState.FILTER_DOWNLOADED_AND_LAUNCHER);
+                                               ApplicationsState.FILTER_DOWNLOADED_AND_LAUNCHER);
             }
             if (!mManageApplications.mShowSubstratum) {
                 filterObj = new CompoundFilter(filterObj,

@@ -399,10 +399,6 @@
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 
-    <!-- Heads-up -->
-    <string name="heads_up_notifications_enabled_title">Heads-up</string>
-    <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
-
     <!-- Encryption password -->
     <string name="crypt_keeper_change_password_title">Change encryption password</string>
     <string name="crypt_keeper_change_password_summary">Change the password used for device encryption</string>
@@ -428,5 +424,4 @@
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Launch music player</string>
     <string name="headset_connect_player_summary">Launch the default music player when a headset is connected</string>
-
 </resources>

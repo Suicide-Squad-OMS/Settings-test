@@ -302,6 +302,8 @@
   <string name="adb_over_network">ADB über Netzwerk</string>
   <string name="adb_over_network_summary">TCP/IP-Debugging über Netzwerkschnittstellen (WLAN, USB-Netzwerke) aktivieren. Diese Einstellung wird beim Neustart zurückgesetzt.</string>
   <string name="adb_over_network_warning">WARNUNG: Wenn ADB übers Netzwerk aktiviert ist, kann auf Ihr Gerät von jedem verbundenen Netzwerk zugegriffen werden!\n\nDiese Funktion sollten Sie nur verwenden, wenn Sie sich in einem vertrauenswürdigen Netzwerk befinden.\n\nMöchten Sie diese Funktion trotzdem aktivieren?</string>
+  <!-- Hostname setting -->
+  <string name="device_hostname">Hostname des Geräts</string>
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
   <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
@@ -356,26 +358,4 @@
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">Pop-up</string>
   <string name="heads_up_notifications_enabled_summary">Wichtige Benachrichtigungen in einem kleinen, schwebenden Fenster anzeigen</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">Verschlüsselungspasswort ändern</string>
-  <string name="crypt_keeper_change_password_summary">Ändern Sie das Passwort zur Geräteverschlüsselung</string>
-  <string name="crypt_keeper_choose_your_password_header">Verschlüsselungspasswort festlegen</string>
-  <string name="crypt_keeper_replace_password_title">Verschlüsselungspasswort ersetzen</string>
-  <string name="crypt_keeper_replace_password_summary">Entfernt das separate Verschlüsselungspasswort</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data_category_title">Mobilfunkdatenzugriff</string>
-  <string name="data_usage_app_restrict_wifi_category_title">WLAN-Datenzugriff</string>
-  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-  <string name="data_usage_app_restrict_all_data_title">Alle Mobilfunkdatenzugriffe deaktivieren</string>
-  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
-  <string name="data_usage_app_restrict_all_data_summary">Jegliche Mobilfunkdatenzugriffe verhindern</string>
-  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-  <string name="data_usage_app_restrict_all_wifi_title">Alle WLAN-Datenzugriffe deaktivieren</string>
-  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
-  <string name="data_usage_app_restrict_all_wifi_summary">Jegliche WLAN-Datenzugriffe verhindern</string>
-  <!-- Volume link notification -->
-  <string name="volume_link_notification_title">Gleiche Lautstärke für Klingelton und Benachrichtigungen</string>
-  <!-- Launch music player when headset is connected -->
-  <string name="headset_connect_player_title">Musik-App starten</string>
-  <string name="headset_connect_player_summary">Beim Anschließen eines Kopfhörers die Standard-Musik-App starten</string>
 </resources>

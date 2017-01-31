@@ -15,9 +15,31 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="rr_mod_version">Resurrection version</string>
+  <string name="build_date">Build date</string>
+  <string name="mod_version_default">Default</string>
   <!-- General -->
+  <string name="ok">Okay</string>
+  <string name="add">Add</string>
+  <string name="enabled">Enabled</string>
+  <string name="choose_app">Choose application</string>
+  <string name="help">Help</string>
+  <string name="reset_message">Reset all entries to default?</string>
+  <string name="restart_systemui">Restart UI</string>
   <!-- About RR -->
+  <string name="about_rr_summary">\@null</string>
+  <string name="rr_donate">Donate to development</string>
+  <string name="github_westcrip">https://github.com/westcripp</string>
+  <string name="github_varund7726">https://github.com/varund7726</string>
+  <string name="github_akhilnarang">https://github.com/akhilnarang</string>
+  <string name="github_bdogg718k">https://github.com/bdogg718k</string>
+  <string name="rr">Links</string>
+  <string name="rr_website_title">Website</string>
+  <string name="rr_forum_title">Forum</string>
+  <string name="rr_forum_summary">Be a member of Resurrection forum</string>
+  <string name="rr_source_title">Github</string>
+  <string name="rr_facebook_title">Facebook</string>
+  <string name="rr_facebook_summary">Facebook community</string>
+  <string name="rr_google_plus_title">Google+</string>
   <!-- The Drill -->
   <!-- RR Feature lists-->
   <!-- Share RR ROM -->
@@ -159,15 +181,15 @@
   <!-- Status Bar Battery Icon Large Percentage Text -->
   <!-- Keyboard and Input ASS methods  -->
   <!-- XOSP Blur personalizations -->
+  <!-- brightness slider -->
   <!-- QS Header Icons -->
   <!-- Center Date + Time in header -->
   <!-- Settings drawer switch -->
   <!-- Custom LCD density -->
   <!-- Header images -->
   <!-- Task Manager -->
-  <!-- SystemUI restart prompt -->
   <!-- Wakelock blocker -->
   <!-- DUI Double Tap to Sleep -->
   <!--One handed mode -->
-  <!-- Dashboard columns -->
+  <!-- SystemUI restart prompt -->
 </resources>

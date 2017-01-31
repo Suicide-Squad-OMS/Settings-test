@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="rr_mod_version">Resurrection sürümü</string>
+  <string name="rr_mod_version">RR-OS sürümü</string>
   <string name="build_date">Sürüm tarihi</string>
   <string name="mod_version_default">Varsayılan</string>
   <!-- General -->
@@ -31,14 +31,9 @@
   <string name="reset">Sıfırla</string>
   <string name="restart_systemui">Kullanıcı Arayüzünü Yeniden Başlat</string>
   <!-- About RR -->
-  <string name="about_rr_settings">Resurrection Hakkında</string>
-  <string name="about_rr">Resurrection Hakkında</string>
+  <string name="about_rr_settings">Hakkında</string>
+  <string name="about_rr">Hakkında</string>
   <string name="about_rr_summary">\@null</string>
-  <string name="about_r0m_summary">Rom ile ilgili her şey</string>
-  <string name="rr_donate">Geliştirme için Bağış</string>
-  <string name="rr_donate_summary">Resurrection ROM için desteğinizi gösterin</string>
-  <string name="app_name">Resurrection</string>
-  <string name="devs">Geliştiriciler</string>
   <string name="about_r0m_summary">Resurrection Remix OS hakkında herşey</string>
   <string name="rr_donate">Geliştirme için Bağış</string>
   <string name="rr_donate_summary">Resurrection Remix OS\'e desteğinizi gösterin</string>
@@ -48,20 +43,8 @@
   <string name="github_varund7726">https://github.com/varund7726</string>
   <string name="github_akhilnarang">https://github.com/akhilnarang</string>
   <string name="github_bdogg718k">https://github.com/bdogg718k</string>
-  <string name="github_cm">https://github.com/CyanogenMod</string>
-  <string name="github_aokp">https://github.com/AOKP</string>
-  <string name="github_omni">https://github.com/omnirom/</string>
-  <string name="github_xenon92">https://github.com/xenon92</string>
-  <string name="github_t4n017">https://github.com/t4n017</string>
   <string name="rr">Bağlantılar</string>
   <string name="rr_website_title">Website</string>
-  <string name="rr_website_summary">Resurrection Rom Hakkında daha fazla bilgi edinin</string>
-  <string name="rr_forum_title">Forum</string>
-  <string name="rr_forum_summary">Resurrection foruma üye olun</string>
-  <string name="rr_source_title">Github</string>
-  <string name="rr_source_summary">Resurrection Kaynakları</string>
-  <string name="rr_irc_title">IRC de bana katılın</string>
-  <string name="rr_irc_summary">#aokp-sgs2 @ irc.freenode.net</string>
   <string name="rr_website_summary">Resurrection Remix OS hakkında daha fazla bilgi edinin</string>
   <string name="rr_forum_title">Forum</string>
   <string name="rr_forum_summary">Resurrection foruma üye olun</string>
@@ -71,11 +54,8 @@
   <string name="rr_facebook_summary">Facebook topluluğu</string>
   <string name="rr_google_plus_title">Google+</string>
   <string name="rr_google_plus_summary">Google+ topluluğu</string>
-  <string name="maincontributors_title">Geliştirici</string>
   <string name="maintainer_categorie_title">Resmi Cihazlar</string>
-  <string name="sourcebase_title">Kaynak Tabanı</string>
-  <string name="title_about">Resurrection Hakkında</string>
-  <string name="dev_categorie_title">Geliştirici &amp; Cihaz Sorumluları</string>
+  <string name="title_about">Hakkında</string>
   <string name="dev_categorie_title">Geliştirici Etiketi</string>
   <string name="rr_lockscreen_title">Kilit Ekranı</string>
   <string name="rr_ls_gestures">Kilit Ekranı Hareketleri</string>
@@ -83,19 +63,19 @@
   <string name="rr_ls_security">Güvenlik</string>
   <string name="updater_title">Güncellemeler</string>
   <string name="altan_summary">● Kurucu \n● Proje lideri \n● Baş geliştiricisi \n● UX tasarımcısı \n● Sorumlu</string>
+  <string name="varun_summary">● Baş geliştirici \n● UX tasarımcı \n● Sorumlu</string>
   <string name="akhil_summary">● Geliştirici \n● Sorumlu \n● Javascript ustası</string>
   <string name="brian_summary">● Geliştirici \n● Sorumlu</string>
   <string name="device_maintainers_title">Cihazlar ve Sorumluları</string>
-  <string name="device_maintainers_title_summary">Cihazlar ve Resurrection ROM sorumluluları listesi</string>
+  <string name="device_maintainers_title_summary">Cihazlar ve resmi RR-OS sorumluları listesi</string>
   <string name="maintainers_note_title">Not</string>
   <string name="maintainers_note_title_summary">Eğer adınızı Cihaz Sorumluları listesine eklemek istiyorsanız ROM Konusu bağlantısı içeren bir Özel Mesajı Hangouts\'tan \'Varun Date\' e gönderin.</string>
   <!-- The Drill -->
   <string name="rr_drill_title">The Drill</string>
   <string name="drill_summary">Logcat ya da GTFO</string>
   <!-- RR Feature lists-->
-  <string name="features_title">ROM Özellik Listesi</string>
-  <string name="features_title_summary">Kullanılabilir ROM özellikleri</string>
   <string name="features_title">Özellikler</string>
+  <string name="features_title_summary">Kullanılabilir özellikleri görüntüleyin</string>
   <string name="features_loading">Liste yükleniyor ...</string>
   <string name="features_error">Liste yüklenemiyor</string>
   <string name="features_unknown">Bilinmeyen</string>
@@ -103,10 +83,7 @@
   <string name="rr_volume_title">Ses paneli</string>
   <string name="rr_power_title">Güç iletişimi</string>
   <!-- Share RR ROM -->
-  <string name="share_rr">Rom\'u Paylaş</string>
-  <string name="share_rr_summary">İnsanlar Resurrection Rom kullandığını bilsinler</string>
-  <string name="share_message">Resurrection Rom\'u Dene! http://forum.resurrectionremix.com/</string>
-  <string name="share_chooser_title">Resurrection Remix\'i aracılığı ile paylaş..</string>
+  <string name="share_rr">Paylaş</string>
   <string name="share_rr_summary">İnsanlar Resurrection Remix OS kullandığını bilsinler</string>
   <string name="share_message">Resurrection Remix OS dene! https://plus.google.com/communities/109352646351468373340</string>
   <string name="share_chooser_title">Resurrection Remix OS\'i aracılığı ile paylaş..</string>
@@ -121,17 +98,18 @@
   <string name="fab_updates">Güncellemeler</string>
   <string name="fab_restartui">Kullanıcı Arayüzünü Yeniden Başlat</string>
   <string name="fab_reset">Sıfırla</string>
-  <string name="fab_about">RR Hakkında</string>
+  <string name="fab_about">RR-OS Hakkında</string>
   <string name="fab_layout">Güncelleştirme düzeni</string>
   <string name="fab_layout_update">Marshmallow düzenini değiştir</string>
   <string name="fab_layout_toggle">Nougat düzenini değiştir</string>
   <string name="rr_reset_message">Tüm yapılandırmaları varsayılan değerlere sıfırlansın mı?</string>
   <string name="rr_reset_settings">Ayarları sıfırla</string>
   <string name="rr_reset_yes">Evet</string>
+  <string name="rr_reset_cancel">İptal</string>
   <string name="rr_category_title">Kişiselleştirme</string>
   <string name="rr_title">Kişiselleştirme</string>
-  <string name="rr_title_summary">#Getresurrected</string>
-  <string name="rr_config_main_title">Resurrection Remix</string>
+  <string name="rr_title_summary">Çeşitli özelleştirmeler</string>
+  <string name="rr_config_main_title">RR-OS</string>
   <string name="rr_ota_fab_title">Yüzen düğmeyi göster</string>
   <string name="rr_ota_fab_summary">Yapılandırmalarda yüzen düğmeyi göstermek/gizlemek için Etkinleştir/Devre Dışı Bırak. Anahtar kullanıldığında bir kez Gir/Çık</string>
   <string name="rr_statusbar_title">Durum çubuğu</string>
@@ -159,7 +137,6 @@
   <string name="ka_title">Performans</string>
   <!--RR Configurations Summaries-->
   <string name="clock_custom_summary">Durum çubuğunun saat ve tarihinin çeşitli öğelerini özelleştirin</string>
-  <string name="status_bar_logo_summary">Durum çubuğundaki rasgele simgeleri etkinleştirin veya devre dışı bırakın. Öğe ve konumunu özelleştirin</string>
   <string name="status_bar_logo_summary">Durum çubuğundaki Resurrection simgesini etkinleştirin veya devre dışı bırakın. Öğe ve konumunu özelleştirin</string>
   <string name="sb_custom_logos_summary">Durum çubuğundaki rasgele simgeleri etkinleştirin veya devre dışı bırakın. Öğe ve konumunu özelleştirin</string>
   <string name="rr_battery_summary">Durum çubuğundaki pil öğelerini özelleştirin ve pil çubuğunu özelleştirin</string>
@@ -169,8 +146,6 @@
   <string name="network_traffic_summary">Durum çubuğunda ağ trafik monitörünü etkinleştirin veya devre dışı bırakın ve stilini, etkinlik eşiğini ve okumalarını özelleştirin</string>
   <string name="carrier_summary">Durum çubuğunda operatör etiketi etkinleştirin veya devre dışı bırakın ve stilini özelleştirin </string>
   <string name="rr_sb_gestures_summary">Durum çubuğunda kullanılan hareketleri etkinleştirin veya devre dışı bırakın</string>
-  <string name="breathing_notifications_summary">Sms, cevapsız arama ve telesekreter gibi bildirimlerde nefes alma etkisi yaratın</string>
-  <string name="rr_trans_summary">Ses iletişimi kutusunda şeffaflık ve kontur gibi çeşitli öğeleri özelleştirin</string>
   <string name="breathing_notifications_summary">Sms, cevapsız arama ve telesekreter gibi bildirimlerde nefes alma etkisi ver</string>
   <string name="rr_trans_summary">Bildirim çekmecesinde şeffaflık ve kontur gibi çeşitli öğeleri özelleştirin</string>
   <string name="rr_volume_summary">Ses iletişimi kutusunda şeffaflık ve kontur gibi çeşitli öğeleri özelleştirin</string>
@@ -179,9 +154,6 @@
   <string name="recents_clear_all_summary">Varolan temizle tuşunu orijinal yüzen eylem tuşu ile değiştirin ve pozisyonunu özelleştirin</string>
   <string name="omniswitch_summary">Geçerli düzen çok sıkıcıysa Omni son kullanılanlara geç</string>
   <string name="rr_qs_animation_summary">Hızlı ayarları seçtiğinizde animasyonları etkinleştirin veya devre dışı bırakın ve özelleştirin</string>
-  <string name="rr_qs_pulldown_summary">Hızlı ayarları nasıl aşağı çekeceğinizi seçin</string>
-  <string name="qs_tile_layout_summary">Hızlı ayarlar düzenini seçiminize göre genişletin</string>
-  <string name="qs_advanced_summary">Hayatınızı kolaylaştıracak çeşitli hızlı ayarlar seçeneklerini seçin</string>
   <string name="rr_qs_pulldown_summary">Hızlı ayarlar aşağı çekme ayarlarını yapın</string>
   <string name="qs_tile_layout_summary">Hızlı ayarlar kare düzenini özelleştir</string>
   <string name="qs_advanced_summary">Çeşitli hızlı ayarlar özelleştirmeleri</string>
@@ -193,7 +165,6 @@
   <string name="gesture_anywhere_summary">Tercih edilen etkinliği başlatmak için hareketlerinizi çizeceksiniz.</string>
   <string name="app_sidebar_summary">Kolayca hızlıca başlatmak istediğiniz uygulamaları ve etkinliklerinizi depolamak için bir yan çubuk kullanın</string>
   <string name="app_circle_bar_summary">Ekranın sağ tarafında dokunduktan sonra daire uygulama başlatıcısını göster</string>
-  <string name="pa_pie_control_summary">Kısayollar ve gezinme denetimleri içeren bir pie etkinleştirmek/devre dışı bırakmak için kenardan hızlıca kaydırın</string>
   <string name="pa_pie_control_summary">Kısayollar ve gezinti denetimleri içeren bir pie etkinleştirmek/devre dışı bırakmak için kenardan hızlıca kaydırın</string>
   <string name="rr_navbar_summary">Yazılım tuşlarını etkinleştirin veya devre dışı bırakın ve büyük ölçüde kişiselleştirin</string>
   <string name="rr_power_summary">Güç menüsü iletişim kutusunda görülen çeşitli seçenekleri kişiselleştirin</string>
@@ -205,7 +176,6 @@
   <string name="rr_heads_up_summary">Heads up bildirimlerini etkinleştirmek veya devre dışı bırakmak ve zaman aşımlarını ayarlamayı seçin </string>
   <string name="rr_dash_board_summary">Kontrol paneli düzenini ve özetlerini özelleştirme</string>
   <string name="misc_weather_settings_summary">Saat uygulaması için çeşitli seçenekleri özelleştirme</string>
-  <string name="system_app_remover_summary">Sevmediğiniz sistem uygulamalarını kaldırın</string>
   <string name="system_app_remover_summary">Gereksiz sistem uygulamalarını kaldır</string>
   <string name="rr_updater_summary">Ota güncellemeleri ve diğer bağlantıları kontrol edin</string>
   <!-- AOKP custom system animations -->
@@ -337,7 +307,7 @@
   <string name="network_traffic_autohide_threshold">Hareketsizlik eşiği</string>
   <!-- Statusbar RR logo -->
   <string name="status_bar_rr_logo_title">Logo etkin</string>
-  <string name="status_bar_rr_logo_summary">Durum çubuğunun logo göstermek için etkinleştirin</string>
+  <string name="status_bar_rr_logo_summary">Durum çubuğunda RR-OS logosunu etkinleştir</string>
   <!-- Color picker -->
   <string name="color_picker_fragment_title">Renk seçici</string>
   <string name="apply_color_title">Renkleri Uygula</string>
@@ -1532,6 +1502,8 @@
   <string name="pulse_custom_fudge_factor">Davranış seviyesi</string>
   <string name="lavamp_solid_speed_title">Lav lambası hızı</string>
   <string name="pulse_solid_dimen_category">Düz çizgiler modu ayarları</string>
+  <string name="fling_lavalamp_color_from">Lav Lambası başlangıç rengi</string>
+  <string name="fling_lavalamp_color_to">Lav Lambası bitiş rengi</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Çubuk genişliği</string>
   <string name="pulse_custom_div">Çubuk aralığı</string>
@@ -1936,10 +1908,10 @@
   <string name="blur_dark_color">Karanlık görüntü renk filtresi</string>
   <string name="blur_mixed_color">Karışık görüntü renk filtresi</string>
   <string name="blur_notice">Bulanıklık özelliği hakkında</string>
-  <string name="blur_notice_summary">Bulanıklık kişiselleştirme, tuş kilidi görünümü sırasında devre dışı bırakılmıştır!
-Sadece yarı saydam bildirimler etkinleştirildi!</string>
+  <string name="blur_notice_summary">Bulanıklık kişiselleştirme, kilit ekranında devre dışı bırakılmıştır!
+Sadece yarı saydam bildirimler etkin!</string>
   <string name="blur_colors_notice">Bu renkler ne yapıyor?</string>
-  <string name="blur_colors_notice_summary">Bu renkler bulanıklığı ön plana çıkaran renklerdir. Normal gri yerine, artık renkleri istediğiniz gibi seçebilirsiniz. \ N Üç renk filtresi vardır: Biri açık renkli arka planlar için kullanılırken diğeri koyu arka planlar için kullanılır. Diğeri ise açık / koyu arka planlar için kullanılır. \ N Peki bu renkler nasıl işliyor?? Basit olarak, başlıklar şöyle söyler; Açık filtre, daha açık arka planlar için, Koyu filtre koyu arka planlar için, karanlık filtre ise çok karanlık olmayan ama çok hafif olmayan arka planlar için kullanılacaktır. \ N Bu renkler her iki Bulanık arkaplanlar için de kullanılır: Biri Durum çubuğuna ve biri de Son uygulamalara </string>
+  <string name="blur_colors_notice_summary">Bu renkler, bulanıklığı arka plana boyayan renklerdir. Normal gri yerine, artık renkleri istediğiniz gibi seçebilirsiniz. \n Üç renk filtresi vardır: Biri açık renkli arka planlar için, biri Koyu arka planlar için kullanılırken diğeri ise açık/koyu arka planlar için kullanılır. \n Bu renkler nasıl işliyor?? \n Basit olduğu gibi, başlıklardan anlaşıldığı gibi, Işık filtresi Daha açık arka planlar için kullanılacak, Koyu renkli arka planlar için koyu filtre ve karışık filtre arka planlar için çok karanlık değil, ancak çok açıkta olmayarak kullanılacaktır. \n Bu renkler her iki Bulanık Arka Planı için de kullanılır: bir Durum Çubuğu ve bir Son Uygulamalar </string>
   <string name="blur_expstatus_cat">Genişletilmiş durum çubuğu </string>
   <string name="blur_notifications_cat">Bildirimler</string>
   <string name="blur_qs_cat">Hızlı ayarlar</string>
@@ -1951,7 +1923,7 @@ Sadece yarı saydam bildirimler etkinleştirildi!</string>
   <string name="blurred_radius">Bulanıklık yarıçapı</string>
   <string name="blurred_radius_summary">Bulanıklık miktarı</string>
   <string name="blur_cat_notice">Uyarı</string>
-  <string name="blur_cat_notice_summary">Bulanıklık kişiselleştirme, tuş kilidi görünümü sırasında devre dışı bırakılmıştır!
+  <string name="blur_cat_notice_summary">Bulanıklık kişiselleştirme, kilit ekranında devre dışı bırakılmıştır!
 Sadece yarı saydam bildirimler etkinleştirildi!</string>
   <string name="rr_build_type_title">Yapı türü</string>
   <string name="rr_build_type_default">Resmi olmayan</string>
@@ -1970,7 +1942,7 @@ Sadece yarı saydam bildirimler etkinleştirildi!</string>
   <string name="qs_edit_title">Düzenle simgesi</string>
   <string name="qs_edit_summary">Başlıkta yer alan kare düzenleme simgesini deve dışı bırak</string>
   <string name="qs_multiuser_switch_title">Çoklu kullanıcı değiştirici</string>
-  <string name="qs_multiuser_switch_summary">Başlıkta çoklu kullanıcı değiştiriciği devre dışı bırak</string>
+  <string name="qs_multiuser_switch_summary">Başlıkta çoklu kullanıcı değiştiriciyi devre dışı bırak</string>
   <string name="qs_expand_indicator_title">Genişletme göstergesi</string>
   <string name="qs_expand_indicator_summary">Başlıkta genişletme göstergesini devre dışı bırak</string>
   <!-- Center Date + Time in header -->
@@ -2008,7 +1980,6 @@ Sadece yarı saydam bildirimler etkinleştirildi!</string>
   <string name="task_manager_kill_button_1">Dairesel</string>
   <string name="task_manager_kill_button_2">Metin</string>
   <string name="task_manager_kill_button_3">Klasik</string>
-  <!-- SystemUI restart prompt -->
   <!-- Wakelock blocker -->
   <string name="wakelock_blocker_title">Uyandırma kilidi engelleyici</string>
   <string name="wakelock_blocker_summary">Sistem uyandırma kilitlerini engelle</string>
@@ -2023,5 +1994,9 @@ Sadece yarı saydam bildirimler etkinleştirildi!</string>
   <!--One handed mode -->
   <string name="one_handed_mode_title">Tek el modu</string>
   <string name="one_handed_mode_summary">Tek elle kullanılan modu etkinleştirmek için gezinti çubuğunda hızlıca kaydırmaya izin verir</string>
-  <!-- Dashboard columns -->
+  <!-- SystemUI restart prompt -->
+  <string name="systemui_restart_title">UYARI</string>
+  <string name="systemui_restart_message">Seçilen ayarın doğru uygulanabilmesi için SystemUI yeniden başlatılacaktır.</string>
+  <string name="restarting_ui">Yeniden Başlatılıyor\u2026</string>
+  <string name="print_restart">Yeniden Başlat</string>
 </resources>

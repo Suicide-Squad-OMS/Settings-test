@@ -219,6 +219,26 @@
         android:summary="@string/device_quark_summary"
         android:selectable="false" 
         android:title="@string/device_quark" />
+	    
+     <Preference
+        android:id="@+id/device_harpia"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_harpia_summary"
+        android:selectable="false" 
+        android:title="@string/device_harpia" /> 
+                       
+  </PreferenceCategory> 
+        
+    <PreferenceCategory
+        android:id="@+id/device_category_lenovo"
+        android:title="@string/device_category_lenovo_title" >
+        
+    <Preference
+        android:id="@+id/device_A6020"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_A6020_summary"
+        android:selectable="false" 
+        android:title="@string/device_A6020" />
                        
   </PreferenceCategory> 
         
@@ -434,11 +454,11 @@
         android:title="@string/device_category_htc_title" >
         
     <Preference
-        android:id="@+id/device_n9"
+        android:id="@+id/device_flounder"
         android:icon="@drawable/phone_tint"
-        android:summary="@string/device_n9_summary"
+        android:summary="@string/device_flounder_summary"
         android:selectable="false" 
-        android:title="@string/device_n9" />
+        android:title="@string/device_flounder" />
   <Preference
         android:id="@+id/device_m9"
         android:icon="@drawable/phone_tint"
@@ -636,13 +656,6 @@
         android:summary="@string/device_oneplus2_summary"
         android:selectable="false" 
         android:title="@string/device_oneplus2" />         
-        
-   <Preference
-	android:id="@+id/device_oneplusx"
-        android:icon="@drawable/phone_tint"
-        android:summary="@string/device_oneplusx_summary"
-        android:selectable="false" 
-        android:title="@string/device_oneplusx" />
 	    
    <Preference
         android:id="@+id/device_onyx"
@@ -754,8 +767,8 @@
        </PreferenceCategory>
 
 <PreferenceCategory
-	android:id="@+id/device_category_google"
-	android:title="@string/device_category_google_title">
+	android:id="@+id/device_category_one"
+	android:title="@string/device_category_one_title">
     <Preference
         android:id="@+id/device_sprout4"
         android:icon="@drawable/phone_tint"
@@ -768,12 +781,6 @@
         android:summary="@string/device_sprout8_summary"
         android:selectable="false"
         android:title="@string/device_sprout8" />
-	</PreferenceCategory>
-
-<PreferenceCategory
-	android:id="@+id/device_category_one"
-	android:title="@string/device_category_one_title">
-
     <Preference
         android:id="@+id/device_seed"
         android:icon="@drawable/phone_tint"
@@ -787,6 +794,18 @@
         android:selectable="false"
         android:title="@string/device_shamrock" />
 	</PreferenceCategory>
+
+ <PreferenceCategory
+        android:id="@+id/device_category_leeco"
+        android:title="@string/device_category_leeco_title" >
+
+    <Preference
+        android:id="@+id/device_s2"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_s2_summary"
+        android:selectable="false"
+        android:title="@string/device_s2" />
+  </PreferenceCategory>
 	
   <PreferenceCategory
 	android:id="@+id/device_category_oppo"

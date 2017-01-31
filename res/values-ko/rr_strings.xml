@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="rr_mod_version">Resurrection 버전</string>
+  <string name="rr_mod_version">RR-OS 버전</string>
   <string name="build_date">빌드 날짜</string>
   <!-- General -->
   <string name="ok">확인</string>
@@ -26,52 +26,32 @@
   <string name="attention">주의</string>
   <string name="restart_systemui">UI 다시 시작</string>
   <!-- About RR -->
-  <string name="about_rr_settings">Resurrection 정보</string>
-  <string name="about_rr">Resurrection 정보</string>
   <string name="about_rr_summary">\@null</string>
-  <string name="about_r0m_summary">ROM에 대해</string>
   <string name="rr_donate">개발자에게 기부하기</string>
-  <string name="rr_donate_summary">Resurrection ROM 후원하기</string>
-  <string name="app_name">Resurrection</string>
-  <string name="devs">개발자</string>
   <string name="github_westcrip">https://github.com/westcripp</string>
   <string name="github_varund7726">https://github.com/varund7726</string>
   <string name="github_akhilnarang">https://github.com/akhilnarang</string>
   <string name="github_bdogg718k">https://github.com/bdogg718k</string>
-  <string name="github_cm">https://github.com/CyanogenMod</string>
-  <string name="github_aokp">https://github.com/AOKP</string>
-  <string name="github_omni">https://github.com/omnirom/</string>
-  <string name="github_xenon92">https://github.com/xenon92</string>
-  <string name="github_t4n017">https://github.com/t4n017</string>
   <string name="rr">링크</string>
   <string name="rr_website_title">웹 사이트</string>
-  <string name="rr_website_summary">Resurrection ROM에 대한 자세한 정보</string>
   <string name="rr_forum_title">포럼</string>
   <string name="rr_forum_summary">Resurrection 포럼의 멤버가 되기</string>
   <string name="rr_source_title">Github</string>
-  <string name="rr_source_summary">Resurrection 소스</string>
-  <string name="rr_irc_summary">#aokp-sgs2 @ irc.freenode.net</string>
   <string name="rr_facebook_title">Facebook</string>
   <string name="rr_facebook_summary">Facebook 커뮤니티</string>
   <string name="rr_google_plus_title">Google+</string>
   <string name="rr_google_plus_summary">Google+ 커뮤니티</string>
-  <string name="maincontributors_title">개발자</string>
   <string name="maintainer_categorie_title">공식 기기</string>
-  <string name="sourcebase_title">기반 소스</string>
-  <string name="title_about">Resurrection 정보</string>
-  <string name="dev_categorie_title">개발자 및 메인테이너</string>
   <string name="rr_lockscreen_title">잠금 화면</string>
   <string name="rr_ls_gestures">제스처</string>
   <string name="rr_ls_ui">잠금 UI</string>
   <string name="rr_ls_security">보안</string>
   <string name="updater_title">업데이트</string>
   <string name="device_maintainers_title">기기 및 메인테이너</string>
-  <string name="device_maintainers_title_summary">기기 및 그 기기의 Resurrection ROM 메인테이너 목록</string>
   <string name="maintainers_note_title">참고</string>
   <string name="maintainers_note_title_summary">기기 메인테이너 목록에 이름을 추가하려면 행아웃을 통해 \'Varun Date\'에게 당신의 ROM 스레드 링크를 포함하여 PM을 보내주세요.</string>
   <!-- The Drill -->
   <!-- RR Feature lists-->
-  <string name="features_title">ROM 기능 목록</string>
   <string name="features_unknown">알 수 없음</string>
   <string name="features_version">1.0</string>
   <!-- Share RR ROM -->
@@ -84,12 +64,8 @@
   <!--RR Configurations-->
   <string name="fab_updates">업데이트</string>
   <string name="fab_restartui">UI 다시 시작</string>
-  <string name="fab_about">RR에 대하여</string>
   <string name="fab_layout">레이아웃 업데이트</string>
   <string name="rr_reset_yes">예</string>
-  <string name="rr_reset_cancel">취소</string>
-  <string name="rr_title_summary">#Getresurrected</string>
-  <string name="rr_config_main_title">Resurrection Remix</string>
   <string name="rr_statusbar_title">상태 표시줄</string>
   <string name="rr_sb_gestures_title">상태 표시줄 제스처</string>
   <string name="qs_advanced_title">고급 설정</string>
@@ -114,6 +90,8 @@
   <!--RR Configurations Summaries-->
   <!-- AOKP custom system animations -->
   <!-- Toast Animation -->
+  <string name="toast_none_animation">없음</string>
+  <string name="toast_default_animation">기본</string>
   <string name="toast_fade_animation">페이드</string>
   <string name="toast_SlideRight_animation">오른쪽으로 슬라이드</string>
   <string name="toast_SlideLeft_animation">왼쪽으로 슬라이드</string>
@@ -123,6 +101,7 @@
   <string name="toast_Honami_animation">Honami</string>
   <string name="toast_FastFade_animation">빠른 페이드</string>
   <!-- ListView animation -->
+  <string name="listview_off">기본</string>
   <!-- ListView interpolator -->
   <!-- Disable animations -->
   <!-- Option to enable/disable scrolling cache -->
@@ -144,13 +123,21 @@
   <!-- Network traffic -->
   <!-- Statusbar RR logo -->
   <!-- Color picker -->
+  <string name="palette_rgb_title">RGB</string>
   <!-- Help screen -->
   <string name="color_picker_help_button_ok_title">확인</string>
   <!-- Color picker end -->
   <!-- Power menu Animations  -->
+  <string name="rr_battery_title">배터리</string>
+  <string name="rr_navbar_title">내비게이션 바</string>
+  <string name="rr_toast_title">토스트</string>
+  <string name="rr_pm_animations_title">전원 메뉴</string>
   <!-- Tiles animation style  -->
+  <string name="qs_tiles">빠른 설정 타일</string>
+  <string name="qs_tile_animation_duration_default">기본</string>
   <!-- Immersive Recents -->
   <!-- Dashboard suggestions -->
+  <string name="show_4g_summary">신호 아이콘을 LTE 대신에 4G로 표시</string>
   <!-- Gesture Anywhere -->
   <!-- Label, button used to add a gesture -->
   <!-- Label, button used to reload all gestures -->
@@ -268,15 +255,15 @@
   <!-- Keyboard and Input ASS methods  -->
   <string name="attention">주의</string>
   <!-- XOSP Blur personalizations -->
+  <!-- brightness slider -->
   <!-- QS Header Icons -->
   <!-- Center Date + Time in header -->
   <!-- Settings drawer switch -->
   <!-- Custom LCD density -->
   <!-- Header images -->
   <!-- Task Manager -->
-  <!-- SystemUI restart prompt -->
   <!-- Wakelock blocker -->
   <!-- DUI Double Tap to Sleep -->
   <!--One handed mode -->
-  <!-- Dashboard columns -->
+  <!-- SystemUI restart prompt -->
 </resources>

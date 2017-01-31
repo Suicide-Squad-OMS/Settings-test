@@ -52,7 +52,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.regex.Matcher;		
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
@@ -60,7 +60,7 @@ import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 public class DeviceInfoSettings extends SettingsPreferenceFragment implements Indexable {
 
     private static final String LOG_TAG = "DeviceInfoSettings";
-	private static final String FILENAME_PROC_VERSION = "/proc/version";
+    private static final String FILENAME_PROC_VERSION = "/proc/version";
 
     private static final String KEY_MANUAL = "manual";
     private static final String KEY_REGULATORY_INFO = "regulatory_info";
@@ -70,8 +70,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_KERNEL_VERSION = "kernel_version";
     private static final String KEY_BUILD_NUMBER = "build_number";
     private static final String KEY_BUILD_TYPE = "rr_build_type";
+    private static final String KEY_MAINTAINER = "rr_maintainer";
     private static final String KEY_DEVICE_MODEL = "device_model";
-    private static final String KEY_DEVICE_NAME = "device_name";
+    private static final String KEY_DEVICE_NAME = "rr_device_name";
     private static final String KEY_SELINUX_STATUS = "selinux_status";
     private static final String KEY_BASEBAND_VERSION = "baseband_version";
     private static final String KEY_FIRMWARE_VERSION = "firmware_version";
@@ -87,7 +88,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String PROPERTY_MBN_VERSION = "persist.mbn.version";
     private static final String FILENAME_PROC_MEMINFO = "/proc/meminfo";
     private static final String FILENAME_PROC_CPUINFO = "/proc/cpuinfo";
-    private static final String KEY_DEVICE_CPU = "device_cpu";
+    private static final String KEY_DEVICE_CPU = "rr_device_cpu";
     private static final String KEY_DEVICE_MEMORY = "device_memory";
     private static final String KEY_QGP_VERSION = "qgp_version";
     private static final String PROPERTY_QGP_VERSION = "persist.qgp.version";
@@ -139,21 +140,26 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         setValueSummary(KEY_BUILD_TYPE, "rr.build.type");
+        setValueSummary(KEY_MAINTAINER, "ro.build.user");
+        setValueSummary(KEY_DEVICE_NAME, "ro.rr.device");
         setValueSummary(KEY_DEVICE_CPU, "ro.product.cpu.abi");
         setValueSummary(KEY_MOD_VERSION, "ro.modversion");
         findPreference(KEY_MOD_VERSION).setEnabled(true);
         findPreference(KEY_BUILD_TYPE).setEnabled(true);
+        findPreference(KEY_MAINTAINER).setEnabled(true);
+        findPreference(KEY_DEVICE_NAME).setEnabled(true);
         findPreference(KEY_DEVICE_CPU).setEnabled(true);
-        setValueSummary(KEY_MOD_VERSION, "ro.modversion");
-        findPreference(KEY_MOD_VERSION).setEnabled(true);
-        findPreference(KEY_BUILD_TYPE).setEnabled(true);
-             
-        setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());		
+        setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());
         findPreference(KEY_KERNEL_VERSION).setEnabled(true);
+
+        String buildtype = SystemProperties.get("rr.build.type","unofficial");
+        if (buildtype.equalsIgnoreCase("unofficial")) {
+        removePreference(KEY_MAINTAINER);
+        }
         setValueSummary(KEY_QGP_VERSION, PROPERTY_QGP_VERSION);
         // Remove QGP Version if property is not present
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_QGP_VERSION,
-                PROPERTY_QGP_VERSION);       
+                PROPERTY_QGP_VERSION);
         setValueSummary(KEY_MBN_VERSION, PROPERTY_MBN_VERSION);
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_MBN_VERSION,
 		PROPERTY_MBN_VERSION);
@@ -166,21 +172,11 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             setStringSummary(KEY_SELINUX_STATUS, status);
         }
 
-        setStringSummary(KEY_DEVICE_NAME, Build.PRODUCT);
-        removePreferenceIfBoolFalse(KEY_DEVICE_NAME, R.bool.config_displayDeviceName);
-
         // Remove selinux information if property is not present
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_SELINUX_STATUS,
                 PROPERTY_SELINUX_STATUS);
 
-	String cpuInfo = getCPUInfo();
         String memInfo = getMemInfo();
-
-        if (cpuInfo != null) {
-            setStringSummary(KEY_DEVICE_CPU, cpuInfo);
-        } else {
-            getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_CPU));
-        }
 
         if (memInfo != null) {
             setStringSummary(KEY_DEVICE_MEMORY, memInfo);
@@ -354,9 +350,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             if (b != null && b.getBoolean(CarrierConfigManager.KEY_CI_ACTION_ON_SYS_UPDATE_BOOL)) {
                 ciActionOnSysUpdate(b);
             }
-		} else if (preference.getKey().equals(KEY_KERNEL_VERSION)) {		
-             setStringSummary(KEY_KERNEL_VERSION, getKernelVersion());		
-             return true;
+        } else if (preference.getKey().equals(KEY_KERNEL_VERSION)) {
+            setStringSummary(KEY_KERNEL_VERSION, getKernelVersion());
+            return true;
         }
         return super.onPreferenceTreeClick(preference);
     }
@@ -444,6 +440,16 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         startActivityForResult(intent, 0);
     }
 	private String getKernelVersion() {
+        String procVersionStr;
+        try {
+            procVersionStr = readLine(FILENAME_PROC_VERSION);
+            return procVersionStr;
+        } catch (IOException e) {
+            Log.e(LOG_TAG,
+                "IO Exception when getting kernel version for Device Info screen",
+                e);
+
+    private String getKernelVersion() {
         String procVersionStr;
         try {
             procVersionStr = readLine(FILENAME_PROC_VERSION);

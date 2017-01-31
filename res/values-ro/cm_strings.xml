@@ -305,7 +305,6 @@
   <!-- Android debugging over network -->
   <string name="adb_over_network">ADB prin rețea</string>
   <string name="adb_over_network_summary">Activează depanarea TCP/IP prin interfețele de rețea (Wi\u2011Fi, rețele USB). Această setare este restaurată la repornire</string>
-  <string name="adb_over_network_warning">AVERTISMENT: Când ADB prin reţea este activat, telefonul dvs. este deschis pentru intruziuni pe toate reţelele conectate! \n\nUtilizaţi această caracteristică doar atunci când sunteţi conectat la rețele de încredere.\n\nDoriţi cu adevărat să activaţi această funcţie?</string>
   <!-- Hostname setting -->
   <string name="device_hostname">Hostname dispozitiv</string>
   <!-- Increasing ring tone volume -->

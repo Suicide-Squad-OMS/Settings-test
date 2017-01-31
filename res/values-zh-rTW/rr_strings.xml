@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="rr_mod_version">Resurrection 版本</string>
+  <string name="rr_mod_version">RR-OS 版本</string>
   <string name="build_date">編譯日期</string>
   <string name="mod_version_default">預設</string>
   <!-- General -->
@@ -29,16 +29,11 @@
   <string name="reset_message">重設所有設定？</string>
   <string name="attention">注意</string>
   <string name="reset">重設</string>
-  <string name="restart_systemui">重新啟動介面？</string>
+  <string name="restart_systemui">重新啟動使用者介面</string>
   <!-- About RR -->
-  <string name="about_rr_settings">關於 Resurrection</string>
-  <string name="about_rr">關於 Resurrection</string>
+  <string name="about_rr_settings">關於</string>
+  <string name="about_rr">關於</string>
   <string name="about_rr_summary">\@null</string>
-  <string name="about_r0m_summary">關於這個 Rom 的一切</string>
-  <string name="rr_donate">捐款以協助開發</string>
-  <string name="rr_donate_summary">表達您對 Ressurection Rom 的支持</string>
-  <string name="app_name">Resurrection</string>
-  <string name="devs">開發人員</string>
   <string name="about_r0m_summary">關於 Resurrection Remix OS 的一切</string>
   <string name="rr_donate">捐款以協助開發</string>
   <string name="rr_donate_summary">表達您對 Resurrection Remix OS 的支持</string>
@@ -48,20 +43,8 @@
   <string name="github_varund7726">https://github.com/varund7726</string>
   <string name="github_akhilnarang">https://github.com/akhilnarang</string>
   <string name="github_bdogg718k">https://github.com/bdogg718k</string>
-  <string name="github_cm">https://github.com/CyanogenMod</string>
-  <string name="github_aokp">https://github.com/AOKP</string>
-  <string name="github_omni">https://github.com/omnirom/</string>
-  <string name="github_xenon92">https://github.com/xenon92</string>
-  <string name="github_t4n017">https://github.com/t4n017</string>
   <string name="rr">連結</string>
   <string name="rr_website_title">網站</string>
-  <string name="rr_website_summary">更多關於 Resurrection Rom 的相關資訊</string>
-  <string name="rr_forum_title">論壇</string>
-  <string name="rr_forum_summary">成為 Resurrection 論壇的成員</string>
-  <string name="rr_source_title">Github</string>
-  <string name="rr_source_summary">Resurrection 資源</string>
-  <string name="rr_irc_title">在 IRC 上加入我們</string>
-  <string name="rr_irc_summary">#aokp-sgs2 @ irc.freenode.net</string>
   <string name="rr_website_summary">取得更多關於 Resurrection Remix OS 的相關資訊</string>
   <string name="rr_forum_title">論壇</string>
   <string name="rr_forum_summary">成為 Resurrection 論壇的成員</string>
@@ -71,11 +54,8 @@
   <string name="rr_facebook_summary">Facebook 社群</string>
   <string name="rr_google_plus_title">Google+</string>
   <string name="rr_google_plus_summary">Google+ 社群</string>
-  <string name="maincontributors_title">開發人員</string>
   <string name="maintainer_categorie_title">官方裝置</string>
-  <string name="sourcebase_title">資源基地</string>
-  <string name="title_about">關於 Resurrection</string>
-  <string name="dev_categorie_title">開發人員和維護人員</string>
+  <string name="title_about">關於</string>
   <string name="dev_categorie_title">Dev 標籤</string>
   <string name="rr_lockscreen_title">鎖定畫面</string>
   <string name="rr_ls_gestures">手勢</string>
@@ -83,19 +63,19 @@
   <string name="rr_ls_security">安全性</string>
   <string name="updater_title">更新</string>
   <string name="altan_summary">● 創始人 \n● 專案的領導者 \n● 主要開發者 \n● UX 設計師 \n● 維護者</string>
+  <string name="varun_summary">● 主要開發者 \n● 使用者體驗設計師 \n● 的維護者</string>
   <string name="akhil_summary">● 開發者 \n● 維護者 \n● Javascript 主人</string>
   <string name="brian_summary">● 開發者 \n● 維護者</string>
   <string name="device_maintainers_title">裝置和維護者</string>
-  <string name="device_maintainers_title_summary">列出裝置及該裝置的 Resurrection ROM 維護人員</string>
+  <string name="device_maintainers_title_summary">列出裝置及該裝置的官方 RR-OS 的維護人員</string>
   <string name="maintainers_note_title">注意</string>
   <string name="maintainers_note_title_summary">如果您想您的名字能加到裝置維護人員名單中，請在 Hangout 向 Varun Date 私訊您的 ROM thread 連結</string>
   <!-- The Drill -->
   <string name="rr_drill_title">這次演習</string>
   <string name="drill_summary">Logcat 或 GTFO</string>
   <!-- RR Feature lists-->
-  <string name="features_title">ROM 功能清單</string>
-  <string name="features_title_summary">顯示可用的 ROM 功能</string>
   <string name="features_title">功能</string>
+  <string name="features_title_summary">檢視可用的功能</string>
   <string name="features_loading">正在載入清單...</string>
   <string name="features_error">無法載入清單</string>
   <string name="features_unknown">未知</string>
@@ -103,10 +83,7 @@
   <string name="rr_volume_title">音量面板</string>
   <string name="rr_power_title">電源對話方塊</string>
   <!-- Share RR ROM -->
-  <string name="share_rr">分享 ROM</string>
-  <string name="share_rr_summary">讓人們知道您正在使用 Resurrection Rom</string>
-  <string name="share_message">試一下 Resurrection Remix ROM! https://plus.google.com/communities/109352646351468373340</string>
-  <string name="share_chooser_title">藉由…分享 Resurrection Remix</string>
+  <string name="share_rr">分享</string>
   <string name="share_rr_summary">讓人們知道您正在使用 Resurrection Remix OS</string>
   <string name="share_message">試一下 Resurrection Remix OS! https://plus.google.com/communities/109352646351468373340</string>
   <string name="share_chooser_title">藉由…分享 Resurrection Remix OS</string>
@@ -119,19 +96,20 @@
   <string name="changelog_version">版本</string>
   <!--RR Configurations-->
   <string name="fab_updates">更新</string>
-  <string name="fab_restartui">重新啟動 系統 UI</string>
+  <string name="fab_restartui">重新啟動使用者介面</string>
   <string name="fab_reset">重設</string>
-  <string name="fab_about">關於 RR</string>
+  <string name="fab_about">關於 RR-OS</string>
   <string name="fab_layout">更新佈局</string>
   <string name="fab_layout_update">切換棉花糖佈局</string>
   <string name="fab_layout_toggle">切換牛軋糖佈局</string>
   <string name="rr_reset_message">將所有配置重設為預設值嗎？</string>
   <string name="rr_reset_settings">重設設定</string>
   <string name="rr_reset_yes">是</string>
+  <string name="rr_reset_cancel">取消</string>
   <string name="rr_category_title">個人化</string>
   <string name="rr_title">配置</string>
-  <string name="rr_title_summary">#重新設定</string>
-  <string name="rr_config_main_title">Resurrection Remix</string>
+  <string name="rr_title_summary">各種自訂設定</string>
+  <string name="rr_config_main_title">RR-OS</string>
   <string name="rr_ota_fab_title">顯示浮動按鈕</string>
   <string name="rr_ota_fab_summary">啟用/停用配置中的浮動按鍵即可顯示/隱藏。當使用開關時，只要輸入/退出一次</string>
   <string name="rr_statusbar_title">狀態列</string>
@@ -159,29 +137,22 @@
   <string name="ka_title">效能</string>
   <!--RR Configurations Summaries-->
   <string name="clock_custom_summary">自訂狀態列時鐘和日期的各種元素</string>
-  <string name="status_bar_logo_summary">在狀態列中啟用或停用恢復圖示。自訂元素和位置</string>
   <string name="status_bar_logo_summary">在 Resurrection 的標誌狀態列中啟用或停用恢復圖示。自訂元素和位置</string>
   <string name="sb_custom_logos_summary">在狀態列中啟用或停用隨機圖示。自訂元素和位置</string>
   <string name="rr_battery_summary">自訂狀態列中的電池元素和也自訂電池列</string>
   <string name="rr_sb_icons_summary">在狀態列中啟用或停用您選擇的圖示</string>
   <string name="ticker_screen_summary">自訂通知列提示通知的樣式</string>
   <string name="status_bar_temperature_summary">啟用或停用在狀態列中的溫度並自訂其樣式</string>
-  <string name="network_traffic_summary">啟用/停用狀態列流量監控並修改自訂樣式</string>
   <string name="network_traffic_summary">在狀態列中啟用或停用網路流量監控，並自訂其樣式、活動閾值和讀數</string>
   <string name="carrier_summary">啟用或停用在狀態列中的電信業者標籤並自訂其樣式</string>
   <string name="rr_sb_gestures_summary">在狀態列上啟用或停用使用的手勢</string>
   <string name="breathing_notifications_summary">對通知 (例如簡訊、未接電話和語音信箱) 發出呼吸效果</string>
   <string name="rr_trans_summary">自訂通知清單中的各種元素，如透明度和筆觸</string>
-  <string name="rr_volume_summary">自訂音量對話框中的各種元素，如透明度和筆劃</string>
   <string name="rr_volume_summary">自訂音量對話方塊中的各種元素，例如透明度和筆觸</string>
   <string name="rr_power_summary">自訂電源功能表介面的模糊和透明度</string>
   <string name="rr_recents_ui_summary">自訂在最近用過面板的各種元件如元件，身臨其境的最近通話等</string>
   <string name="recents_clear_all_summary">使用原始浮動操作按鈕替換原始清除所有按鈕，並自訂其位置</string>
   <string name="omniswitch_summary">如果您對目前佈局覺得太無聊了可以試試切換至 Omni Switch 模式</string>
-  <string name="rr_qs_animation_summary">在點選快速設定瓷磚並自訂時啟用或停用動畫</string>
-  <string name="rr_qs_pulldown_summary">選擇如何下拉快速面板</string>
-  <string name="qs_tile_layout_summary">根據您的選擇展開快速設定佈局</string>
-  <string name="qs_advanced_summary">選擇各種各樣的快速設定選項，將使您的生活更輕鬆</string>
   <string name="rr_qs_animation_summary">在輕觸快速設定瓷磚並自訂時啟用或停用動畫</string>
   <string name="rr_qs_pulldown_summary">調整快速面板下拉式選單設定</string>
   <string name="qs_tile_layout_summary">自訂快速設定瓷磚佈局</string>
@@ -192,7 +163,6 @@
   <string name="lockscreen_weather_summary">自訂鎖定螢幕介面上的天氣佈局</string>
   <string name="rr_ls_security_summary">啟用或停用為鎖定螢幕提供的各種安全功能</string>
   <string name="gesture_anywhere_summary">繪製您的手勢以啟動偏好的活動。</string>
-  <string name="app_sidebar_summary">使用側欄儲存您想要快速啟動的應用程式和活動</string>
   <string name="app_sidebar_summary">使用側邊列儲存您想要快速啟動的應用程式和活動</string>
   <string name="app_circle_bar_summary">使用圓形側邊欄來儲存快速應用程式和活動</string>
   <string name="pa_pie_control_summary">從邊緣滑動即可啟用/停用由精簡捷徑和導航控制項組成的扇形</string>
@@ -206,8 +176,6 @@
   <string name="rr_heads_up_summary">選擇啟用或停用浮動通知並還設定其逾時</string>
   <string name="rr_dash_board_summary">自訂面板佈局和摘要</string>
   <string name="misc_weather_settings_summary">自訂 Cclock 應用程式的各種選項</string>
-  <string name="system_app_remover_summary">移除不喜歡的系統應用程式</string>
-  <string name="rr_updater_summary">檢查 ota 更新和也其他連結</string>
   <string name="system_app_remover_summary">移除不必要的系統應用程式</string>
   <string name="rr_updater_summary">檢查 OTA 更新和也其他連結</string>
   <!-- AOKP custom system animations -->
@@ -339,7 +307,7 @@
   <string name="network_traffic_autohide_threshold">活動監測門檻</string>
   <!-- Statusbar RR logo -->
   <string name="status_bar_rr_logo_title">啟用標誌</string>
-  <string name="status_bar_rr_logo_summary">在狀態列上要啟用顯示 RR 圖示</string>
+  <string name="status_bar_rr_logo_summary">在狀態列上要啟用顯示 RR-OS 的標誌</string>
   <!-- Color picker -->
   <string name="color_picker_fragment_title">顏色選擇器</string>
   <string name="apply_color_title">應用顏色</string>
@@ -392,7 +360,7 @@
   <string name="power_menu_animation_summary">變更電源功能表的進入/退出動畫</string>
   <string name="power_menu_animation_dialog_title">選擇電源功能表動畫</string>
   <string name="power_menu_animation_aosp">AOSP (預設)</string>
-  <string name="power_menu_animation_bottom">下方</string>
+  <string name="power_menu_animation_bottom">底部</string>
   <string name="power_menu_animation_top">上方</string>
   <string name="power_menu_animation_rotate">旋轉</string>
   <string name="power_menu_animation_rotate">旋轉</string>
@@ -401,8 +369,8 @@
   <string name="power_menu_animation_turn">分頁</string>
   <string name="power_menu_animation_fly">發光</string>
   <string name="power_menu_animation_card">立體</string>
-  <string name="power_menu_animation_translucent_top">半透明 (上方)</string>
-  <string name="power_menu_animation_translucent_bottom">半透明 (下方)</string>
+  <string name="power_menu_animation_translucent_top">半透明 (頂部)</string>
+  <string name="power_menu_animation_translucent_bottom">半透明 (底部)</string>
   <string name="rr_qs_title">快速設定</string>
   <string name="rr_battery_title">電池</string>
   <string name="rr_qs_animation">快速動畫</string>
@@ -583,7 +551,7 @@
   <string name="battery_bar_low_color">低級別的顏色\"</string>
   <string name="battery_bar_hide">隐藏</string>
   <string name="battery_bar_statusbar">狀態列</string>
-  <string name="battery_bar_navbar_top">頂端的導航列</string>
+  <string name="battery_bar_navbar_top">頂部的導航列</string>
   <string name="battery_bar_navbar_bottom">底部的導航列</string>
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">已啟用</string>
@@ -592,11 +560,8 @@
   <string name="doze_overwrite_value_summary">允許使用者覆寫預設數值</string>
   <string name="doze_pulse_title">使用者可配置的設定</string>
   <string name="doze_pulse_duration_in_title">淡入</string>
-  <string name="doze_pulse_duration_in_summary"></string>
   <string name="doze_pulse_duration_visible_title">可見的持續時間</string>
-  <string name="doze_pulse_duration_visible_summary"></string>
   <string name="doze_pulse_duration_out_title">淡出</string>
-  <string name="doze_pulse_duration_out_summary"></string>
   <string name="doze_trigger_pickup_title">感應器觸發</string>
   <string name="doze_trigger_pickup_summary_on">當手勢被拿起時將觸發自動顯示</string>
   <string name="doze_trigger_pickup_summary_off">拿起感應器不會用做觸發器</string>
@@ -651,7 +616,7 @@
   <string name="shortcut_action_help_icon">，長按圖示以顯示自訂選項</string>
   <string name="shortcut_action_help_main">若要新增一個%1$s，請輕觸「新增」圖示。一旦新增了%1$s，輕觸橫列以變更目標%2$s\n\n若要移除一個%1$s，向左或向右滑動橫列。若要重新排列%1$s，請拖移左側的箭頭。\n\n若要清除或重設為預設，請輕觸「重設」按鈕。</string>
   <string name="shortcut_action_help_delete_last_entry">移除所有清單中的%1$s將會完全停用此功能。</string>
-  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">移除所有清單中的%1$s將會完全停用第二層 Pie 選單。</string>
+  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">移除所有清單中的 %1$s 將會完全停用第二層扇形選單。</string>
   <string name="shortcuts_applications">應用程式</string>
   <string name="shortcuts_select_custom_app_title">選擇自訂應用程式</string>
   <string name="shortcuts_icon_picker_type">選擇圖示類型：</string>
@@ -663,7 +628,7 @@
   <string name="keyguard_torch_title">鎖定畫面手電筒</string>
   <string name="keyguard_torch_summary">螢幕關閉的情況下長按電源鍵開啟手電筒</string>
   <!-- Lockscreen shortcuts -->
-  <string name="lockscreen_shortcuts_title">上方的捷徑</string>
+  <string name="lockscreen_shortcuts_title">頂部捷徑</string>
   <string name="lockscreen_shortcuts_summary">在鎖定螢幕時鐘下方更改捷徑</string>
   <string name="lockscreen_shorcuts_launch_type_title">捷徑點選模式</string>
   <string name="lockscreen_shortcuts_single_tap">點選</string>
@@ -759,7 +724,7 @@
   <string name="shortcut_action_help_icon">，長按圖示以顯示自訂選項</string>
   <string name="shortcut_action_help_main">若要新增一個%1$s，請輕觸「新增」圖示。一旦新增了%1$s，輕觸橫列以變更目標%2$s\n\n若要移除一個%1$s，向左或向右滑動橫列。若要重新排列%1$s，請拖移左側的箭頭。\n\n若要清除或重設為預設，請輕觸「重設」按鈕。</string>
   <string name="shortcut_action_help_delete_last_entry">移除所有清單中的%1$s將會完全停用此功能。</string>
-  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">移除所有清單中的%1$s將會完全停用第二層 Pie 選單。</string>
+  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">移除所有清單中的 %1$s 將會完全停用第二層扇形選單。</string>
   <string name="shortcut_picker_choose_longpress_action">選擇長按動作：</string>
   <string name="shortcut_picker_choose_new_action">選擇新動作：</string>
   <string name="shortcut_picker_reassign_action">重新分配動作︰</string>
@@ -1076,9 +1041,9 @@
   <string name="smart_pulldown_ongoing">沒有正在進行</string>
   <!-- Clock and date immersive recents-->
   <string name="recents_full_screen_clock_title">顯示時鐘</string>
-  <string name="recents_full_screen_clock_summary">在全螢幕時顯示頂端的時鐘</string>
+  <string name="recents_full_screen_clock_summary">在全螢幕時顯示頂部的時鐘</string>
   <string name="recents_full_screen_date_title">顯示日期</string>
-  <string name="recents_full_screen_date_summary">在全螢幕時顯示頂端的日期</string>
+  <string name="recents_full_screen_date_summary">在全螢幕時顯示頂部的日期</string>
   <!--Clock & Date Category-->
   <string name="clock_settings_title">時鐘設定</string>
   <string name="status_bar_clock_category">時鐘 </string>
@@ -1224,7 +1189,7 @@
   <string name="recents_clear_all_location_top_center">上方中央</string>
   <string name="recents_clear_all_location_bottom_right">右下</string>
   <string name="recents_clear_all_location_bottom_left">左下</string>
-  <string name="recents_clear_all_location_bottom_center">下方中央</string>
+  <string name="recents_clear_all_location_bottom_center">底部置中</string>
   <string name="recents_clear_all_title">清除所有</string>
   <string name="clear_recents_style">按鈕樣式</string>
   <string name="fab_button_color">清除所有的背景顏色</string>
@@ -1534,6 +1499,8 @@
   <string name="pulse_custom_fudge_factor">理智水準</string>
   <string name="lavamp_solid_speed_title">熔岩燈速度</string>
   <string name="pulse_solid_dimen_category">實線模式設定</string>
+  <string name="fling_lavalamp_color_from">熔岩燈開始顏色</string>
+  <string name="fling_lavalamp_color_to">熔岩燈結束顏色</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">欄位寬度</string>
   <string name="pulse_custom_div">欄位間距</string>
@@ -1665,7 +1632,7 @@
   <string name="pa_piecontrol_settings_summary">自訂扇形目標、 樣式、 大小和顏色</string>
   <string name="pa_pie_control_title">扇形控制</string>
   <string name="pa_pie_control_enable_title">啟用扇形控制</string>
-  <string name="pa_pie_targets_title">Pie 目標</string>
+  <string name="pa_pie_targets_title">扇形目標</string>
   <string name="pa_pie_style_title">扇形樣式</string>
   <string name="pa_pie_menu_title">一律顯示功能表按鈕</string>
   <string name="pa_pie_menu_summary">就算不需要也要顯示功能表按鈕</string>
@@ -1680,7 +1647,7 @@
   <string name="pa_pie_mode_default">預設</string>
   <string name="pa_pie_gravity_title">扇形重力</string>
   <string name="pa_pie_gravity_summary">選擇扇形顯示的位置</string>
-  <string name="pa_pie_gravity_bottom">下方</string>
+  <string name="pa_pie_gravity_bottom">底部</string>
   <string name="pa_pie_gravity_right">靠右</string>
   <string name="pa_pie_gravity_left">靠左</string>
   <string name="pa_pie_gap_title">物件間隔</string>
@@ -2008,7 +1975,6 @@
   <string name="task_manager_kill_button_1">圓形</string>
   <string name="task_manager_kill_button_2">文字</string>
   <string name="task_manager_kill_button_3">標準</string>
-  <!-- SystemUI restart prompt -->
   <!-- Wakelock blocker -->
   <string name="wakelock_blocker_title">喚醒阻擋</string>
   <string name="wakelock_blocker_summary">攔截系統喚醒</string>
@@ -2023,5 +1989,9 @@
   <!--One handed mode -->
   <string name="one_handed_mode_title">單手模式</string>
   <string name="one_handed_mode_summary">允許在導覽列上滑動以啟用單手模式</string>
-  <!-- Dashboard columns -->
+  <!-- SystemUI restart prompt -->
+  <string name="systemui_restart_title">警告</string>
+  <string name="systemui_restart_message">將重新啟動使用者介面，以便可以正確套用所選設定。</string>
+  <string name="restarting_ui">正在重新啟動使用者介面\u2026</string>
+  <string name="print_restart">重新啟動</string>
 </resources>
