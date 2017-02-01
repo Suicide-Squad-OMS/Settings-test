@@ -439,15 +439,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         intent.setPackage(reporterPackage);
         startActivityForResult(intent, 0);
     }
-	private String getKernelVersion() {
-        String procVersionStr;
-        try {
-            procVersionStr = readLine(FILENAME_PROC_VERSION);
-            return procVersionStr;
-        } catch (IOException e) {
-            Log.e(LOG_TAG,
-                "IO Exception when getting kernel version for Device Info screen",
-                e);
 
     private String getKernelVersion() {
         String procVersionStr;
