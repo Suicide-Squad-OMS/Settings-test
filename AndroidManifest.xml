@@ -998,7 +998,7 @@
 
         <activity android:name="Settings$SupersuActivity"
                 android:label="@string/root_title"
-                android:icon="@drawable/ic_root_themes"
+                android:icon="@drawable/ic_settings_root"
                 android:taskAffinity="" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

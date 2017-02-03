@@ -394,7 +394,7 @@
     <Preference
         android:id="@+id/device_trltetmo"
         android:icon="@drawable/phone_tint"
-        android:summary="@string/device_trltetmo_summary"
+        android:summary="device_trltetmo_summary"
         android:selectable="false" 
         android:title="device_trltetmo" />
     <Preference
