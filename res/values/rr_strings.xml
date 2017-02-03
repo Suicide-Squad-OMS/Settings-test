@@ -32,8 +32,12 @@
     <string name="restart_systemui">Restart UI</string>
 
     <!-- Themes -->
-    <string name="themes_title">Themes</string>
+    <string name="themes_title">Substratum Engine</string>
     <string name="themes_dashboard_summary">Manage your themes</string>
+
+      <!-- Supersu -->
+    <string name="root_title">SuperSu</string>
+    <string name="root_dashboard_summary">Manage your root settings</string>
 
     <!-- About RR -->
     <string name="about_rr_settings">About</string>

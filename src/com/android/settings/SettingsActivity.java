@@ -251,6 +251,8 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String THEMES_FRAGMENT = "com.android.settings.Themes";
 
+    private static final String SUPERSU_FRAGMENT = "com.android.settings.Supersu"; 
+
     private String mFragmentClass;
     private String mActivityAction;
 
@@ -1083,6 +1085,12 @@ public class SettingsActivity extends SettingsDrawerActivity
             Intent themesIntent = new Intent();
             themesIntent.setClassName("projekt.substratum", "projekt.substratum.LaunchActivity");
             startActivity(themesIntent);
+            finish();
+            return null;
+        } else if (SUPERSU_FRAGMENT.equals(fragmentName)) {
+            Intent supersuIntent = new Intent();
+            supersuIntent.setClassName("eu.chainfire.supersu", "eu.chainfire.supersu.MainActivity");
+            startActivity(supersuIntent);
             finish();
             return null;
         }
