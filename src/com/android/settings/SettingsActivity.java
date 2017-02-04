@@ -251,7 +251,7 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String THEMES_FRAGMENT = "com.android.settings.Themes";
 
-    private static final String SUPERSU_FRAGMENT = "com.android.settings.Supersu"; 
+    private static final String SUPERSU_FRAGMENT = "com.android.settings.supersu"; 
 
     private String mFragmentClass;
     private String mActivityAction;
