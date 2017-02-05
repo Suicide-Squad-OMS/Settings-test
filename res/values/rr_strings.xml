@@ -33,7 +33,7 @@
 
     <!-- Themes -->
     <string name="themes_title">Substratum Engine</string>
-    <string name="themes_dashboard_summary">Overlay manager service</string>
+    <string name="themes_summary">Overlay manager service</string>
 
       <!-- Supersu -->
     <string name="root_title">SuperSu</string>

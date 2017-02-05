@@ -1008,11 +1008,11 @@
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.rr" />
+                android:value="com.android.settings.category.device" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.supersu" />
             <meta-data android:name="com.android.settings.summary"
-                android:resource="@string/root_dashboard_summary" />
+                android:resource="@string/themes_summary" />
         </activity>
 
 
