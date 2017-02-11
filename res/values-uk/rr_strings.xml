@@ -1985,6 +1985,14 @@
   <string name="wakelock_blocker_warning_title">Використовуйте на свій страх і ризик</string>
   <string name="wakelock_blocker_warning">Блокування wakelock-ів може викликати нестабільність, збої чи втрату даних</string>
   <!-- Alarm blocker -->
+  <string name="alarm_blocker">Блокування *alarms*</string>
+  <string name="alarm_blocker_title">Увімкнути</string>
+  <string name="alarm_blocker_summary">Блокування *alarms* при вимкненому екрані</string>
+  <string name="alarm_blocker_save">Зберегти</string>
+  <string name="alarm_list_header">Доступні *alarms*</string>
+  <string name="alarm_blocker_reload">Оновити</string>
+  <string name="alarm_blocker_warning_title">Використовуйте на свій страх і ризик</string>
+  <string name="alarm_blocker_warning">Блокування *alarms* може викликати нестабільність, збої чи втрату даних.</string>
   <!-- DUI Double Tap to Sleep -->
   <string name="smartbar_doubletap_sleep_title">Подвійне натискання для вимкнення екрану</string>
   <string name="smartbar_doubletap_sleep_summary">Подвійне натискання на порожнє місце на панелі навігації для вимкнення екрану</string>
@@ -2021,4 +2029,5 @@
   <string name="dashboard_summary_double_lines_summary_off">Показувати зведення в один рядок</string>
   <!-- Themes settings -->
   <string name="themes_title">Теми</string>
+  <string name="themes_summary">Менеджер шарів</string>
 </resources>

@@ -1982,6 +1982,14 @@
   <string name="wakelock_blocker_warning_title">Postupujte opatrne</string>
   <string name="wakelock_blocker_warning">Blokovaním prebudení môžete spôsobiť nestabilitu, pády alebo stratu dát</string>
   <!-- Alarm blocker -->
+  <string name="alarm_blocker">Blokátor alarmov</string>
+  <string name="alarm_blocker_title">Zapnúť</string>
+  <string name="alarm_blocker_summary">Blokovať výstrahy pri vypnutej obrazovke</string>
+  <string name="alarm_blocker_save">Uložiť</string>
+  <string name="alarm_list_header">Dostupné výstrahy</string>
+  <string name="alarm_blocker_reload">Znovu načítať</string>
+  <string name="alarm_blocker_warning_title">Postupujte opatrne</string>
+  <string name="alarm_blocker_warning">Blokovanie výstrah môže spôsobiť nestabilitu, pády alebo stratu dát.</string>
   <!-- DUI Double Tap to Sleep -->
   <string name="smartbar_doubletap_sleep_title">Uspať dvojitým kliknutím</string>
   <string name="smartbar_doubletap_sleep_summary">Dvojiklik na práznu oblasť stavového riadoku vypne obrazovku</string>
@@ -2018,4 +2026,5 @@
   <string name="dashboard_summary_double_lines_summary_off">Zobraziť zhrnutie hlavného panelu v jednom riadku</string>
   <!-- Themes settings -->
   <string name="themes_title">Témy</string>
+  <string name="themes_summary">Potlačiť nastavenie služby</string>
 </resources>

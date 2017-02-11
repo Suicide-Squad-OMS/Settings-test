@@ -37,8 +37,11 @@
   <string name="device_category_one_title">ANDROID ONE</string>
   <string name="device_category_bq_title">BQ</string>
   <string name="device_category_leeco_title">LeEco</string>
+  <string name="device_category_zuk_title">ZUK</string>
   <string name="device_A6020">Vibe K5</string>
   <string name="device_A6020_summary">A6020\nManutentore - Henrique Silva (jhenrique09)</string>
+  <string name="device_a6000">Lenovo A6000</string>
+  <string name="device_a6000_summary">a6000\nManutentore - Harshit Jain (dev_harsh1998)</string>
   <string name="device_ms013g">Grand 2 SM-G7102</string>
   <string name="device_ms013g_summary">ms013g \nManutentore - </string>
   <string name="device_moto_x">Moto X 2013</string>
@@ -71,6 +74,8 @@
   <string name="device_oneplus2_summary">OnePlus 2 \nManutentore - RajGopi</string>
   <string name="device_oneplus3">OnePlus 3</string>
   <string name="device_oneplus3_summary">OnePlus 3 \nManutentore sud.vastav</string>
+  <string name="device_oneplus3t">OnePlus 3T</string>
+  <string name="device_oneplus3t_summary">OnePlus 3T \nManutentore - apascual89</string>
   <string name="device_klte">Galaxy S5</string>
   <string name="device_klte_summary">Tutte le varianti klte \nManutentore - ScrawnyB</string>
   <string name="device_n9">Nexus 9</string>
@@ -111,6 +116,8 @@
   <string name="device_m9_summary">M9 \nManutentore - </string>
   <string name="device_htc_10">HTC 10</string>
   <string name="device_htc_10_summary">10 \nManutentore -</string>
+  <string name="device_google_marlin">GOOGLE</string>
+  <string name="device_google_marlin_summary">PIXEL XL \nManutentore - BDogg718</string>
   <string name="device_i9300">Galaxy S III</string>
   <string name="device_i9300_summary">GT-I9300 \nManutentore - Varun Date</string>
   <string name="device_a7">Galaxy A7 2014</string>
@@ -213,6 +220,10 @@
   <string name="device_g3_beat_summary">D722 \nManutentore - MobiusM </string>
   <string name="device_g4">LG G4 Int</string>
   <string name="device_g4_summary">H815 \nManutentore - Erwan Leboucher </string>
+  <string name="device_g5">LG G5 Int</string>
+  <string name="device_g5_summary">H850 \nManutentore - Gwolf2u (gwolfu @XDA)</string>
+  <string name="device_g5_tmo">LG G5 T-Mobile</string>
+  <string name="device_g5_tmo_summary">H830 \nManutentore - Gwolf2u (gwolfu @XDA)</string>
   <string name="device_l70pn">LG L Fino</string>
   <string name="device_l70pn_summary">H815 \nMaintainer - Mountaser Halak </string>
   <string name="device_honami">Xperia Z1</string>
@@ -288,7 +299,6 @@
   <string name="device_u9500">Huawei Ascend D1</string>
   <string name="device_u9500_summary">U9500\nManutentore - </string>
   <string name="device_kiwi">Huawei Honor 5x</string>
-  <string name="device_kiwi_summary">kiwi \nManutentore - </string>
   <string name="device_angler">Huawei Nexus 6P</string>
   <string name="device_angler_summary">Angler\nManutentore - Varun Date</string>
   <string name="device_smp601">Samsung Galaxy Note 10.1 3G</string>
@@ -313,8 +323,8 @@
   <string name="device_wfxs_summary">crackling\nManutentore - </string>
   <string name="device_wfxk">WilleyFox Storm</string>
   <string name="device_wfxk_summary">kipper\nManutentore - </string>
-  <string name="device_z00l">Asus Zenfone 2 Laser</string>
-  <string name="device_z00l_summary">Z00L\nManutentore - Fabb2303</string>
+  <string name="device_Z00D">Asus Zenfone 2 </string>
+  <string name="device_Z00D_summary">Z00D\nManutentore - Nguyenhung9x </string>
   <string name="device_quark">Moto Maxx-Turbo, Droid Turbo </string>
   <string name="device_quark_summary">Quark\nManutentore - bhb27 - Felipe Leon</string>
   <string name="device_bullhead">LGE Nexus 5X</string>
@@ -323,9 +333,9 @@
   <string name="device_shieldtablet_summary">shieldtablet\nMaintainer - Trafalgar Square</string>
   <string name="device_grouper">Asus Nexus 7 2012 - WiFi Only</string>
   <string name="device_grouper_summary">grouper\nManutentore - </string>
-  <string name="device_z00t">Asus Zenfone 2 Laser/Selfie</string>
+  <string name="device_z00t">Asus Zenfone 2 Laser/Selfie (1080p)</string>
   <string name="device_z00t_summary">Z00T\nMaintainer - Fabb2303</string>
-  <string name="device_z00l">Asus Zenfone 2 Laser</string>
+  <string name="device_z00l">Asus Zenfone 2 Laser (720p)</string>
   <string name="device_z00l_summary">Z00L\nMaintainer - Fabb2303</string>
   <string name="device_n5100">Note 8.0 3g</string>
   <string name="device_n5100_summary">n5100 \nManutentore - Buff99</string>
@@ -339,4 +349,6 @@
   <string name="device_onyx_summary">Onyx \nMaintainer - Sanjay Varun</string>
   <string name="device_flounder">HTC Nexus 9</string>
   <string name="device_flounder_summary">Flounder \nMaintainer - Jithu Mathew Joseph</string>
+  <string name="device_ham">ZUK Z1</string>
+  <string name="device_ham_summary">Ham \nManutentore - OrdenKrieger</string>
 </resources>

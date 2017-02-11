@@ -352,10 +352,46 @@
   <string name="hotstpot_inactivity_timeout_10_minutes">10 minuuttia</string>
   <string name="hotstpot_inactivity_timeout_never_summary_text">Kannettavan Wi\u2011Fi hotspot aikakatkaisu: pois käytöstä</string>
   <string name="hotstpot_inactivity_timeout_summary_text">Kannettavan Wi\u2011Fi hotspot aikakatkaisu: <xliff:g id="timeout">%1$s</xliff:g></string>
+  <!-- Wi-Fi region code -->
+  <string name="wifi_setting_countrycode_title">Wi\u2011Fi\u2011aluekoodi</string>
+  <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+  <string name="wifi_setting_countrycode_summary">Aseta Wi\u2011Fin aluekoodi</string>
+  <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+  <string name="wifi_setting_countrycode_error">Ongelma aluekoodia asetettaessa.</string>
   <!-- Wake on plug -->
   <string name="wake_when_plugged_or_unplugged_title">Herää laturista</string>
   <string name="wake_when_plugged_or_unplugged_summary">Käynnistä näyttö kun virtalähde liitetään tai irrotetaan</string>
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">Leijuvat ilmoitukset</string>
   <string name="heads_up_notifications_enabled_summary">Näytä tärkeät ilmoitukset pienessä kelluvassa ikkunassa</string>
+  <!-- Encryption password -->
+  <string name="crypt_keeper_change_password_title">Vaihda salauksen salasana</string>
+  <string name="crypt_keeper_change_password_summary">Vaihda laitteen salauksessa käytettävä salasana</string>
+  <string name="crypt_keeper_choose_your_password_header">Aseta salauksen salasana</string>
+  <string name="crypt_keeper_replace_password_title">Korvaa salauksen salasana</string>
+  <string name="crypt_keeper_replace_password_summary">Poista erillinen salauksen salasana</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Mobiilidatan käyttö</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Wi\u2011Fi datan käyttö</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Estä mobiilidatan käyttö</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Estä datan käyttö kun käytetään matkapuhelinverkkoja</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Estä Wi\u2011Fin datan käyttö</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Estä datan käyttö kun käytetään Wi\u2011Fi-verkkoja</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">Yhdistä soittoääni &amp; ilmoitusäänet</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Käynnistä musiikkisovellus</string>
+  <string name="headset_connect_player_summary">Käynnistä musiikkisovellus kytkettäessä kuulokkeet</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">Päivitä recovery-tila</string>
+  <string name="update_recovery_summary">Päivitä sisäänrakennettu recovery-tila järjestelmäpäivitysten yhteydessä</string>
+  <string name="update_recovery_on_warning">HUOMAUTUS: Kun tämä toiminto on käytössä, asennettu Recovery-tila korvataan nykyisen käyttöjärjestelmän versiolla.\n\nRecovery-tila päivitetään yhdessä järjestelmäpäivitysten kanssa, varmistaaksemme yhteensopivuuden tulevien versioiden kanssa\n\nHaluatko ottaa toiminnon käyttöön?</string>
+  <string name="update_recovery_off_warning">VAROITUS: Kun toiminto on poistettu käytöstä, asennettua Recovery-tilaa ei päivitetä järjestelmäpäivtysten kanssa.\n\nTulevat järjestelmäpäivitykset eivät välttämättä asennu vanhentuneissa tai mukautetuissa Recovery-tiloissa.\n\nHaluatko varmasti poistaa tämän toiminnon käytöstä?</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">Lepotila kaksoisnapautuksella</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Sulje laitteen näyttö tuplanapauttamalla tilapalkkia</string>
 </resources>

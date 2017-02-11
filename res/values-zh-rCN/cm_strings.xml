@@ -351,10 +351,46 @@
   <string name="hotstpot_inactivity_timeout_10_minutes">10 分钟</string>
   <string name="hotstpot_inactivity_timeout_never_summary_text">移动 Wi\u2011Fi 热点将永不超时</string>
   <string name="hotstpot_inactivity_timeout_summary_text">移动 Wi\u2011Fi 热点将于 <xliff:g id="timeout">%1$s</xliff:g> 后超时</string>
+  <!-- Wi-Fi region code -->
+  <string name="wifi_setting_countrycode_title">Wi\u2011Fi 区域码</string>
+  <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+  <string name="wifi_setting_countrycode_summary">为 Wi\u2011Fi 指定区域码</string>
+  <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+  <string name="wifi_setting_countrycode_error">设置区域码时遇到了问题。</string>
   <!-- Wake on plug -->
   <string name="wake_when_plugged_or_unplugged_title">连接或移除电源时唤醒</string>
   <string name="wake_when_plugged_or_unplugged_summary">连接或断开电源时点亮屏幕</string>
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">浮动通知</string>
   <string name="heads_up_notifications_enabled_summary">在一个小的浮动窗口中显示优先通知</string>
+  <!-- Encryption password -->
+  <string name="crypt_keeper_change_password_title">更改加密密码</string>
+  <string name="crypt_keeper_change_password_summary">更改用于设备加密的密码</string>
+  <string name="crypt_keeper_choose_your_password_header">设置加密密码</string>
+  <string name="crypt_keeper_replace_password_title">更换加密密码</string>
+  <string name="crypt_keeper_replace_password_summary">删除独立加密密码</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">移动数据访问</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Wi\u2011Fi 数据访问</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">禁用所有移动数据访问</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">阻止任何通过移动网络的数据访问</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">禁用所有 Wi\u2011Fi 数据访问</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">阻止任何通过 Wi\u2011Fi 的数据访问</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">链接铃声和通知的音量</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">启动音乐播放器</string>
+  <string name="headset_connect_player_summary">插入耳机时启动默认音乐播放器</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">更新恢复模式</string>
+  <string name="update_recovery_summary">使用系统更新来更新内置的恢复模式</string>
+  <string name="update_recovery_on_warning">注意：启用此功能后，您已安装的恢复模式会被正在运行的系统所包含的恢复模式所替换。\n\n您的恢复模式会随着系统一起更新，以确保对未来版本的兼容性。\n\n您确定启用此功能？</string>
+  <string name="update_recovery_off_warning">警告：此功能被禁用后，您已安装的恢复模式将不会随着系统一起更新。\n\n未来的系统更新可能不支持用过旧或自制的恢复模式安装。\n\n您确定要禁用此功能？</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">双击以睡眠</string>
+  <string name="status_bar_double_tap_to_sleep_summary">双击状态栏以关闭屏幕显示</string>
 </resources>

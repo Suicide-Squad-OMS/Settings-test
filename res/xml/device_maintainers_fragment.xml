@@ -254,6 +254,13 @@
         android:selectable="false" 
         android:title="@string/device_A6020" />
                        
+    <Preference
+	android:id="@+id/device_a6000"
+        android:icon="@drawable/phone_tint"
+	android:summary="@string/device_a6000_summary"
+	android:selectable="false"
+	android:title="@string/device_a6000" />
+	    
   </PreferenceCategory> 
         
     <PreferenceCategory
@@ -497,6 +504,12 @@
         android:summary="@string/device_htc_10_summary"
         android:selectable="false" 
         android:title="@string/device_htc_10" />
+    <Preference
+        android:id="@+id/device_google_marlin"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_google_marlin_summary"
+        android:selectable="false" 
+        android:title="@string/device_google_marlin" />
               
      </PreferenceCategory>
               
@@ -683,7 +696,14 @@
         android:icon="@drawable/phone_tint"
         android:summary="@string/device_oneplus3_summary"
         android:selectable="false" 
-        android:title="@string/device_oneplus3" />  
+        android:title="@string/device_oneplus3" />
+
+   <Preference
+	android:id="@+id/device_oneplus3t"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_oneplus3t_summary"
+        android:selectable="false" 
+        android:title="@string/device_oneplus3t" />    
         
        </PreferenceCategory>
        
@@ -919,6 +939,13 @@
         android:summary="@string/device_z00l_summary"
         android:selectable="false"
         android:title="@string/device_z00t" />
+	
+	<Preference
+	android:id="@+id/device_Z00D"
+	android:icon="@drawable/phone_tint"
+	android:summary="@string/device_Z00D_summary"
+	android:selectable="false"
+	android:title="@string/device_Z00D" />	    
 
 	</PreferenceCategory>
 
@@ -962,5 +989,16 @@
         android:selectable="false"
         android:title="@string/device_paella" />
 </PreferenceCategory>
-		
+
+<PreferenceCategory
+       android:id="@+id/device_category_zuk"
+       android:title="@string/device_category_zuk_title" >
+
+    <Preference
+        android:id="@+id/device_ham"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_ham_summary"
+        android:selectable="false"
+        android:title="@string/device_ham" />
+	</PreferenceCategory>
 </PreferenceScreen> 
