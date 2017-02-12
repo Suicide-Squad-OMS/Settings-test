@@ -1998,8 +1998,12 @@
   <string name="dashboard_summary_double_lines_summary_on">Zeige Dashboard Kachel Zusammenfassung in mehreren Zeilen</string>
   <string name="dashboard_summary_double_lines_summary_off">Zeige Dashboard Kachel Zusammenfassung in einer Zeile</string>
   <!-- Themes settings -->
-  <string name="themes_title">Substratum Engine</string>
-  <string name="themes_summary">Overlay-Management-Dienst</string>
+  <string name="root_title">Substratum Engine</string>
+  <string name="root_summary">Overlay-Management-Dienst</string>
+
+    <!-- Root settings -->
+  <string name="themes_title">SuperSu</string>
+  <string name="themes_summary">Root-Rechte-Verwaltungs-Dienst</string>
   <!-- Slim Recent panel -->
   <!-- ATTENTION: RTL languages need to replace left with right -->
 </resources>

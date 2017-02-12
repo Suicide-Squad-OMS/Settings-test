@@ -1012,7 +1012,7 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.supersu" />
             <meta-data android:name="com.android.settings.summary"
-                android:resource="@string/themes_summary" />
+                android:resource="@string/root_summary" />
         </activity>
 
 
