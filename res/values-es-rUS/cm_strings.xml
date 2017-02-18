@@ -23,16 +23,16 @@
     <item quantity="other">Estás a <xliff:g id="step_count">%1$d</xliff:g> pasos de activar las configuraciones de desarrollo.</item>
   </plurals>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-  <string name="show_dev_on_cm">¡Has habilitado las configuraciones de desarrollo!</string>
+  <string name="show_dev_on_cm">¡Has activado los ajustes de desarrollo!</string>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-  <string name="show_dev_already_cm">No es necesario. Las configuraciones de desarrollo ya están habilitadas.</string>
+  <string name="show_dev_already_cm">No es necesario. Los ajustes de desarrollo ya están activos.</string>
   <!-- Launch Dev Tools -->
   <string name="development_tools_title">Herramientas de desarrollo</string>
   <!-- Setting checkbox title for root access -->
   <string name="root_access">Acceso root</string>
   <string name="root_access_warning_title">¿Permitir acceso root?</string>
   <string name="root_access_warning_message">¡Permitir que las aplicaciones tengan acceso root es muy peligroso y puede comprometer la seguridad del dispositivo!</string>
-  <string name="root_access_none">Deshabilitado</string>
+  <string name="root_access_none">Desactivado</string>
   <string name="root_access_apps">Solo aplicaciones</string>
   <string name="root_access_adb">Solo ADB</string>
   <string name="root_access_all">Aplicaciones y ADB</string>
@@ -343,6 +343,24 @@
   <string name="security_settings_fingerprint_sensor_location_front">lado frontal</string>
   <string name="security_settings_fingerprint_sensor_location_left">lado izquierdo</string>
   <string name="security_settings_fingerprint_sensor_location_right">lado derecho</string>
+  <!-- Wi-Fi region code -->
+  <string name="wifi_setting_countrycode_title">Código de región Wi\u2011Fi</string>
+  <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+  <string name="wifi_setting_countrycode_summary">Especificar el código de región para Wi\u2011Fi</string>
+  <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+  <string name="wifi_setting_countrycode_error">Ocurrió un error al establecer el código de región.</string>
+  <!-- Wake on plug -->
+  <string name="wake_when_plugged_or_unplugged_title">Activar con cargador</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Encender la pantalla al conectar o desconectar el cargador</string>
+  <!-- Heads-up -->
+  <string name="heads_up_notifications_enabled_title">Notificaciones emergentes</string>
+  <string name="heads_up_notifications_enabled_summary">Mostrar notificaciones prioritarias en una pequeña ventana flotante</string>
+  <!-- Encryption password -->
+  <string name="crypt_keeper_change_password_title">Cambiar contraseña de cifrado</string>
+  <string name="crypt_keeper_change_password_summary">Cambiar la contraseña usada para el cifrado del dispositivo</string>
+  <string name="crypt_keeper_choose_your_password_header">Establecer contraseña de cifrado</string>
+  <string name="crypt_keeper_replace_password_title">Reemplazar contraseña de cifrado</string>
+  <string name="crypt_keeper_replace_password_summary">Quitar contraseña de cifrado separado</string>
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">Otros</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -351,8 +369,30 @@
   <string name="hotstpot_inactivity_timeout_1_minute">1 minuto</string>
   <string name="hotstpot_inactivity_timeout_5_minutes">5 minutos</string>
   <string name="hotstpot_inactivity_timeout_10_minutes">10 minutos</string>
-  <!-- Wake on plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Activar con cargador</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Encender la pantalla al conectar o desconectar el cargador</string>
-  <!-- Heads-up -->
+  <string name="hotstpot_inactivity_timeout_never_summary_text">El punto de acceso portátil Wi\u2011Fi no se apagará nunca</string>
+  <string name="hotstpot_inactivity_timeout_summary_text">El punto de acceso portátil Wi\u2011Fi se apagará después de <xliff:g id="timeout">%1$s</xliff:g></string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Acceso a los datos del celular</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Acceso a los datos Wi\u2011Fi</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Desactivar acceso de datos móviles</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Evitar cualquier uso de datos a través de redes móviles</string>
+  <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Desactivar el acceso a todos los datos Wi\u2011Fi</string>
+  <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Impedir cualquier utilización del acceso a datos mediante redes de Wi\u2011Fi</string>
+  <!-- Volume link notification -->
+  <string name="volume_link_notification_title">Vincular tonos y volumen de notificaciones</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Iniciar el reproductor de música</string>
+  <string name="headset_connect_player_summary">Iniciar el reproductor de música predeterminado al conectar los auriculares</string>
+  <!-- Update recovery -->
+  <string name="update_recovery_title">Actualizar recovery</string>
+  <string name="update_recovery_summary">Actualizar recovery en conjunto con el sistema</string>
+  <string name="update_recovery_on_warning">AVISO: Con esta característica activada, la recuperación instalada se reemplazará por la incluida en la versión actual del sistema.\n\nLa recuperación se actualizará junto con algunas mejoras en el sistema, lo que garantiza la compatibilidad con versiones futuras.\n\n¿Quieres activar esta característica?</string>
+  <string name="update_recovery_off_warning">ADVERTENCIA: Con esta característica desactivada, la recuperación instalada no se actualizará con las actualizaciones del sistema.\n\nQuizás no sea posible instalar versiones futuras del sistema con una recuperación no actualizada o no compatible.\n\n¿Quieres desactivar esta característica?</string>
+  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">Doble toque para suspender</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Pulsa dos veces la barra de estado para apagar la pantalla</string>
 </resources>

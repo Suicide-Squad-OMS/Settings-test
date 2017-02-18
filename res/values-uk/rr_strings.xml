@@ -86,6 +86,7 @@
   <string name="share_rr">Поширити</string>
   <string name="share_rr_summary">Розкажіть людям про те, що ви використовуєте Resurrection Remix OS</string>
   <string name="share_message">Спробуйте Resurrection Remix OS! https://plus.google.com/communities/109352646351468373340</string>
+  <string name="share_chooser_title">Поширити Resurrection Remix OS через...</string>
   <!-- RR Changelog-->
   <string name="changelog_title">Список змін</string>
   <string name="changelog_title_summary">Переглянути останні зміни в прошивці</string>
@@ -136,6 +137,8 @@
   <string name="ka_title">Продуктивність</string>
   <!--RR Configurations Summaries-->
   <string name="clock_custom_summary">Налаштувати годинник в статус барі та дату</string>
+  <string name="status_bar_logo_summary">Увімкнути або вимкнути логотип RR у рядку стану. Налаштування кольору і розташування логотипу</string>
+  <string name="sb_custom_logos_summary">Увімкнення або вимкнення рядки у рядку стану. Налаштувати елементи та їх позиції</string>
   <string name="rr_battery_summary">Налаштування елементів акумулятора в рядку стану та інонку батареї</string>
   <string name="ticker_screen_summary">Налаштування стилю ticker в рядку стану</string>
   <string name="status_bar_temperature_summary">Увімкнути або вимкнути відображення температури в рядку стану і налаштувати його стиль </string>
@@ -143,6 +146,10 @@
   <string name="carrier_summary">Увімкнути або вимкнути відображення логотипу оператора в рядку стану і налаштувати його вигляд</string>
   <string name="rr_sb_gestures_summary">Увімкнути або вимкнути жести, які використовуються в рядку стану</string>
   <string name="breathing_notifications_summary">Дайте ефект дихання для сповіщень, таких як SMS, пропущених викликів і голосової пошти</string>
+  <string name="rr_trans_summary">Налаштування різних елементів в панелі сповіщень, таких як прозорість та крок</string>
+  <string name="rr_volume_summary">Налаштування різних елементів в панелі гучності, таких як прозорість та крок</string>
+  <string name="rr_power_summary">Налаштувати затемнення та прозорість меню живлення</string>
+  <string name="rr_recents_ui_summary">Настроювання різних елементів панелі недавніх додатків, таких як пам\'ять, занурення.</string>
   <string name="recents_clear_all_summary">Замінити стандартну кнопку \"Очистити всі\" плаваючою і змінити її позицію</string>
   <string name="omniswitch_summary">Замінити початкове меню нещодавніх додатків на меню нещодавніх Omni</string>
   <string name="rr_qs_animation_summary">Увімкнути або вимкнути анімації при натисканні плитки швидких налаштувань і налаштувати їх</string>
@@ -156,6 +163,8 @@
   <string name="rr_ls_security_summary">Увімкнути або вимкнути різні налаштування безпеки на екрані блокування</string>
   <string name="app_sidebar_summary">Використовуйте бічну панель для зберігання додатків і дій, які можуть бути запущені швидко з легкістю</string>
   <string name="app_circle_bar_summary">Використання кругової бокової панелі для зберігання швидких налаштувань та додатків</string>
+  <string name="pa_pie_control_summary">Проведіть від краю, щоб увімкнути або вимкнути елемент, який містить ярлики та елементи навігації</string>
+  <string name="rr_navbar_summary">Увімкнути або вимкнути наекранні клавіші і налаштувати їх</string>
   <string name="rr_power_summary">Налаштувати параметри, які видно в меню параметрів живлення</string>
   <string name="system_animations_summary">Настроювання анімації кожного вікна у системі</string>
   <string name="rr_power_anim_summary">Увімкнути або вимкнути анімації в меню живлення та вибрати зі списку анімації</string>
@@ -282,6 +291,7 @@
   <string name="cpu_info">ЦП</string>
   <string name="mem_info">Оперативна Пам\'ять</string>
   <string name="systemui_recents_mem_display_title">Показати використання пам\'яті</string>
+  <string name="systemui_recents_mem_display_summary">Увімкнути або вимкнути шкалу ОЗУ в нещодавніх додатків</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">Мережевий трафік</string>
   <string name="show_network_traffic_state">Відображення трафіку в рядку стану</string>
@@ -580,6 +590,7 @@
   <string name="keyguard_toggle_torch_summary">Тривале натискання кнопки менюколи укран вимкнено вмикає ліхтар</string>
   <!-- Selinux Switch -->
   <string name="selinux_switch_title">Перемикач Selinux</string>
+  <string name="selinux_switch_summary">SELinux являє собою набір ядра модифікацій та засоби просторі користувача. Зміна режимів може призвести до небажаних наслідків. Використовуйте на свій страх і ризик.</string>
   <string name="selinux_title">Selinux режим</string>
   <string name="selinux_permissive_title">Права доступу</string>
   <string name="selinux_enforcing_title">Примусово</string>
@@ -1726,6 +1737,7 @@
   <!-- Ability to disable hardware keys via nav bar settings -->
   <string name="hw_keys_title">Апаратні кнопки</string>
   <string name="hw_keys_summary">Увімкнути апаратні кнопки</string>
+  <string name="rr_hw_keys_summary">Настроювання різних апаратних кнопок на пристрої як додому, назад та меню</string>
   <!-- Expanded desktop -->
   <string name="expanded_desktop_category">Розширений робочий стіл</string>
   <string name="expanded_hide_nothing">Не ховати</string>
@@ -2027,4 +2039,6 @@
   <string name="recent_card_bg_color_title">Колір тла картки</string>
   <string name="recent_card_text_color_title">Колір тексту картки</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
+  <string name="recent_panel_lefty_mode_title">Показати на лівому краю</string>
+  <string name="recent_panel_lefty_mode_summary">Показати панель останніх програм на лівому краю</string>
 </resources>

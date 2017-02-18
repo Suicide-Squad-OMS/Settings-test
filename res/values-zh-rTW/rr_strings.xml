@@ -136,6 +136,8 @@
   <string name="ka_title">效能</string>
   <!--RR Configurations Summaries-->
   <string name="clock_custom_summary">自訂狀態列時鐘和日期的各種元素</string>
+  <string name="status_bar_logo_summary">在狀態列中啟用或停用 Resurrection 標誌。 自訂顏色和位置</string>
+  <string name="sb_custom_logos_summary">在狀態列中啟用或停用圖示。 自訂元素和位置</string>
   <string name="rr_battery_summary">自訂狀態列中的電池元素和也自訂電池列</string>
   <string name="ticker_screen_summary">自訂通知列提示通知的樣式</string>
   <string name="status_bar_temperature_summary">啟用或停用在狀態列中的溫度並自訂其樣式</string>
@@ -143,7 +145,12 @@
   <string name="carrier_summary">啟用或停用在狀態列中的電信業者標籤並自訂其樣式</string>
   <string name="rr_sb_gestures_summary">在狀態列上啟用或停用使用的手勢</string>
   <string name="breathing_notifications_summary">對通知 (例如簡訊、未接電話和語音信箱) 發出呼吸效果</string>
+  <string name="rr_trans_summary">自訂通知清單中的各種元素，如透明度和筆觸</string>
+  <string name="rr_volume_summary">自訂音量對話方塊中的各種元素，如透明度和筆觸</string>
+  <string name="rr_power_summary">自訂電源功能表介面的模糊和透明度</string>
+  <string name="rr_recents_ui_summary">自訂在最近用過面板的各種元件如元件，身臨其境的最近通話等</string>
   <string name="recents_clear_all_summary">使用原始浮動操作按鈕替換原始清除所有按鈕，並自訂其位置</string>
+  <string name="omniswitch_summary">替換原始總覽為 Omni-recents</string>
   <string name="rr_qs_animation_summary">在輕觸快速設定瓷磚並自訂時啟用或停用動畫</string>
   <string name="rr_qs_pulldown_summary">調整快速面板下拉式選單設定</string>
   <string name="qs_tile_layout_summary">自訂快速設定瓷磚佈局</string>
@@ -155,6 +162,8 @@
   <string name="rr_ls_security_summary">啟用或停用為鎖定螢幕提供的各種安全功能</string>
   <string name="app_sidebar_summary">使用側邊列儲存您想要快速啟動的應用程式和活動</string>
   <string name="app_circle_bar_summary">使用圓形側邊欄來儲存快速應用程式和活動</string>
+  <string name="pa_pie_control_summary">從邊緣滑動即可啟用/停用由精簡捷徑和導航控制項組成的扇形</string>
+  <string name="rr_navbar_summary">啟用或停用軟鍵並對其進行自訂</string>
   <string name="rr_power_summary">自訂電源功能表對話框中看到的各種選項</string>
   <string name="system_animations_summary">在系統中自訂每個視窗的動畫</string>
   <string name="rr_power_anim_summary">在電源功能表中啟用或停用動畫並從動畫清單中進行選擇</string>
@@ -163,6 +172,7 @@
   <string name="rr_doze_summary">啟用或停用環境顯示並自訂其元件</string>
   <string name="rr_heads_up_summary">選擇啟用或停用浮動通知並還設定其逾時</string>
   <string name="rr_dash_board_summary">自訂面板佈局和摘要</string>
+  <string name="misc_weather_settings_summary">自訂時鐘應用程式的各種選項</string>
   <string name="system_app_remover_summary">移除不必要的系統應用程式</string>
   <string name="rr_updater_summary">檢查 OTA 更新和也其他連結</string>
   <!-- Manage applications: show substratum overlays -->
@@ -919,6 +929,7 @@
   <string name="backlight_summary_enabled_with_timeout">啟用 <xliff:g id="timeout"> %s </xliff:g> 秒</string>
   <string name="backlight_summary_enabled">已啟用</string>
   <!-- Buttons - Enable navbar -->
+  <string name="disable_navkeys_title">停用硬體鍵</string>
   <string name="disable_navkeys_summary">在支援軟鍵的裝置上啟用/停用硬體按鈕</string>
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">導航列</string>
@@ -941,6 +952,7 @@
   <string name="power_menu_screenrecord_title">螢幕錄製</string>
   <string name="power_menu_torch">手電筒</string>
   <string name="power_menu_onthego_title">On-the-go 模式</string>
+  <string name="power_menu_emergency_title">緊急按鈕</string>
   <string name="power_menu_bug_report_disabled">錯誤回報在開發階段停用</string>
   <string name="dt2l_camera_category">DT2L 攝影機選項</string>
   <string name="dt2l_camera_vib_title">調整啟動的震動</string>
@@ -1322,6 +1334,8 @@
   <string name="qs_rows_portrait_title">行 (縱向)</string>
   <string name="qs_rows_landscape_title">行 (橫向)</string>
   <string name="qs_columns_title">欄</string>
+  <string name="qqs_scroll_title">捲動小的快速設定圖塊</string>
+  <string name="qqs_scroll_summary">允許捲動透過小的快速設定圖塊</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">警告色</string>
   <string name="battery_saver_color_summary">在省電模式啟動時，啟用橙色的狀態和導航列</string>
@@ -1344,10 +1358,13 @@
   <string name="status_bar_double_tap_to_sleep_title">輕觸兩下即可休眠</string>
   <string name="status_bar_double_tap_to_sleep_summary">按兩下狀態列以鎖定螢幕</string>
   <string name="qs_wifi_easy_toggle_title">WiFi 輕鬆切換</string>
+  <string name="qs_wifi_easy_toggle_summary">按一下將開啟或關閉 WiFi，而不是開啟設定介面</string>
   <!-- BT easy toggle -->
   <string name="qs_bt_easy_toggle_title">藍牙輕鬆切換</string>
+  <string name="qs_bt_easy_toggle_summary">按一下將開啟或關閉藍牙，而不是開啟設定介面</string>
   <!-- Battery Saver easy toggle -->
   <string name="qs_battery_easy_toggle_title">電池瓷磚容易切換</string>
+  <string name="qs_battery_easy_toggle_summary">按一下將開啟或關閉省電模式，而不是開啟設定介面</string>
   <string name="qs_music_tile_track_optional_title">音樂瓷磚曲目標題</string>
   <string name="qs_music_tile_track_optional_summary">將音樂曲目標題顯示為快速設定瓷磚標題</string>
   <string name="quick_settings_vibrate_title">觸碰時震動</string>
@@ -1614,6 +1631,7 @@
   <string name="pa_pie_targets_title">扇形目標</string>
   <string name="pa_pie_style_title">扇形樣式</string>
   <string name="pa_pie_menu_title">一律顯示功能表按鈕</string>
+  <string name="pa_pie_menu_summary">就算不需要也要顯示選單按鈕</string>
   <string name="pa_pie_size_title">扇形大小</string>
   <string name="pa_pie_size_summary">制定扇形的大小</string>
   <string name="pa_pie_size_small">小</string>
@@ -1953,6 +1971,7 @@
   <string name="wakelock_list_header">可用的喚醒鎖</string>
   <string name="wakelock_blocker_reload">重新載入</string>
   <string name="wakelock_blocker_warning_title">請謹慎操作</string>
+  <string name="wakelock_blocker_warning">阻止喚醒鎖可能會導致不穩定性，發生錯誤或資料遺失</string>
   <!-- Alarm blocker -->
   <string name="alarm_blocker">警報阻止工具</string>
   <string name="alarm_blocker_title">啟用</string>
@@ -1997,5 +2016,26 @@
   <string name="themes_title">主題</string>
   <string name="themes_summary">重疊管理員服務</string>
   <!-- Slim Recent panel -->
+  <string name="slim_recents_title">小型總覽</string>
+  <string name="use_slim_recents_title">使用小型總覽</string>
+  <string name="use_slim_recents_summary">使用小型總覽而不是預設的總覽</string>
+  <string name="slim_recents_settings_title">小型總覽設定</string>
+  <string name="slim_recents_settings_summary">檢視小型總覽的設定</string>
+  <string name="recent_panel_category">小型總覽的應用程式面板</string>
+  <string name="show_running_tasks_title">僅顯示正在執行的應用程式</string>
+  <string name="recents_max_apps_title">應用程式數量限制</string>
+  <string name="recent_panel_scale_title">大小</string>
+  <string name="recent_panel_expanded_mode_title">延伸模式</string>
+  <string name="recent_panel_expanded_mode_summary">使用延伸的預覽模式</string>
+  <string name="recent_panel_expanded_mode_auto">自動 (預設)</string>
+  <string name="recent_panel_expanded_mode_always">一律</string>
+  <string name="recent_panel_expanded_mode_never">永不</string>
+  <string name="recent_panel_show_topmost_title">顯示最上層的應用程式</string>
+  <string name="recent_panel_show_topmost_summary">不要將最上層的應用程式排除在「總覽」畫面之外</string>
+  <string name="recent_panel_bg_color_title">面板背景顏色</string>
+  <string name="recent_card_bg_color_title">卡片背景顏色</string>
+  <string name="recent_card_text_color_title">卡片文字顏色</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
+  <string name="recent_panel_lefty_mode_title">顯示在左側</string>
+  <string name="recent_panel_lefty_mode_summary">在螢幕左側顯示「總覽」面板</string>
 </resources>

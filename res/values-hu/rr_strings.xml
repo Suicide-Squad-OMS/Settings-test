@@ -136,7 +136,10 @@
   <string name="ka_title">Teljesítmény</string>
   <!--RR Configurations Summaries-->
   <string name="clock_custom_summary">Állapotsori óra és dátum különböző részleteinek testreszabása</string>
+  <string name="status_bar_logo_summary">Engedélyezheti vagy letilthatja a Resurrection logót az állapotsoron. Testreszabhatja színét és helyzetét</string>
+  <string name="sb_custom_logos_summary">Engedélyezheti vagy letilthatja az ikonokat az állapotsoron. Testreszabhatja színüket és helyzetüket</string>
   <string name="rr_battery_summary">Állapotsori akkumulátor elemeinek és az akkumulátorsáv testreszabása</string>
+  <string name="rr_sb_icons_summary">Engedélyezheti vagy letilthatja a kiválasztott ikonokat az állapotsoron</string>
   <string name="ticker_screen_summary">Állapotsori gördítés stílusának testreszabása</string>
   <string name="status_bar_temperature_summary">Engedélyezheti vagy letilthatja az állapotsori hőmérsékletet és testreszabhatja stílusát</string>
   <string name="network_traffic_summary">Engedélyezheti vagy letilthatja a hálózati forgalom figyelését az állapotsoron és testreszabhatja a stílusát, a tevékenységi küszöbét és a mértékegységét</string>
@@ -144,6 +147,7 @@
   <string name="rr_sb_gestures_summary">Engedélyezheti vagy letilthatja az állapotsoron használt kézmozdulatokat</string>
   <string name="breathing_notifications_summary">Lélegző hatású értesítések SMS, nem fogadott hívás és hangposta esetén</string>
   <string name="recents_clear_all_summary">Az alapértelmezett összes törlése gomb helyettesítése eredeti lebegő akciógombbal és annak helyének testreszabása</string>
+  <string name="omniswitch_summary">Gyári előzményeket Omni-előzményekre cseréli</string>
   <string name="rr_qs_animation_summary">Engedélyezheti vagy letilthatja a csempe érintési animációkat és testreszabhatja azokat</string>
   <string name="rr_qs_pulldown_summary">Gyorsbeállítások panel legördülési beállítások</string>
   <string name="qs_tile_layout_summary">Gyorsbeállítások csempék elrendezésének testreszabása</string>
@@ -153,8 +157,11 @@
   <string name="lockscreen_targets_summary">Zárképernyő bal és jobb alsó sarkában lévő hivatkozások testreszabása</string>
   <string name="lockscreen_weather_summary">Zárképernyő időjárás elrendezés testreszabása</string>
   <string name="rr_ls_security_summary">Engedélyezheti vagy letilthatja a zárképernyő különböző biztonsági szolgáltatásait</string>
+  <string name="gesture_anywhere_summary">Rajzolja meg gesztusát a preferált tevékenység indításához</string>
   <string name="app_sidebar_summary">Egy oldalsáv segítségével tárolhatja alkalmazásait és tevékenységeit, melyeket gyorsan, könnyedén indíthat</string>
   <string name="app_circle_bar_summary">Kerek alkalmazássávval tárolja a gyorsan elérendő alkalmazásait és a tevékenységeit</string>
+  <string name="pa_pie_control_summary">Csúsztasson a szélétől a pie engedélyezéséhez/tiltásához, amely a hivatkozásokat és a navigációs vezérlőket tartalmazza</string>
+  <string name="rr_navbar_summary">Engedélyezheti vagy letilthatja a szoftveres gombokat és testreszabhatja azokat</string>
   <string name="rr_power_summary">A kikapcsoló menü párbeszédpanel különböző beállításainak testreszabása</string>
   <string name="system_animations_summary">Rendszerablakok animációinak testreszabása</string>
   <string name="rr_power_anim_summary">Engedélyezheti vagy letilthatja a kikapcsoló menü animációkat és választhat egyet az animációk listájából</string>
@@ -163,6 +170,7 @@
   <string name="rr_doze_summary">Engedélyezheti vagy letilthatja a környezeti kijelzőt és testreszabhatja elemeit</string>
   <string name="rr_heads_up_summary">Engedélyezheti vagy letilthatja a lebegő értesítéseket és az időkorlátait is beállíthatja</string>
   <string name="rr_dash_board_summary">Irányítópult elrendezés és összefoglalók testreszabása</string>
+  <string name="misc_weather_settings_summary">Óra alkalmazás különböző beállításainak testreszabása</string>
   <string name="system_app_remover_summary">Szükségtelen rendszeralkalmazások eltávolítása</string>
   <string name="rr_updater_summary">OTA-frissítések és egyéb linkek ellenőrzése</string>
   <!-- Manage applications: show substratum overlays -->
@@ -579,6 +587,7 @@
   <string name="keyguard_toggle_torch_summary">A bekapcsoló gomb hosszan nyomása elindítja a zseblámpát</string>
   <!-- Selinux Switch -->
   <string name="selinux_switch_title">Selinux váltási lehetőségek</string>
+  <string name="selinux_switch_summary">A SELinux egy sor kernel módosítás és felhasználói téri eszköz. Mód váltása nemkívánatos hatásokat okozhat. Saját felelősségre használd.</string>
   <string name="selinux_title">Selinux mód</string>
   <string name="selinux_permissive_title">Megengedő</string>
   <string name="selinux_enforcing_title">Kényszerítő</string>
@@ -944,6 +953,7 @@
   <string name="power_menu_screenrecord_title">Képernyőfelvétel</string>
   <string name="power_menu_torch">Zseblámpa</string>
   <string name="power_menu_onthego_title">On-the-go mód</string>
+  <string name="power_menu_emergency_title">Segélyhívó gomb</string>
   <string name="power_menu_bug_report_disabled">Hibajelentés le van tiltva a fejlesztői beállításokban</string>
   <string name="dt2l_camera_category">DT2L kamera beállítások</string>
   <string name="dt2l_camera_vib_title">Állítsa be az indítási rezgést</string>
@@ -1325,6 +1335,8 @@
   <string name="qs_rows_portrait_title">Sorok (álló)</string>
   <string name="qs_rows_landscape_title">Sorok (fekvő)</string>
   <string name="qs_columns_title">Oszlopok</string>
+  <string name="qqs_scroll_title">Kis csempék görgetése</string>
+  <string name="qqs_scroll_summary">Lehetővé teszi a csempék görgetését</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">Figyelmeztetés színe</string>
   <string name="battery_saver_color_summary">Narancs állapot és navigációs sáv engedélyezése, ha a takarékos üzemmód aktív</string>
@@ -1347,6 +1359,7 @@
   <string name="status_bar_double_tap_to_sleep_title">Dupla érintésre alvás</string>
   <string name="status_bar_double_tap_to_sleep_summary">Az állapotsorra kétszer koppintva kikapcsol a képernyő</string>
   <string name="qs_wifi_easy_toggle_title">Wi-Fi gyorskapcsoló</string>
+  <string name="qs_wifi_easy_toggle_summary">Engedélyezi, hogy egy megnyomás ki/be kapcsolja a Wi-Fit ahelyett, hogy a beállításaiba vinne</string>
   <!-- BT easy toggle -->
   <string name="qs_bt_easy_toggle_title">Bluetooth gyorskapcsoló</string>
   <!-- Battery Saver easy toggle -->
@@ -1991,14 +2004,36 @@
   <string name="dashboard_columns_title">Irányítópult oszlopok</string>
   <string name="dashboard_columns_summary">Az irányítópulton megjelenő oszlopok számának módosítása</string>
   <string name="dashboard_columns_dialog_title">Irányítópult oszlopok száma</string>
-  <string name="dashboard_columns_default">Egy (kéttő fekve)</string>
+  <string name="dashboard_columns_default">Egy (kettő fekve)</string>
   <string name="dashboard_columns_two">Kettő (három fekve)</string>
   <string name="dashboard_columns_three">Három (négy fekve)</string>
   <string name="dashboard_summary_double_lines_title">Indítópult összefoglaló sorok</string>
   <string name="dashboard_summary_double_lines_summary_on">Indítópult csempék összefoglalói több sorban</string>
+  <string name="dashboard_summary_double_lines_summary_off">Indítópult csempék összefoglalói egy sorban</string>
   <!-- Themes settings -->
   <string name="themes_title">Témák</string>
   <string name="themes_summary">Fedvény kezelő szolgáltatás</string>
   <!-- Slim Recent panel -->
+  <string name="slim_recents_title">Slim előzmények</string>
+  <string name="use_slim_recents_title">Slim előzmények használata</string>
+  <string name="use_slim_recents_summary">Slim előzmények használata az alapértelmezett előzmények helyett</string>
+  <string name="slim_recents_settings_title">Slim előzmények beállításai</string>
+  <string name="slim_recents_settings_summary">Slim előzmények beállításainak megtekintése</string>
+  <string name="recent_panel_category">Slim előzmények alkalmazás panel</string>
+  <string name="show_running_tasks_title">Csak a futó alkalmazások megjelenítése</string>
+  <string name="recents_max_apps_title">Max engedélyezett alkalmazások</string>
+  <string name="recent_panel_scale_title">Méret</string>
+  <string name="recent_panel_expanded_mode_title">Kiterjesztett mód</string>
+  <string name="recent_panel_expanded_mode_summary">Kibővített előnézet az előzmények panelon</string>
+  <string name="recent_panel_expanded_mode_auto">Automatikus (alapértelmezett)</string>
+  <string name="recent_panel_expanded_mode_always">Mindig</string>
+  <string name="recent_panel_expanded_mode_never">Soha</string>
+  <string name="recent_panel_show_topmost_title">Legmagasabb tevékenység megjelenítése</string>
+  <string name="recent_panel_show_topmost_summary">Ne zárja ki a legmagasabb tevékenységet az előzmények nézetben</string>
+  <string name="recent_panel_bg_color_title">Panel háttérszíne</string>
+  <string name="recent_card_bg_color_title">Kártya háttérszíne</string>
+  <string name="recent_card_text_color_title">Kártya szövegszíne</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
+  <string name="recent_panel_lefty_mode_title">Bal oldalon jelenítse meg</string>
+  <string name="recent_panel_lefty_mode_summary">Az előzmények panelt a bal oldalon jelenítse meg</string>
 </resources>

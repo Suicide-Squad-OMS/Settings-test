@@ -82,6 +82,7 @@
   <string name="share_rr">Împarte</string>
   <string name="share_rr_summary">Anunţaţi prietenii că foloseşti Ressurection Remix</string>
   <string name="share_message">Încearcă Resurrection Remix OS! https://plus.google.com/communities/109352646351468373340</string>
+  <string name="share_chooser_title">Partajează Resurrection Remix OS via...</string>
   <!-- RR Changelog-->
   <string name="changelog_title">Istoria schimbărilor</string>
   <string name="changelog_title_summary">Vezi schimbările recente în ROM</string>
@@ -132,9 +133,12 @@
   <string name="ka_title">Performanță</string>
   <!--RR Configurations Summaries-->
   <string name="clock_custom_summary">Personalizați diferite elemente ale ceasului si datei din bara de status</string>
+  <string name="status_bar_logo_summary">Activare sau dezactivare logo-ul Resurrection în bara de stare. Personalizați elementele şi poziţia lui</string>
+  <string name="sb_custom_logos_summary">Activarea sau dezactivarea pictogramelor aleatoriu din bara de stare. Personalizați elementele şi poziţile lor</string>
   <string name="rr_battery_summary">Personalizați elementele bateriei în bara de stare şi, de asemenea, personalizați bara bateriei</string>
   <string name="ticker_screen_summary">Particularizaţi stilul ticker în bara de stare</string>
   <string name="status_bar_temperature_summary">Activați sau dezactivați temperatura în bara de stare şi personalizați stilul ei </string>
+  <string name="network_traffic_summary">Activarea sau dezactivarea monitor-ului de trafic de reţea în bara de stare şi personaliza stilul său, pragul de activitate şi citirea</string>
   <string name="carrier_summary">Activați sau dezactivați eticheta operatorului de rețea în bara de stare şi personalizați stilul ei </string>
   <string name="rr_sb_gestures_summary">Activarea sau dezactivarea gesturilor utilizate pe bara de stare</string>
   <string name="breathing_notifications_summary">Da-ți un efect de respiraţie la notificări sms, apeluri pierdute şi poştă vocală</string>
@@ -170,7 +174,13 @@
   <string name="system_app_remover_summary">Eliminați aplicaţii nenecesare de sistem</string>
   <string name="rr_updater_summary">Verificați pentru OTA actualizări și alte legături</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Suprapuneri de substrat</string>
+  <string name="menu_show_substratum">Arată suprapuneri</string>
+  <string name="menu_hide_substratum">Ascundeţi suprapunerile</string>
   <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">Icon de suprapuneri de substrat</string>
+  <string name="menu_show_substratum_icons">Arată icon suprapuneri</string>
+  <string name="menu_hide_substratum_icons">Ascundeți icon suprapuneri</string>
   <!-- AOKP custom system animations -->
   <string name="animation_title">Animații</string>
   <string name="system_animation_title">Animații de sistem</string>

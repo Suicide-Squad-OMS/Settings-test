@@ -137,6 +137,8 @@
   <string name="ka_title">Kernel Adiutor</string>
   <!--RR Configurations Summaries-->
   <string name="clock_custom_summary">ステータスバーの時計と日付のさまざまな要素をカスタマイズします。</string>
+  <string name="status_bar_logo_summary">ステータスバーにおけるResurrectionロゴの表示有無、色と位置をカスタマイズします</string>
+  <string name="sb_custom_logos_summary">ステータスバーのロゴの表示有無と、その他の要素と位置をカスタマイズします。</string>
   <string name="rr_battery_summary">ステータスバーにおけるバッテリー表示と、バッテリーバーの設定をカスタマイズします。</string>
   <string name="rr_sb_icons_summary">ステータスバーにおける電波アイコン等のシステムアイコン表示をカスタマイズします。</string>
   <string name="ticker_screen_summary">ステータスバーのティッカーをカスタマイズします</string>
@@ -145,7 +147,12 @@
   <string name="carrier_summary">ステータスバーやロック画面におけるキャリアラベルの表示有無と詳細をカスタマイズします。 </string>
   <string name="rr_sb_gestures_summary">ステータスバー上でのジェスチャーの使用有無をカスタマイズします。</string>
   <string name="breathing_notifications_summary">Sms、不在着信、音声メーセージの通知を点滅させます</string>
+  <string name="rr_trans_summary">透明度や枠線など、通知ドロワーの様々な要素をカスタマイズします</string>
+  <string name="rr_volume_summary">透明度や枠線など、音量パネルの様々な要素をカスタマイズします</string>
+  <string name="rr_power_summary">電源メニューのインターフェイスの暗さと透明度をカスタマイズします</string>
+  <string name="rr_recents_ui_summary">メモリーバーや全画面など、アプリ履歴の様々な要素をカスタマイズします</string>
   <string name="recents_clear_all_summary">全て終了ボタンの表示 / 非表示と、その位置をカスタマイズする</string>
+  <string name="omniswitch_summary">アプリ履歴をomni-recentsに置き換える</string>
   <string name="rr_qs_animation_summary">Qsタイルをタップした際のアニメーションを有効/無効にする、またそれをカスタマイズする</string>
   <string name="rr_qs_pulldown_summary">クイック パネル プルダウン設定を調整します。</string>
   <string name="qs_tile_layout_summary">[クイック設定] タイルのレイアウトをカスタマイズします。</string>
@@ -155,8 +162,11 @@
   <string name="lockscreen_targets_summary">ロック画面下部のショートカットを編集する</string>
   <string name="lockscreen_weather_summary">ロック画面の天気のレイアウトをカスタマイズします。</string>
   <string name="rr_ls_security_summary">ロック画面のさまざまなセキュリティ機能を有効/無効にします。</string>
+  <string name="gesture_anywhere_summary">動作を起動するジェスチャーを設定します</string>
   <string name="app_sidebar_summary">アプリを簡単にすぐに起動する動作を利用するのにサイド バーを使用します。</string>
   <string name="app_circle_bar_summary">画面右端をタップすると円状のアプリランチャーを表示します</string>
+  <string name="pa_pie_control_summary">端からスワイプすることでショートカットとナビゲーションコントロールが利用できるPieを有効/無効にする</string>
+  <string name="rr_navbar_summary">ソフトキーを表示してカスタマイズします</string>
   <string name="rr_power_summary">電源メニュー表示時の見た目に関する項目をカスタマイズします</string>
   <string name="system_animations_summary">システムの各ウィンドウのアニメーションをカスタマイズします。</string>
   <string name="rr_power_anim_summary">電源メニューの表示アニメーションをリストから選択する</string>
@@ -284,6 +294,7 @@
   <string name="cpu_info">CPU</string>
   <string name="mem_info">RAM</string>
   <string name="systemui_recents_mem_display_title">空きメモリ領域を表示する</string>
+  <string name="systemui_recents_mem_display_summary">アプリ履歴で空きメモリを表示するバーを表示します</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">ネットワークトラフィック</string>
   <string name="show_network_traffic_state">ステータスバー上のトラフィックモニター</string>
@@ -945,6 +956,7 @@
   <string name="power_menu_screenrecord_title">画面の録画</string>
   <string name="power_menu_torch">トーチ</string>
   <string name="power_menu_onthego_title">On-The-Go Mode</string>
+  <string name="power_menu_emergency_title">緊急通報ボタン</string>
   <string name="power_menu_bug_report_disabled">バグレポートは開発者向けオプションで無効になっています</string>
   <string name="dt2l_camera_category">DT2L カメラのオプション</string>
   <string name="dt2l_camera_vib_title">カメラ起動時のバイブレーションの長さ</string>
@@ -1620,6 +1632,7 @@
   <string name="pa_pie_targets_title">Pie Targets</string>
   <string name="pa_pie_style_title">Pie Style</string>
   <string name="pa_pie_menu_title">メニュー ボタンを常に表示する</string>
+  <string name="pa_pie_menu_summary">メニューを常に表示するか決定します</string>
   <string name="pa_pie_size_title">Pie Size</string>
   <string name="pa_pie_size_summary">Pie controls sizeを定義する</string>
   <string name="pa_pie_size_small">小</string>
@@ -1821,6 +1834,7 @@
   <string name="lockscreen_clock_date_color">ロック画面の日付</string>
   <string name="lockscreen_colors_reset_title">ロック画面の色をリセットします。</string>
   <string name="lockscreen_colors_reset_message">これらの色をデフォルトに戻しますか？</string>
+  <string name="lockscreen_colors_title">色のカスタマイズ</string>
   <string name="lockscreen_owner_info_color">所有者情報</string>
   <string name="lockscreen_alarm_color">アラーム</string>
   <string name="icons_title">Weather Icons</string>
@@ -1888,6 +1902,7 @@
   <string name="blur_mixed_color">混在イメージ カラー フィルター</string>
   <string name="blur_notice">ぼかし機能について</string>
   <string name="blur_colors_notice">これらの色は何をしていますか?</string>
+  <string name="blur_colors_notice_summary">背景のぼかしの色を変えます。普通の灰色の代わりに好きな色を選ぶことができます。\n３つの色のフィルターはそれぞれ、明るい背景、暗い背景、またそのどちらでもない背景に使われます。\nこれらの色はどのように使われますか？\n名前の通り、明るいフィルターは明るい背景に、暗いフィルターは暗い背景に、ミックスフィルターはそのどちらでもないフィルターに使われます。\nこれらの色はステータスバーと最近使ったアプリの両方に適用されます。 </string>
   <string name="blur_expstatus_cat">拡張ステータスバー </string>
   <string name="blur_notifications_cat">通知</string>
   <string name="blur_qs_cat">クイック設定</string>
@@ -1895,6 +1910,7 @@
   <string name="blur_colors_cat">色ぼかしフィルター</string>
   <string name="blur_notices_cat">お知らせ</string>
   <string name="blurred_scale">スケールをぼかす</string>
+  <string name="blurred_scale_summary">ぼかしの鮮明さ</string>
   <string name="blurred_radius">ぼかしの範囲</string>
   <string name="blurred_radius_summary">ぼかしの量</string>
   <string name="blur_cat_notice">注意</string>
@@ -1960,13 +1976,16 @@
   <string name="wakelock_list_header">ウェイクロックは利用可能です</string>
   <string name="wakelock_blocker_reload">再ロード</string>
   <string name="wakelock_blocker_warning_title">注意して進めてください</string>
+  <string name="wakelock_blocker_warning">ウェイクロックのブロックは端末を不安定にしたり、クラッシュやデータの損失などを起こす可能性があります</string>
   <!-- Alarm blocker -->
   <string name="alarm_blocker">アラーム ブロッカー</string>
   <string name="alarm_blocker_title">有効</string>
+  <string name="alarm_blocker_summary">画面がオフの間はアラームをブロックします</string>
   <string name="alarm_blocker_save">保存</string>
   <string name="alarm_list_header">使用可能なアラーム</string>
   <string name="alarm_blocker_reload">再ロード</string>
   <string name="alarm_blocker_warning_title">注意して進めてください</string>
+  <string name="alarm_blocker_warning">アラームのブロックは端末を不安定にしたり、クラッシュやデータの損失などを起こす可能性があります</string>
   <!-- DUI Double Tap to Sleep -->
   <string name="smartbar_doubletap_sleep_title">ダブルタップでスリープ</string>
   <string name="smartbar_doubletap_sleep_summary">ナビゲーション バーの空の領域をダブルタップすると画面オフにする</string>
@@ -2000,6 +2019,7 @@
   <string name="dashboard_columns_three">3 つ (4 つの風景)</string>
   <string name="dashboard_summary_double_lines_title">ダッシュ ボードの概要ライン</string>
   <string name="dashboard_summary_double_lines_summary_on">多くのラインでダッシュ ボードのタイルの要約を表示します。</string>
+  <string name="dashboard_summary_double_lines_summary_off">ダッシュボードの概要を１行で表示します</string>
   <!-- Themes settings -->
   <string name="themes_title">テーマ</string>
   <string name="themes_summary">オーバーレイ マネージャー サービス</string>

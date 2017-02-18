@@ -136,6 +136,8 @@
   <string name="ka_title">Izvedba</string>
   <!--RR Configurations Summaries-->
   <string name="clock_custom_summary">Prilagođavajte razne elemente sata i datuma u statusnoj traci.</string>
+  <string name="status_bar_logo_summary">Omogućite ili onemogućite Resurrectionov logotip u statusnoj traci. Prilagodite boju i položaj.</string>
+  <string name="sb_custom_logos_summary">Omogućite ili onemogućite nasumične ikone u statusnoj traci. Prilagodite njihove elemente i položaj.</string>
   <string name="rr_battery_summary">Prilagođavajte elemente baterije u statusnoj traci i baterijsku traku.</string>
   <string name="ticker_screen_summary">Prilagodite stil tickera u statusnoj traci</string>
   <string name="status_bar_temperature_summary">Omogućite ili onemogućite temperaturu u statusnoj traci i prilagodite njezin izgled. </string>
@@ -144,6 +146,7 @@
   <string name="rr_sb_gestures_summary">Omogućite ili onemogućite geste koje se koriste na statusnoj traci.</string>
   <string name="breathing_notifications_summary">Dajte obavijestima poput SMS-a, propuštenog poziva ili glasovne pošte efekt disanja.</string>
   <string name="recents_clear_all_summary">Zamijenite izvorni gumb za čišćenje svih aplikacija originalnim plutajućim gumbom i prilagodite njegovu poziciju.</string>
+  <string name="omniswitch_summary">Zamijenite zadani pregled nedavnih aplikacija Omni nedavnim aplikacijama.</string>
   <string name="rr_qs_animation_summary">Omogućite ili onemogućite animacije pri dodiru pločica brzih postavki i prilagodite ih.</string>
   <string name="rr_qs_pulldown_summary">Prilagodite postavke brzog povlačenja ploče</string>
   <string name="qs_tile_layout_summary">Prilagodite izgled pločica brzih postavki</string>
@@ -155,6 +158,8 @@
   <string name="rr_ls_security_summary">Omogućite ili onemogućite razne sigurnosne značajke na zaključanom zaslonu.</string>
   <string name="app_sidebar_summary">Koristite se bočnom trakom kako biste s lakoćom mogli pokretati svoje aplikacije i aktivnosti.</string>
   <string name="app_circle_bar_summary">Koristite se kružnom rubnom trakom da postavite svoje brze aplikacije i aktivnosti.</string>
+  <string name="pa_pie_control_summary">Prijeđite prstom od ruba za omogućavanje/onemogućavanje pite koja se sastoji od fora prečaca i kontrole navigacije.</string>
+  <string name="rr_navbar_summary">Omogućite ili onemogućite navigacijsku traku i prilagodite je.</string>
   <string name="rr_power_summary">Prilagodite razne opcije na izborniku napajanja.</string>
   <string name="system_animations_summary">Prilagodite animacije svakog prozora u sustavu.</string>
   <string name="rr_power_anim_summary">Omogućite ili onemogućite animacije u izborniku napajanja ili odaberite animacije s popisa animacija.</string>
@@ -163,6 +168,7 @@
   <string name="rr_doze_summary">Omogućite ili onemogućite ambijentalni prikaz i prilagodite njegove komponente.</string>
   <string name="rr_heads_up_summary">Omogućite ili onemogućite plutajuće obavijesti i postavite njihov vremenski istek. </string>
   <string name="rr_dash_board_summary">Prilagodite izgled i sažetke upravljačke ploče.</string>
+  <string name="misc_weather_settings_summary">Prilagodite razne opcije za aplikaciju sata.</string>
   <string name="system_app_remover_summary">Izbrišite nepotrebne sistemske aplikacije</string>
   <string name="rr_updater_summary">Provjerite OTA ažuriranja i pogledajte ostale poveznice</string>
   <!-- Manage applications: show substratum overlays -->
@@ -941,6 +947,7 @@
   <string name="power_menu_screenrecord_title">Snimanje zaslona</string>
   <string name="power_menu_torch">Svjetiljka</string>
   <string name="power_menu_onthego_title">Način rada u pokretu</string>
+  <string name="power_menu_emergency_title">Gumb za hitne slučajeve</string>
   <string name="power_menu_bug_report_disabled">izvještavanje o greškama onemogućeno je u razvojnim postavkama.</string>
   <string name="dt2l_camera_category">Opcije DT2L fotoaparata</string>
   <string name="dt2l_camera_vib_title">Podesi vibraciju pokretanja</string>
@@ -1322,6 +1329,8 @@
   <string name="qs_rows_portrait_title">Redci (portret)</string>
   <string name="qs_rows_landscape_title">Redci (pejzaž)</string>
   <string name="qs_columns_title">Stupci</string>
+  <string name="qqs_scroll_title">Pomicanje kroz male pločice brzih postavki</string>
+  <string name="qqs_scroll_summary">Omogućite pomicanje kroz male pločice brzih postavki.</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">Boja upozorenja</string>
   <string name="battery_saver_color_summary">Omogućuje narančastu boju statusne i navigacijske trake kada je uključena štednja baterije</string>
@@ -1716,6 +1725,7 @@
   <!-- Ability to disable hardware keys via nav bar settings -->
   <string name="hw_keys_title">Hardverske tipke</string>
   <string name="hw_keys_summary">Omogućite hardverske tipke</string>
+  <string name="rr_hw_keys_summary">Prilagodite različite hardverske tipke na uređaju poput početne tipke, tipke za vraćanje natrag i tipke izbornika.</string>
   <!-- Expanded desktop -->
   <string name="expanded_desktop_category">Proširena radna površina</string>
   <string name="expanded_hide_nothing">Ne sakrivaj ništa</string>
@@ -1880,6 +1890,7 @@
   <string name="blur_dark_color">Filter boje za tamne slike</string>
   <string name="blur_mixed_color">Filter boje za miješane slike</string>
   <string name="blur_notice">O značajci zamagljenja</string>
+  <string name="blur_notice_summary">Prilagodbe zamagljenja onemogućene su na zaslonu zaključavanja! Omogućene su samo prozirne obavijesti!</string>
   <string name="blur_colors_notice">Što ove boje rade?</string>
   <string name="blur_expstatus_cat">Proširena statusna traka </string>
   <string name="blur_notifications_cat">Obavijesti</string>
@@ -1891,6 +1902,7 @@
   <string name="blurred_radius">Opseg zamagljenja</string>
   <string name="blurred_radius_summary">Količina zamagljenja</string>
   <string name="blur_cat_notice">Napomena</string>
+  <string name="blur_cat_notice_summary">Prilagodbe zamagljenja onemogućene su na zaslonu zaključavanja! Omogućene su samo prozirne obavijesti!</string>
   <string name="rr_build_type_title">Vrsta izrade</string>
   <string name="rr_build_type_default">Neslužbeno</string>
   <string name="rr_maintainer_title">Održavatelj</string>
@@ -1993,6 +2005,7 @@
   <string name="dashboard_columns_three">Tri (četiri u pejzažu)</string>
   <string name="dashboard_summary_double_lines_title">Redci sažetaka upravljačke ploče</string>
   <string name="dashboard_summary_double_lines_summary_on">Prikazuje sažetke pločica upravljačke ploče u više redaka.</string>
+  <string name="dashboard_summary_double_lines_summary_off">Prikazuje sažetke pločica upravljačke ploče u jednom retku.</string>
   <!-- Themes settings -->
   <string name="themes_title">Teme</string>
   <string name="themes_summary">Usluga upravitelja slojevima</string>
