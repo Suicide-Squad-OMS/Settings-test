@@ -1099,25 +1099,25 @@ public class SettingsActivity extends SettingsDrawerActivity
             return null;
         }  else if (SUPERSU_FRAGMENT.equals(fragmentName)) {
             Intent supersuIntent = new Intent();
-            supersuIntent.setClassName("me.phh.superuser", "me.phh.superuser.MainActivity");
+            supersuIntent.setClassName("me.phh.superuser", "com.koushikdutta.superuser.MainActivity");
             startActivity(supersuIntent);
             finish();
             return null;
         } else if (SUPERSU_FRAGMENT.equals(fragmentName)) {
             Intent supersuIntent = new Intent();
-            supersuIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.MainActivity");
+            supersuIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.SplashActivity");
             startActivity(supersuIntent);
             finish();
             return null;
         } else if (POCKETMOD_FRAGMENT.equals(fragmentName)) {
             Intent pocketmod = new Intent();
-            pocketmod.setClassName("com.rituj.theoneplus3app", "com.rituj.theoneplus3app.MainActivity");
+            pocketmod.setClassName("com.rituj.theoneplus3app", "com.rituj.theoneplus3app.Home");
             startActivity(pocketmod);
             finish();
             return null;
         } else if (AKT_FRAGMENT.equals(fragmentName)) {
             Intent akt = new Intent();
-            akt.setClassName("com.mrcigi.aktprofiles", "com.mrcigi.aktprofiles.MainActivity");
+            akt.setClassName("com.mrcigi.aktprofiles", "net.dinglisch.android.tasker.Kid");
             startActivity(akt);
             finish();
             return null;
