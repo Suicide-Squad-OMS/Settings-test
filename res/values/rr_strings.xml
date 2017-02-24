@@ -39,6 +39,14 @@
     <string name="root_title">SuperSu</string>
     <string name="root_dashboard_summary">Manage your root settings</string>
 
+    <!-- AKT -->
+    <string name="akt_title">AKT-Profiles</string>
+    <string name="akt_dashboard_summary">Manage Battery/Performance settings</string>
+
+    <!-- Pocketmod -->
+    <string name="pocketmod_title">Control Center</string>
+    <string name="pocketmod_dashboard_summary">Manage Screen off gestures (Pocketmod)</string>
+
     <!-- About RR -->
     <string name="about_rr_settings">About</string>
     <string name="about_rr">About</string>

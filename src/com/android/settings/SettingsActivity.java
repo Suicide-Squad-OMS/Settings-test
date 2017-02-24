@@ -253,6 +253,10 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String SUPERSU_FRAGMENT = "com.android.settings.supersu"; 
 
+    private static final String POCKETMOD_FRAGMENT = "com.android.settings.pocketmodapp"; 
+
+    private static final String AKT_FRAGMENT = "com.android.settings.akt"; 
+
     private String mFragmentClass;
     private String mActivityAction;
 
@@ -1105,7 +1109,20 @@ public class SettingsActivity extends SettingsDrawerActivity
             startActivity(supersuIntent);
             finish();
             return null;
-        } 
+        } else if (POCKETMOD_FRAGMENT.equals(fragmentName)) {
+            Intent pocketmod = new Intent();
+            pocketmod.setClassName("com.rituj.theoneplus3app", "com.rituj.theoneplus3app.MainActivity");
+            startActivity(pocketmod);
+            finish();
+            return null;
+        } else if (AKT_FRAGMENT.equals(fragmentName)) {
+            Intent akt = new Intent();
+            akt.setClassName("com.mrcigi.aktprofiles", "com.mrcigi.aktprofiles.MainActivity");
+            startActivity(akt);
+            finish();
+            return null;
+        }  
+
 
 
         if (validate && !isValidFragment(fragmentName)) {
