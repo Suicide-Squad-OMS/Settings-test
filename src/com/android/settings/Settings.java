@@ -74,6 +74,8 @@ public class Settings extends SettingsActivity {
     public static class DevelopmentSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ThemesActivity extends SettingsActivity { /* empty */ }
     public static class SupersuActivity extends SettingsActivity { /* empty */ }
+    public static class PhhActivity extends SettingsActivity { /* empty */ }
+    public static class MagiskActivity extends SettingsActivity { /* empty */ }
     public static class AktActivity extends SettingsActivity { /* empty */ }
     public static class PocketModActivity extends SettingsActivity { /* empty */ }
     public static class AccessibilitySettingsActivity extends SettingsActivity { /* empty */ }

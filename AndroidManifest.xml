@@ -1011,10 +1011,10 @@
                 android:value="com.android.settings.category.rr" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.supersu" />
-          <!--   <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+          <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.phh" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.magdisk" />-->
+                android:value="com.android.settings.magdisk" />
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/root_summary" />
         </activity>
