@@ -1,4 +1,4 @@
-/*
++/*
  * Copyright (C) 2014 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -1093,7 +1093,20 @@ public class SettingsActivity extends SettingsDrawerActivity
             startActivity(supersuIntent);
             finish();
             return null;
-        }
+        }  else if (SUPERSU_FRAGMENT.equals(fragmentName)) {
+            Intent supersuIntent = new Intent();
+            supersuIntent.setClassName("me.phh.superuser", "me.phh.superuser.MainActivity");
+            startActivity(supersuIntent);
+            finish();
+            return null;
+        } else if (SUPERSU_FRAGMENT.equals(fragmentName)) {
+            Intent supersuIntent = new Intent();
+            supersuIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.MainActivity");
+            startActivity(supersuIntent);
+            finish();
+            return null;
+        } 
+
 
         if (validate && !isValidFragment(fragmentName)) {
             throw new IllegalArgumentException("Invalid fragment for this activity: "
