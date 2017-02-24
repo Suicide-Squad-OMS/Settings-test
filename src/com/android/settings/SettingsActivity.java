@@ -254,7 +254,11 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String SUPERSU_FRAGMENT = "com.android.settings.supersu"; 
 
-    private static final String POCKETMOD_FRAGMENT = "com.android.settings.pocketmodapp"; 
+   // private static final String MAGISK_FRAGMENT = "com.android.settings.magisk"; 
+
+  //  private static final String PHH_FRAGMENT = "com.android.settings.phh"; 
+
+    private static final String POCKETMOD_FRAGMENT = "com.android.settings.pocketmod"; 
 
     private static final String AKT_FRAGMENT = "com.android.settings.akt"; 
 
@@ -1101,15 +1105,15 @@ public class SettingsActivity extends SettingsDrawerActivity
             finish();
             return null;
         }  else if (SUPERSU_FRAGMENT.equals(fragmentName)) {
-            Intent supersuIntent = new Intent();
-            supersuIntent.setClassName("me.phh.superuser", "com.koushikdutta.superuser.MainActivity");
-            startActivity(supersuIntent);
+            Intent phhIntent = new Intent();
+            phhIntent.setClassName("me.phh.superuser", "com.koushikdutta.superuser.MainActivity");
+            startActivity(phhIntent);
             finish();
             return null;
         } else if (SUPERSU_FRAGMENT.equals(fragmentName)) {
-            Intent supersuIntent = new Intent();
-            supersuIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.SplashActivity");
-            startActivity(supersuIntent);
+            Intent magiskIntent = new Intent();
+            magiskIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.SplashActivity");
+            startActivity(magiskIntent);
             finish();
             return null;
         } else if (POCKETMOD_FRAGMENT.equals(fragmentName)) {
@@ -1124,9 +1128,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             startActivity(akt);
             finish();
             return null;
-        }  
-
-
+        }
 
         if (validate && !isValidFragment(fragmentName)) {
             throw new IllegalArgumentException("Invalid fragment for this activity: "
