@@ -254,9 +254,9 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String SUPERSU_FRAGMENT = "com.android.settings.supersu"; 
 
-   // private static final String MAGISK_FRAGMENT = "com.android.settings.magisk"; 
+    private static final String MAGISK_FRAGMENT = "com.android.settings.magisk"; 
 
-  //  private static final String PHH_FRAGMENT = "com.android.settings.phh"; 
+   private static final String PHH_FRAGMENT = "com.android.settings.phh"; 
 
     private static final String POCKETMOD_FRAGMENT = "com.android.settings.pocketmod"; 
 
@@ -1104,13 +1104,13 @@ public class SettingsActivity extends SettingsDrawerActivity
             startActivity(supersuIntent);
             finish();
             return null;
-        }  else if (SUPERSU_FRAGMENT.equals(fragmentName)) {
+        }  else if (PHH_FRAGMENT.equals(fragmentName)) {
             Intent phhIntent = new Intent();
             phhIntent.setClassName("me.phh.superuser", "com.koushikdutta.superuser.MainActivity");
             startActivity(phhIntent);
             finish();
             return null;
-        } else if (SUPERSU_FRAGMENT.equals(fragmentName)) {
+        } else if (MAGISK_FRAGMENT.equals(fragmentName)) {
             Intent magiskIntent = new Intent();
             magiskIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.SplashActivity");
             startActivity(magiskIntent);
@@ -1118,7 +1118,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             return null;
         } else if (POCKETMOD_FRAGMENT.equals(fragmentName)) {
             Intent pocketmod = new Intent();
-            pocketmod.setClassName("com.rituj.theoneplus3app", "com.rituj.theoneplus3app.StartServiceOnBoot");
+            pocketmod.setClassName("com.rituj.theoneplus3app", "com.rituj.theoneplus3app.Home");
             startActivity(pocketmod);
             finish();
             return null;
