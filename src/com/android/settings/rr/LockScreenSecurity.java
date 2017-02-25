@@ -49,7 +49,6 @@ public class LockScreenSecurity extends SettingsPreferenceFragment implements
 
 	private static final String LOCKSCREEN_MAX_NOTIF_CONFIG = "lockscreen_max_notif_cofig";
     private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
-    private static final String PREF_SHOW_EMERGENCY_BUTTON = "show_emergency_button";
 
     private SwitchPreference mEmergencyButton;
 
@@ -68,7 +67,6 @@ public class LockScreenSecurity extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        final LockPatternUtils lockPatternUtils = new LockPatternUtils(getActivity());
         final ContentResolver resolver = getActivity().getContentResolver();
 
 
@@ -86,12 +84,6 @@ public class LockScreenSecurity extends SettingsPreferenceFragment implements
             mFpKeystore.setOnPreferenceChangeListener(this);
             }
         }
-
-
-        mEmergencyButton = (SwitchPreference) findPreference(PREF_SHOW_EMERGENCY_BUTTON);
-        mEmergencyButton.setChecked((Settings.System.getInt(resolver,
-                Settings.System.SHOW_EMERGENCY_BUTTON, 1) == 1));
-        mEmergencyButton.setOnPreferenceChangeListener(this);
 		
         mMaxKeyguardNotifConfig = (SeekBarPreference) findPreference(LOCKSCREEN_MAX_NOTIF_CONFIG);
         int kgconf = Settings.System.getInt(getContentResolver(),
@@ -111,12 +103,6 @@ public class LockScreenSecurity extends SettingsPreferenceFragment implements
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.FP_UNLOCK_KEYSTORE, value ? 1 : 0);
-            return true;
-            } else if  (preference == mEmergencyButton) {
-            boolean checked = ((SwitchPreference)preference).isChecked();
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.SHOW_EMERGENCY_BUTTON, checked ? 1:0);
-            Helpers.showSystemUIrestartDialog(getActivity());
             return true;
             }
 	return false;
