@@ -258,7 +258,7 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String PHH_FRAGMENT = "com.android.settings.phh"; 
 
-    private static final String POCKETMOD_FRAGMENT = "com.android.settings.pocketmod"; 
+    private static final String POCKETMOD_FRAGMENT = "com.android.settings.pocketmodapp"; 
 
     private static final String AKT_FRAGMENT = "com.android.settings.akt"; 
 
@@ -1118,7 +1118,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             return null;
         } else if (POCKETMOD_FRAGMENT.equals(fragmentName)) {
             Intent pocketmod = new Intent();
-            pocketmod.setClassName("com.rituj.theoneplus3app", " .Home");
+            pocketmod.setClassName("com.rituj.theoneplus3app", ".Home");
             startActivity(pocketmod);
             finish();
             return null;

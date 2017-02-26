@@ -1038,7 +1038,7 @@
                 android:resource="@string/akt_dashboard_summary" />
         </activity>
 
-    <activity android:name="Settings$PocketModActivity"
+    <activity android:name="Settings$PocketModAppActivity"
                 android:label="@string/pocketmod_title"
                 android:icon="@drawable/ic_settings_pocketmod"
                 android:taskAffinity="" >
@@ -1052,7 +1052,7 @@
             <meta-data android:name="com.android.settings.category"
                 android:value="com.android.settings.category.device" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.pocketmod" />
+                android:value="com.android.settings.pocketmodapp" />
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/pocketmod_dashboard_summary" />
         </activity>
