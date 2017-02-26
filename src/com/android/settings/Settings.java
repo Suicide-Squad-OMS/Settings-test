@@ -54,6 +54,9 @@ public class Settings extends SettingsActivity {
     public static class NightDisplaySettingsActivity extends SettingsActivity { /* empty */ }
     public static class DeviceInfoSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ApplicationSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class SupersuActivity extends SettingsActivity { /* empty */ }
+    public static class PhhActivity extends SettingsActivity { /* empty */ }
+    public static class MagiskActivity extends SettingsActivity { /* empty */ }
     public static class About extends SettingsActivity { /* empty */ }
     public static class AboutSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ManageApplicationsActivity extends SettingsActivity { /* empty */ }
@@ -73,9 +76,6 @@ public class Settings extends SettingsActivity {
     public static class StorageUseActivity extends SettingsActivity { /* empty */ }
     public static class DevelopmentSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ThemesActivity extends SettingsActivity { /* empty */ }
-    public static class SupersuActivity extends SettingsActivity { /* empty */ }
-    public static class PhhActivity extends SettingsActivity { /* empty */ }
-    public static class MagiskActivity extends SettingsActivity { /* empty */ }
     public static class AktActivity extends SettingsActivity { /* empty */ }
     public static class PocketModActivity extends SettingsActivity { /* empty */ }
     public static class AccessibilitySettingsActivity extends SettingsActivity { /* empty */ }

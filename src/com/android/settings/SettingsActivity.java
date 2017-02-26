@@ -1118,7 +1118,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             return null;
         } else if (POCKETMOD_FRAGMENT.equals(fragmentName)) {
             Intent pocketmod = new Intent();
-            pocketmod.setClassName("com.rituj.theoneplus3app", "com.rituj.theoneplus3app");
+            pocketmod.setClassName("com.rituj.theoneplus3app", ".Home");
             startActivity(pocketmod);
             finish();
             return null;
