@@ -1116,12 +1116,12 @@ public class SettingsActivity extends SettingsDrawerActivity
             startActivity(magiskIntent);
             finish();
             return null;
-        } else if (POCKETMOD_FRAGMENT.equals(fragmentName)) {
+      /*  } else if (POCKETMOD_FRAGMENT.equals(fragmentName)) {
             Intent pocketmod = new Intent();
             pocketmod.setClassName("com.rituj.theoneplus3app", ".Home");
             startActivity(pocketmod);
             finish();
-            return null;
+            return null;*/
         } else if (AKT_FRAGMENT.equals(fragmentName)) {
             Intent akt = new Intent();
             akt.setClassName("com.mrcigi.aktprofiles", "net.dinglisch.android.tasker.Kid");
