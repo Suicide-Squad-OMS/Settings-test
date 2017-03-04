@@ -260,6 +260,7 @@
   <!-- Force expanded notifications -->
   <string name="force_expanded_notifications_title">Forţează notificări extinse</string>
   <string name="force_expanded_notifications_summary">Disponibil doar pentru aplicaţii care acceptă notificări extinse</string>
+  <!-- Disabling FC notifications -->
   <!-- Disabling immersive mode messages -->
   <!-- Hide Apps from Recents -->
   <string name="hide_apps_from_recents_title">Aplicații ascunse</string>

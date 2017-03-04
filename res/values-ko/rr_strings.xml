@@ -153,6 +153,9 @@
   <!-- Toast Icons -->
   <!-- Bluetooth status -->
   <!-- Force expanded notifications -->
+  <string name="force_expanded_notifications_title">알림 강제 확장</string>
+  <string name="force_expanded_notifications_summary">확장된 알림을 지원하는 앱에서만 사용할 수 있습니다</string>
+  <!-- Disabling FC notifications -->
   <!-- Disabling immersive mode messages -->
   <!-- Hide Apps from Recents -->
   <!-- About device screen, CPU and RAM info. -->

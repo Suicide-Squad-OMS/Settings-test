@@ -59,6 +59,9 @@
   <!-- Toast Icons -->
   <!-- Bluetooth status -->
   <!-- Force expanded notifications -->
+  <string name="force_expanded_notifications_title">Force expanded notification</string>
+  <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
+  <!-- Disabling FC notifications -->
   <!-- Disabling immersive mode messages -->
   <!-- Hide Apps from Recents -->
   <!-- About device screen, CPU and RAM info. -->
