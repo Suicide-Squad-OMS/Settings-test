@@ -1007,8 +1007,8 @@
         </activity>
 
         <activity android:name="Settings$SupersuActivity"
-                android:label="@string/root_title"
-                android:icon="@drawable/ic_settings_root"
+                android:label="@string/magisk_title"
+                android:icon="@drawable/ic_settings_magisk"
                 android:taskAffinity="" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -1020,13 +1020,9 @@
             <meta-data android:name="com.android.settings.category"
                 android:value="com.android.settings.category.rr" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.supersu" />
-         <!-- <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.phh" />
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.magdisk" />
-            <meta-data android:name="com.android.settings.summary" -->
-                android:resource="@string/root_summary" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/magisk_summary" />
         </activity>
 
         <activity android:name="Settings$AktActivity"
@@ -1048,7 +1044,7 @@
                 android:resource="@string/akt_dashboard_summary" />
         </activity>
 
-    <!-- <activity android:name="Settings$PocketModAppActivity"
+    <activity android:name="Settings$PocketModAppActivity"
                 android:label="@string/pocketmod_title"
                 android:icon="@drawable/ic_settings_pocketmod"
                 android:taskAffinity="" >
@@ -1065,7 +1061,7 @@
                 android:value="com.android.settings.pocketmodapp" />
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/pocketmod_dashboard_summary" />
-        </activity> -->
+        </activity>
 
         <activity android:name="Settings$DisplaySettingsActivity"
                 android:label="@string/display_settings"
@@ -3102,6 +3098,27 @@
                 android:value="com.android.settings.notification.OtherSoundSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
+        </activity>
+
+        <activity android:name="Settings$MagiskActivity"
+            android:label="@string/magisk_title"
+            android:icon="@drawable/ic_settings_magisk"
+            android:taskAffinity="">
+            <intent-filter android:priority="4">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="9">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.aicpextras" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.MagiskManager" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/magisk_summary" />
         </activity>
 
         <!-- Show apps for which application-level notification settings are applicable -->

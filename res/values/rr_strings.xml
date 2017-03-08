@@ -35,17 +35,13 @@
     <string name="themes_title">Substratum Engine</string>
     <string name="themes_summary">Overlay manager service</string>
 
-      <!-- Supersu -->
-    <string name="root_title">Root Management</string>
-    <string name="root_dashboard_summary">Manage your root settings</string>
-
     <!-- AKT -->
     <string name="akt_title">AKT-Profiles</string>
     <string name="akt_dashboard_summary">Manage Battery/Performance settings</string>
 
-    <!-- Pocketmod 
+    <!-- Pocketmod -->
     <string name="pocketmod_title">Control Center</string>
-    <string name="pocketmod_dashboard_summary">Manage Screen off gestures (Pocketmod)</string>-->
+    <string name="pocketmod_dashboard_summary">Manage Screen off gestures (Pocketmod)</string>
 
     <!-- About RR -->
     <string name="about_rr_settings">About</string>
@@ -2353,5 +2349,8 @@
     <!-- Force authorize substratum packages -->
    <string name="force_authorize_substratum_packages_title">Allow theme apps from unknown sources</string>
    <string name="force_authorize_substratum_packages_summary">Force authorize every theme app</string>
+
+    <string name="magisk_title">Magisk Manager</string>
+    <string name="magisk_summary">Root management</string>
 
 </resources>

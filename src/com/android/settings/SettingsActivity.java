@@ -252,15 +252,11 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String THEMES_FRAGMENT = "com.android.settings.Themes";
 
-    private static final String SUPERSU_FRAGMENT = "com.android.settings.supersu"; 
-
     private static final String MAGISK_FRAGMENT = "com.android.settings.magisk"; 
 
-    private static final String PHH_FRAGMENT = "com.android.settings.phh"; 
-
-    private static final String POCKETMOD_FRAGMENT = "com.android.settings.pocketmodapp"; 
-
     private static final String AKT_FRAGMENT = "com.android.settings.akt"; 
+
+    private static final String POCKETMOD_FRAGMENT ="com.android.settings.pocketmodapp";
 
     private String mFragmentClass;
     private String mActivityAction;
@@ -1084,8 +1080,13 @@ public class SettingsActivity extends SettingsDrawerActivity
      */
     private Fragment switchToFragment(String fragmentName, Bundle args, boolean validate,
             boolean addToBackStack, int titleResId, CharSequence title, boolean withTransition) {
-
-
+         if (MAGISK_FRAGMENT.equals(fragmentName)) {
+            Intent magiskIntent = new Intent();
+            magiskIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.SplashActivity");
+            startActivity(magiskIntent);
+            finish();
+            return null;
+        }
   		 if (KA_FRAGMENT.equals(fragmentName)) {
             Intent kaIntent = new Intent();
             kaIntent.setClassName("com.grarak.kerneladiutor", "com.grarak.kerneladiutor.activities.MainActivity");
@@ -1098,30 +1099,12 @@ public class SettingsActivity extends SettingsDrawerActivity
             startActivity(themesIntent);
             finish();
             return null;
-        } else if (SUPERSU_FRAGMENT.equals(fragmentName)) {
-            Intent supersuIntent = new Intent();
-            supersuIntent.setClassName("eu.chainfire.supersu", "eu.chainfire.supersu.MainActivity");
-            startActivity(supersuIntent);
-            finish();
-            return null;
-        }  else if (PHH_FRAGMENT.equals(fragmentName)) {
-            Intent phhIntent = new Intent();
-            phhIntent.setClassName("me.phh.superuser", "com.koushikdutta.superuser.MainActivity");
-            startActivity(phhIntent);
-            finish();
-            return null;
-        } else if (MAGISK_FRAGMENT.equals(fragmentName)) {
-            Intent magiskIntent = new Intent();
-            magiskIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.SplashActivity");
-            startActivity(magiskIntent);
-            finish();
-            return null;
-      /*  } else if (POCKETMOD_FRAGMENT.equals(fragmentName)) {
+      } else if (POCKETMOD_FRAGMENT.equals(fragmentName)) {
             Intent pocketmod = new Intent();
             pocketmod.setClassName("com.rituj.theoneplus3app", ".Home");
             startActivity(pocketmod);
             finish();
-            return null;*/
+            return null;
         } else if (AKT_FRAGMENT.equals(fragmentName)) {
             Intent akt = new Intent();
             akt.setClassName("com.mrcigi.aktprofiles", "net.dinglisch.android.tasker.Kid");
@@ -1244,6 +1227,16 @@ public class SettingsActivity extends SettingsDrawerActivity
 
         // Reveal development-only quick settings tiles
         DevelopmentTiles.setTilesEnabled(this, showDev);
+
+        // Magisk Manager
+        boolean magiskSupported = false;
+        try {
+            magiskSupported = (getPackageManager().getPackageInfo("com.topjohnwu.magisk", 0).versionCode > 0);
+        } catch (PackageManager.NameNotFoundException e) {
+        }
+        setTileEnabled(new ComponentName(packageName,
+                        Settings.MagiskActivity.class.getName()),
+                magiskSupported, isAdmin, pm);
 
         // Show scheduled power on and off if support
         boolean showTimerSwitch = false;

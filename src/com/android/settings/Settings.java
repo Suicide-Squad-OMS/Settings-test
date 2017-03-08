@@ -54,8 +54,7 @@ public class Settings extends SettingsActivity {
     public static class NightDisplaySettingsActivity extends SettingsActivity { /* empty */ }
     public static class DeviceInfoSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ApplicationSettingsActivity extends SettingsActivity { /* empty */ }
-    public static class SupersuActivity extends SettingsActivity { /* empty */ }
-    public static class PhhActivity extends SettingsActivity { /* empty */ }
+    public static class PocketModAppActivity extends SettingsActivity { /* empty */ }
     public static class MagiskActivity extends SettingsActivity { /* empty */ }
     public static class About extends SettingsActivity { /* empty */ }
     public static class AboutSettingsActivity extends SettingsActivity { /* empty */ }
@@ -77,7 +76,6 @@ public class Settings extends SettingsActivity {
     public static class DevelopmentSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ThemesActivity extends SettingsActivity { /* empty */ }
     public static class AktActivity extends SettingsActivity { /* empty */ }
-    public static class PocketModAppActivity extends SettingsActivity { /* empty */ }
     public static class AccessibilitySettingsActivity extends SettingsActivity { /* empty */ }
     public static class CaptioningSettingsActivity extends SettingsActivity { /* empty */ }
     public static class AccessibilityInversionSettingsActivity extends SettingsActivity { /* empty */ }
@@ -175,6 +173,7 @@ public class Settings extends SettingsActivity {
     public static class DeviceSettings extends SettingsActivity { /* empty */ }
     public static class PersonalSettings extends SettingsActivity { /* empty */ }
     public static class SystemSettings extends SettingsActivity { /* empty */ }
+    public static class MagiskActivity extends SettingsActivity { /* empty */ }
     public static class NavigationSettingsActivity extends SettingsActivity { /* empty */ }
     public static class FlingSettingsActivity extends SettingsActivity { /* empty */ }
     public static class PieControlSettingsActivity extends SettingsActivity { /* empty */ }
