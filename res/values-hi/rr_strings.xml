@@ -256,6 +256,7 @@
   <!-- Status bar - double tap to sleep -->
   <!-- BT easy toggle -->
   <!-- Battery Saver easy toggle -->
+  <!-- Location easy toggle -->
   <!-- Quick unlock -->
   <!-- Disable OS on lockscreen -->
   <!-- Circle app bar -->
@@ -312,5 +313,10 @@
   <!-- Slim Recent panel -->
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <!-- Fingerprint unlock keystore -->
-  <!-- Emergency button -->
+  <!-- Wired headset ringtone audio focus -->
+  <!-- Slim Recent App Sidebar  -->
+  <!-- Battery stats reset -->
+  <!-- Hide Statusbar on Lockscreen -->
+  <!-- Notification guts kill app button -->
+  <!-- Force authorize substratum packages -->
 </resources>

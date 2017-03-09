@@ -28,6 +28,7 @@
   <string name="help">Pomoć</string>
   <string name="reset_message">Postaviti sve unose na zadano?</string>
   <string name="attention">Pažnja</string>
+  <string name="reset">Poništi</string>
   <string name="restart_systemui">Ponovo pokreni sučelje</string>
   <!-- About RR -->
   <string name="about_rr_settings">O</string>
@@ -133,6 +134,7 @@
   <string name="icons">Ikone</string>
   <string name="general">Općenito</string>
   <string name="ka_title">Izvedba</string>
+  <string name="rr_notif_settings_title">Obavijesti</string>
   <!--RR Configurations Summaries-->
   <string name="clock_custom_summary">Prilagođavajte razne elemente sata i datuma u statusnoj traci.</string>
   <string name="status_bar_logo_summary">Omogućite ili onemogućite Resurrectionov logotip u statusnoj traci. Prilagodite boju i položaj.</string>
@@ -170,6 +172,7 @@
   <string name="misc_weather_settings_summary">Prilagodite razne opcije za aplikaciju sata.</string>
   <string name="system_app_remover_summary">Izbrišite nepotrebne sistemske aplikacije</string>
   <string name="rr_updater_summary">Provjerite OTA ažuriranja i pogledajte ostale poveznice</string>
+  <string name="rr_notif_settings_summary">Prilagodite izgled obavijesti u ploči obavijesti.</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Substratum slojevi</string>
   <string name="menu_show_substratum">Prikaži slojeve</string>
@@ -179,6 +182,7 @@
   <string name="menu_show_substratum_icons">Prikaži slojeve ikona</string>
   <string name="menu_hide_substratum_icons">Sakrij slojeve ikona</string>
   <!-- AOKP custom system animations -->
+  <string name="animation_title">Animacije</string>
   <string name="system_animation_title">Animacije sustava</string>
   <string name="activity_open_title">Animacija otvaranja aktivnosti</string>
   <string name="activity_close_title">Animacija zatvaranja aktivnosti</string>
@@ -275,6 +279,8 @@
   <string name="force_expanded_notifications_title">Prisila proširenih obavijesti</string>
   <string name="force_expanded_notifications_summary">Dostupno samo za aplikacije koje podržavaju proširene obavijesti.</string>
   <!-- Disabling FC notifications -->
+  <string name="disable_fc_notifications_title">Onemogući obavijesti o prisilnom zatvaranju</string>
+  <string name="disable_fc_notifications_summary">Ovo će sakriti sve obavijesti o prisilnom zatvaranju.</string>
   <!-- Disabling immersive mode messages -->
   <string name="disable_immersive_message_title">Onemogući poruke o cijelom zaslonu</string>
   <string name="disable_immersive_message_summary">Ovo će sakriti sve poruke o cjelozaslonskom načinu prikaza.</string>
@@ -361,6 +367,7 @@
   <string name="power_menu_animation_aosp">AOSP (zadano)</string>
   <string name="power_menu_animation_bottom">Dno</string>
   <string name="power_menu_animation_top">Vrh</string>
+  <string name="power_menu_animation_rotate">Rotacija</string>
   <string name="power_menu_animation_rotate">Rotacija</string>
   <string name="power_menu_animation_xylon">Let</string>
   <string name="power_menu_animation_slide">Klizanje</string>
@@ -496,14 +503,17 @@
   <string name="ga_8">8px</string>
   <string name="ga_12">12px</string>
   <string name="ga_16">16px</string>
+  <string name="ga_20">20px</string>
   <string name="ga_24">24px</string>
   <string name="ga_28">28px</string>
   <string name="ga_32">32px</string>
   <string name="ga_36">36px</string>
+  <string name="ga_40">40px</string>
   <string name="ga_44">44px</string>
   <string name="ga_48">48px</string>
   <string name="ga_52">52px</string>
   <string name="ga_56">56px</string>
+  <string name="ga_60">60px</string>
   <string name="ga_64">64px</string>
   <string name="ga_68">68px</string>
   <string name="entries">Stavke</string>
@@ -672,6 +682,7 @@
   <string name="shortcuts_icon_picker_tv">Televizor</string>
   <string name="shortcuts_icon_picker_twitter">Twitter</string>
   <string name="shortcuts_icon_picker_unlock">Otključavanje</string>
+  <string name="shortcut_action_none">Ništa</string>
   <string name="shortcut_action_app">Prilagođena aplikacija</string>
   <string name="shortcut_action_home">Početna</string>
   <string name="shortcut_action_back">Natrag</string>
@@ -690,7 +701,25 @@
   <string name="shortcut_action_media_previous">Glazba - prethodna pjesma</string>
   <string name="shortcut_action_wake_device">Buđenje uređaja</string>
   <string name="shortcut_action_longpress">Dugi dodir:</string>
+  <string name="shortcut_action_select_action_longpress">Odaberite radnju za dugi dodir:</string>
+  <string name="shortcut_action_select_action">Odaberite radnju:</string>
+  <string name="shortcut_action_select_action_newaction">Odaberite novu radnju:</string>
+  <string name="shortcut_action_reset">Poništi</string>
+  <string name="shortcut_action_add">Dodaj</string>
+  <string name="shortcut_action_reset_message">Postaviti sve unose na zadano?</string>
+  <string name="shortcut_action_max">Dosegnut je maksimalni broj unosa</string>
+  <string name="shortcut_action_warning">Upozorenje</string>
+  <string name="shortcut_action_warning_message">Nije moguće izbrisati posljednji unos.</string>
+  <string name="shortcut_action_disable_message">Onemogućeno\nDodajte unos da biste omogućili ovu značajku</string>
+  <string name="shortcut_image_not_valid">Izabrana aplikacija nije vratila važeću ikonu ili ne podržava rezanje slika. Upotrijebite drugu aplikaciju.</string>
+  <string name="shortcut_duplicate_entry">Odabrana radnja ne može se dvaput dodati.</string>
+  <string name="shortcut_action_help_shortcut">prečaca</string>
+  <string name="shortcut_action_help_button">gumba</string>
+  <string name="shortcut_action_help_app">aplikacije</string>
+  <string name="shortcut_action_help_icon">, dok će odabir ikone prikazati mogućnosti prilagodbe.</string>
   <string name="shortcut_action_help_main">Da biste dodali %1$s, odaberite \"Dodaj ikonu\". Kad %1$s bude dodan/a, odabir stupca će promijeniti cilj%2$s\n\nDa biste uklonili %1$s, odgurnite taj stupac ulijevo ili udesno. Za premjestiti %1$s, promijenite vertikalni položaj sidra na lijevoj strani.\n\nBrisanje ili vraćanje na prvotne postavke: izaberite opciju poništavanja.</string>
+  <string name="shortcut_action_help_delete_last_entry">Uklanjanje svake/og %1$s na popisu će u potpunosti onemogućiti značajku.</string>
+  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Uklanjanje svake/og %1$s na popisu će u potpunosti onemogućiti drugi sloj pite.</string>
   <string name="shortcut_picker_choose_longpress_action">Odaberite radnju za dugi dodir:</string>
   <string name="shortcut_picker_choose_new_action">Odaberite novu radnju:</string>
   <string name="shortcut_picker_reassign_action">Dodijelite novu radnju:</string>
@@ -1014,9 +1043,24 @@
   <string name="clock_settings_title">Postavke sata</string>
   <string name="status_bar_clock_category">Sat</string>
   <string name="status_bar_date_title">Datum</string>
+  <string name="status_bar_clock_style_title">Stil sata</string>
+  <string name="status_bar_clock_style_right">Desno</string>
+  <string name="status_bar_clock_style_left">Lijevo</string>
+  <string name="status_bar_clock_style_center">Sredina</string>
+  <string name="status_bar_clock_style_hidden">Skriveno</string>
+  <string name="status_bar_clock_style_title">Stil sata</string>
+  <string name="status_bar_clock_style_right">Desno</string>
+  <string name="status_bar_clock_style_left">Lijevo</string>
+  <string name="status_bar_clock_style_center">Sredina</string>
+  <string name="status_bar_clock_style_hidden">Skriveno</string>
   <string name="clock_date_position">Položaj datuma</string>
   <string name="clock_date_right">Desno od sata</string>
   <string name="clock_date_left">Lijevo od sata</string>
+  <string name="status_bar_am_pm_title">AM/PM stil</string>
+  <string name="status_bar_am_pm_info">Omogućeno je 24-satno vrijeme</string>
+  <string name="status_bar_am_pm_normal">Normalno</string>
+  <string name="status_bar_am_pm_small">Maleno</string>
+  <string name="status_bar_am_pm_hidden">Skriveno</string>
   <string name="status_bar_date_none">Skriveno (zadano)</string>
   <string name="status_bar_date_small">Mali</string>
   <string name="status_bar_date_normal">Normalan</string>
@@ -1108,7 +1152,7 @@
   <string name="weather_show_location_summary">Omogućite za prikaz lokacije</string>
   <string name="weather_show_timestamp_title">Prikaži vremensku oznaku</string>
   <string name="weather_show_timestamp_summary">Omogućite za prikaz vremenske oznake</string>
-  <string name="weather_condition_icon_title">Ikona uvjeta</string>
+  <string name="weather_condition_icon_title">Ikona prognoze</string>
   <string name="weather_condition_icon_dlg_title">Odaberite ikonu za prikaz vremenskih uvjeta</string>
   <string name="weather_condition_icon_monochrome_title">Crno-bijela</string>
   <string name="weather_condition_icon_colored_title">Obojena</string>
@@ -1290,12 +1334,14 @@
   <string name="qs_rows_portrait_title">Redci (portret)</string>
   <string name="qs_rows_landscape_title">Redci (pejzaž)</string>
   <string name="qs_columns_title">Stupci</string>
+  <string name="qs_small_tiles_title">Male pločice brzih postavki</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">Boja upozorenja</string>
   <string name="battery_saver_color_summary">Omogućuje narančastu boju statusne i navigacijske trake kada je uključena štednja baterije</string>
   <string name="network_traffic_color_style">Stil boje</string>
   <string name="network_traffic_color_reset">Poništi boju</string>
   <string name="network_traffic_color_reset_message">Želite li postaviti boju praćenja prometa na zadano?</string>
+  <string name="status_bar_weather_color_title">Boja temperature</string>
   <string name="status_bar_rr_logo_color">Boja logotipa</string>
   <string name="status_bar_logo">Logotip Resurrectiona</string>
   <string name="status_bar_logo_title">Logotip marke</string>
@@ -1315,8 +1361,13 @@
   <string name="qs_bt_easy_toggle_title">Jednostavan prekidač Bluetootha</string>
   <!-- Battery Saver easy toggle -->
   <string name="qs_battery_easy_toggle_title">Jednostavan prekidač pločice baterije</string>
+  <string name="qs_battery_easy_toggle_summary">Jedan će pritisak uključiti ili isključiti uštedu baterije umjesto da vas odvede u postavke</string>
+  <!-- Location easy toggle -->
+  <string name="qs_location_easy_toggle_title">Jednostavan prekidač lokacije</string>
+  <string name="qs_location_easy_toggle_summary">Jedan će pritisak uključiti ili isključiti usluge lokacije umjesto da vas odvede u postavke</string>
   <string name="qs_music_tile_track_optional_title">Naslov pjesme na pločici glazbe</string>
   <string name="qs_music_tile_track_optional_summary">Prikazuje naslov pjesme kao naslov pločice brzih postavki</string>
+  <string name="quick_settings_vibrate_title">Vibriracija na dodir</string>
   <string name="quick_settings_vibrate_summary">Vibracija pri dodiru pločica</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Brzo otključavanje</string>
@@ -1330,6 +1381,12 @@
   <string name="app_circle_bar_summary">Prikazuje kružni pokretač aplikacija nakon dodira desne strane zaslona</string>
   <string name="app_circle_bar_included_apps_title">Uključene aplikacije</string>
   <string name="app_circle_bar_included_apps_summary">Aplikacije će se prikazivati u kružnoj traci aplikacija</string>
+  <string name="trigger_width_title">Širina okidača</string>
+  <string name="trigger_width_summary">Prilagodite širinu područja okidača</string>
+  <string name="trigger_top_title">Položaj okidača</string>
+  <string name="trigger_top_summary">Prilagodite okomiti položaj područja okidača</string>
+  <string name="trigger_bottom_title">Visina okidača</string>
+  <string name="trigger_bottom_summary">Prilagodite visinu područja okidača</string>
   <!-- Breathing Notifications -->
   <string name="breathing_notifications_title">Disajuće obavijesti</string>
   <string name="sms_breath_title">Disajuće SMS poruke</string>
@@ -1347,12 +1404,20 @@
   <string name="navigationbar_settings_title">Navigacijska traka</string>
   <string name="navigationbar_settings_summary">Prilagodite stil i ponašanje navigacijske trake</string>
   <string name="navbar_general_title">Napredno</string>
+  <string name="navigation_bar_left_title">Način rada lijevom rukom</string>
+  <string name="navigation_bar_left_summary">Stavlja navigacijsku traku na lijevu stranu zaslona u pejsažnom načinu rada</string>
   <string name="info_pref_note_title">Napomena</string>
   <string name="smartbar_interface">Pametna traka</string>
   <string name="navbar_tint_switch">Boja navigacijskih gumba</string>
   <string name="navbar_button_color">Gumbi navigacijske trake</string>
   <string name="icon_pack_picker_dialog_title">Paketi ikona</string>
   <string name="invalid_icon_from_uri">Nije moguće učitati slike od pružatelja sadržaja</string>
+  <string name="picker_activities">Aktivnosti</string>
+  <string name="select_custom_app_title">Odabir prilagođene aplikacije</string>
+  <string name="select_custom_activity_title">Odabir prilgođene aktivnosti</string>
+  <string name="profile_applist_title">Aplikacije</string>
+  <string name="default_string">Zadano</string>
+  <string name="reset">Poništi</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <string name="choose_action_title">Odaberite radnju</string>
   <string name="action_entry_default_action">Zadane postavke</string>
@@ -1714,6 +1779,7 @@
   <string name="custom_summary_randomize_title">Nasumični sažetak</string>
   <string name="custom_summary_randomize_explain">Unaprijed napisani sažetci nasumično će se odabrati i promijeniti svaki put kad uđete u aplikaciju Postavke.\nOvo nadjačava bilo koji postavljen prilagođeni sažetak.</string>
   <string name="sum1">Jeste li provjerili sva ugađanja?</string>
+  <string name="sum2">Izvanredne vijesti: Donald Trump mijenja frizuru!</string>
   <string name="sum3">Dodirnuli ste 100 tisuća puta.</string>
   <string name="sum4">Puno opcija!</string>
   <string name="sum5">Dodirnite me sada!</string>
@@ -1729,7 +1795,11 @@
   <string name="sum15">Samo za profiće.</string>
   <string name="sum16">Je l\' vam dosadno? Okej, sad me dodirnite!</string>
   <string name="sum17">Bravo! Osvojili ste dodatnu značajku</string>
+  <string name="sum18">Prestanite spamati po G+ zajednici</string>
+  <string name="sum19">Slijedite G+ pravila o postanju</string>
   <string name="sum20">Noobovima ulaz zabranjen!</string>
+  <string name="sum21">#gotresurrected</string>
+  <string name="sum22">Izvanredne vijesti: Apple miče bljeskalice na sljedećim iPhoneima.</string>
   <string name="sum23">Jeste li sada sretni?</string>
   <string name="sum24">Dosta je, prestanite me dodirivati!</string>
   <string name="sum25">#Swagger</string>
@@ -1985,4 +2055,36 @@
   <string name="wired_ringtone_focus_mode_title">Od kuda će se reproducirati zvono</string>
   <string name="wired_ringtone_focus_mode_dynamic">Žičane slušalice ako su povezane i reproducira se glazba</string>
   <string name="wired_ringtone_focus_mode_stock">Zvučnik i slušalice (zadano)</string>
+  <!-- Slim Recent App Sidebar  -->
+  <string name="recent_app_sidebar_title">Bočna traka nedavnih aplikacija</string>
+  <string name="use_recent_app_sidebar_title">Omogući bočnu traku aplikacija</string>
+  <string name="use_recent_app_sidebar_summary">Prikaz prečaca aplikacija na drugom rubu</string>
+  <string name="recent_app_sidebar_content_title">Sadržaj bočne trake aplikacija</string>
+  <string name="recent_app_sidebar_content_summary">Podesite sadržaj bočne trake aplikacija</string>
+  <string name="recent_app_sidebar_style_title">Stil bočne trake</string>
+  <string name="recent_app_sidebar_style_summary">Promijenite stil bočne trake nedavnih aplikacija.</string>
+  <string name="recent_app_sidebar_hide_labels_title">Sakrij nazive ikona</string>
+  <string name="recent_app_sidebar_label_color_title">Boja naziva</string>
+  <string name="recent_app_sidebar_bg_color_title">Pozadinska boja</string>
+  <string name="recent_app_sidebar_scale_title">Veličina</string>
+  <string name="recent_app_sidebar_open_simultaneously_title">Otvori istodobno s nedavnima</string>
+  <string name="recent_app_sidebar_open_simultaneously_summary">Onemogućite ovo da biste smanjili zaostajanje kod otvaranja nedavnih aplikacija</string>
+  <!-- Battery stats reset -->
+  <string name="battery_stats_reset">Poništi statistiku</string>
+  <string name="battery_stats_message">Statistika povijesti baterije izbrisat će se.</string>
+  <string name="ok_string">U redu</string>
+  <!-- Hide Statusbar on Lockscreen -->
+  <string name="lockscreen_hide_status_bar_title">Sakrij statusnu traku</string>
+  <string name="lockscreen_hide_status_bar_summary">Odaberite hoće li statusna traka biti vidljiva na zaključanom zaslonu</string>
+  <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Gumb za zatvaranje aplikacija</string>
+  <string name="notification_guts_kill_app_button_summary">Prikazuje gumb za zatvaranje aplikacije u izborniku pri dugom pritisku obavijesti</string>
+  <string name="weather_title">Vrijeme</string>
+  <string name="weather_config_title">Postavke usluge</string>
+  <string name="weather_icon_pack_title">Paket ikona za prognozu</string>
+  <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Aplikacije za teme iz nepoznatih izvora</string>
+  <string name="force_authorize_substratum_packages_summary">Prisilno autorizirajte svaku aplikaciju za teme</string>
+  <string name="magisk_title">Magisk upravitelj</string>
+  <string name="magisk_summary">Upravljanje rootom</string>
 </resources>
