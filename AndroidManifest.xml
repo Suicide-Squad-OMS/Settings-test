@@ -1006,7 +1006,7 @@
                 android:resource="@string/themes_summary" />
         </activity>
 
-        <activity android:name="Settings$SupersuActivity"
+        <activity android:name="Settings$MagiskActivity"
                 android:label="@string/magisk_title"
                 android:icon="@drawable/ic_settings_magisk"
                 android:taskAffinity="" >
