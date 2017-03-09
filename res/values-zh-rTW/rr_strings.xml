@@ -283,11 +283,8 @@
   <string name="force_expanded_notifications_title">強制使用延伸通知</string>
   <string name="force_expanded_notifications_summary">僅適用於支援延伸通知的應用程式</string>
   <!-- Disabling FC notifications -->
-<<<<<<< HEAD
-=======
   <string name="disable_fc_notifications_title">停用強制關閉通知</string>
   <string name="disable_fc_notifications_summary">這將會隱藏所有強制關閉通知</string>
->>>>>>> nougat
   <!-- Disabling immersive mode messages -->
   <string name="disable_immersive_message_title">停用全螢幕通知</string>
   <string name="disable_immersive_message_summary">關閉所有全螢幕通知</string>
@@ -1804,9 +1801,6 @@
   <string name="sum15">只為專業使用者。</string>
   <string name="sum16">是你厭煩嗎？好吧現在點我 ！</string>
   <string name="sum17">幹的好！你們已贏得獎金功能</string>
-<<<<<<< HEAD
-  <string name="sum20">新手不能輸入</string>
-=======
   <string name="sum18">停止將垃圾資訊傳送到 G+ 社群</string>
   <string name="sum19">請遵守 G+ 社群規則</string>
   <string name="sum20">新手不能輸入</string>
@@ -2066,8 +2060,6 @@
   <string name="wired_ringtone_focus_mode_title">播放鈴聲來至於</string>
   <string name="wired_ringtone_focus_mode_dynamic">在連接有線耳機後開始撥放音樂</string>
   <string name="wired_ringtone_focus_mode_stock">麥克風和耳機 (預設值)</string>
-<<<<<<< HEAD
-=======
   <!-- Slim Recent App Sidebar  -->
   <string name="recent_app_sidebar_title">總攬應用程式側邊欄</string>
   <string name="use_recent_app_sidebar_title">啟用應用程式側邊欄</string>
@@ -2100,5 +2092,4 @@
   <string name="force_authorize_substratum_packages_summary">強制授權每個主題應用程式</string>
   <string name="magisk_title">Magisk 管理員</string>
   <string name="magisk_summary">Root 管理</string>
->>>>>>> nougat
 </resources>
