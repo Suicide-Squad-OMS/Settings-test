@@ -1044,7 +1044,7 @@
                 android:resource="@string/akt_dashboard_summary" />
         </activity>
 
-    <!--<activity android:name="Settings$PocketModAppActivity"
+    <activity android:name="Settings$PocketModAppActivity"
                 android:label="@string/pocketmod_title"
                 android:icon="@drawable/ic_settings_pocketmod"
                 android:taskAffinity="" >
@@ -1061,7 +1061,7 @@
                 android:value="com.android.settings.pocketmodapp" />
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/pocketmod_dashboard_summary" />
-        </activity> -->
+        </activity>
 
         <activity android:name="Settings$DisplaySettingsActivity"
                 android:label="@string/display_settings"
