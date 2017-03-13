@@ -252,12 +252,12 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String THEMES_FRAGMENT = "com.android.settings.Themes";
 
-    private static final String MAGISK_FRAGMENT = "com.android.settings.magisk"; 
-
     private static final String AKT_FRAGMENT = "com.android.settings.akt"; 
-
+    
     private static final String POCKETMOD_FRAGMENT ="com.android.settings.pocketmodapp";
 
+    private static final String MAGISK_FRAGMENT = "com.android.settings.MagiskManager";
+    
     private String mFragmentClass;
     private String mActivityAction;
 
