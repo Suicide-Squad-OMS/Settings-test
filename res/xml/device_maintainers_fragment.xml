@@ -260,7 +260,21 @@
 	android:summary="@string/device_a6000_summary"
 	android:selectable="false"
 	android:title="@string/device_a6000" />
-	    
+	
+    <Preference
+	    android:id="@+id/device_A7010a48"
+        android:icon="@drawable/phone_tint"
+	    android:summary="@string/device_A7010a48_summary"
+	    android:selectable="false"
+	    android:title="@string/device_A7010a48" />  
+ 
+    <Preference
+	    android:id="@+id/device_p2a42"
+        android:icon="@drawable/phone_tint"
+	    android:summary="@string/device_p2a42_summary"
+	    android:selectable="false"
+	    android:title="@string/device_p2a42" />  
+
   </PreferenceCategory> 
         
     <PreferenceCategory
@@ -280,6 +294,12 @@
         android:id="@+id/device_category_samsung"
         android:title="@string/device_category_samsung_title" >
 
+     <Preference
+        android:id="@+id/device_herolte"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_herolte_summary"
+        android:selectable="false" 
+        android:title="@string/device_herolte" />
      <Preference
         android:id="@+id/device_maguro"
         android:icon="@drawable/phone_tint"
@@ -762,6 +782,12 @@
        android:summary="@string/device_gemini_summary"
        android:selectable="false" 
        android:title="@string/device_gemini" />  
+	<Preference
+       android:id="@+id/device_natrium"
+       android:icon="@drawable/phone_tint"
+       android:summary="@string/device_natrium_summary"
+       android:selectable="false" 
+       android:title="@string/device_natrium" />  
    <Preference
        android:id="@+id/device_dior"
        android:icon="@drawable/phone_tint"
@@ -786,6 +812,12 @@
        android:summary="@string/device_kenzo_summary"
        android:selectable="false"
        android:title="@string/device_kenzo" />
+   <Preference
+       android:id="@+id/device_mido"
+       android:icon="@drawable/phone_tint"
+       android:summary="@string/device_mido_summary"
+       android:selectable="false"
+       android:title="@string/device_mido" />
    <Preference
        android:id="@+id/device_libra"
        android:icon="@drawable/phone_tint"
@@ -1008,4 +1040,17 @@
         android:selectable="false"
         android:title="@string/device_ham" />
 	</PreferenceCategory>
+ 
+<PreferenceCategory
+       android:id="@+id/device_category_nubia"
+       android:title="@string/device_category_nubia_title" >
+       
+     <Preference
+        android:id="@+id/device_nubia_nx531j"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_nubia_nx531j_summary"
+        android:selectable="false"
+        android:title="@string/device_nubia_nx531j" />
+     </PreferenceCategory>
+
 </PreferenceScreen> 

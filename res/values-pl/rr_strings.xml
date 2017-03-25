@@ -45,11 +45,11 @@
   <string name="github_bdogg718k">https://github.com/bdogg718k</string>
   <string name="rr">Linki</string>
   <string name="rr_website_title">Strona internetowa</string>
-  <string name="rr_website_summary">Więcej informacji o ROMie Resurrection Remix</string>
+  <string name="rr_website_summary">Dowiedz się więcej o Resurrection Remix</string>
   <string name="rr_forum_title">Forum</string>
   <string name="rr_forum_summary">Zostań członkiem forum Resurrection</string>
   <string name="rr_source_title">Github</string>
-  <string name="rr_source_summary">Pliki źródłowe RR-OS</string>
+  <string name="rr_source_summary">Pliki źródłowe Resurrection Remix OS</string>
   <string name="rr_facebook_title">Facebook</string>
   <string name="rr_facebook_summary">Społeczność na Facebook\'u</string>
   <string name="rr_google_plus_title">Google+</string>
@@ -250,7 +250,7 @@
   <string name="disable_animations">Wyłącz animacje</string>
   <string name="disable_animations_summary">Wyłącza animacje przejścia, takie jak podczas uruchamiania aplikacji</string>
   <!-- Option to enable/disable scrolling cache -->
-  <string name="pref_scrollingcache_title">Pamięć podręczna przewijania</string>
+  <string name="pref_scrollingcache_title">Przewijanie pamięci podręcznej</string>
   <string name="pref_scrollingcache_summary">Przewijanie pamięci podręcznej może poprawić wydajność przewijania kosztem pamięci</string>
   <string name="pref_scrollingcache_force_enable">Wymuś włączenie</string>
   <string name="pref_scrollingcache_default_enable">Domyślnie włączone</string>
@@ -853,7 +853,7 @@
   <string name="fprint_sucess_vib_summary">Wibracje po udanym uwierzytelnianiu odcisku palca</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Wibracja przy dotknięciu</string>
-  <string name="quick_settings_vibrate_summary">Wibracje podczas dotykania szybkich skrótów</string>
+  <string name="quick_settings_vibrate_summary">Wibruj podczas dotykania przełączników</string>
   <!-- Lock Clock Fonts -->
   <string name="lock_clock_font_title">Opcje czcionek</string>
   <string name="lock_clock_font_summary">Zmień czcionkę widżetu zegara na ekranie blokady</string>
@@ -970,7 +970,7 @@
   <string name="dt2l_camera_category">Opcje aparatu DT2L</string>
   <string name="dt2l_camera_vib_title">Dostosuj wibracje uruchamiania</string>
   <string name="dt2l_camera_vib_summary">Dostosuj wibracje podczas uruchamiania aparatu</string>
-  <string name="volume_keys_control_ring_stream_title">kontrolowanie głośności dzwonka</string>
+  <string name="volume_keys_control_ring_stream_title">Kontrolowanie głośności dzwonka</string>
   <string name="volume_keys_control_ring_stream_summary_on">Przyciski głośności regulują głośność dzwonka</string>
   <string name="volume_keys_control_ring_stream_summary_off">Przyciski głośności regulują głośność dzwonka</string>
   <string name="volume_answer_call_title">Odbieranie połączeń</string>
@@ -1363,6 +1363,17 @@
   <string name="status_bar_logo_position_right">Po prawej</string>
   <string name="status_bar_logo_position_left">Po lewej</string>
   <string name="status_bar_logo_position_center">Wyśrodkowany</string>
+  <string name="statusbar_weather_title">Pogoda paska statusu</string>
+  <string name="statusbar_weather_summary">Konfiguruj ustawienia QS/Pogoda.</string>
+  <string name="statusbar_weather_dialog_title">Styl pogody w pasku statusu</string>
+  <string name="status_bar_weather_hidden">Ukryj pogodę</string>
+  <string name="status_bar_temperature_image_show_scale">Pokaż temperaturę ze skalą i obrazem</string>
+  <string name="status_bar_temperature_image_hide_scale">Pokaż temperaturę z obrazem lecz bez skali</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Pokaż temperaturę ze skalą</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Pokaż temperaturę bez skali</string>
+  <string name="status_bar_show_image">Pokaż obraz</string>
+  <string name="status_bar_weather_image_color_title">Kolor obrazu</string>
+  <string name="sb_weather_ic_title">Zestaw ikon</string>
   <string name="rr_config_style_title">Konfiguracja styli</string>
   <string name="rr_config_n">Nougat</string>
   <string name="rr_config_mm">Klasyczny</string>
@@ -1378,6 +1389,8 @@
   <string name="qs_battery_easy_toggle_title">Łatwy przełącznik baterii</string>
   <string name="qs_battery_easy_toggle_summary">Pojedyncze kliknięcie spowoduje włączenie lub wyłączenie oszczędzania baterii zamiast przenosić do jego ustawień</string>
   <!-- Location easy toggle -->
+  <string name="qs_location_easy_toggle_title">Łatwe przełączanie lokalizacji</string>
+  <string name="qs_location_easy_toggle_summary">Pojedyncze kliknięcie spowoduje włączenie lub wyłączenie lokalizacji zamiast przenosić do ustawień</string>
   <string name="qs_music_tile_track_optional_title">Muzyka</string>
   <string name="qs_music_tile_track_optional_summary">Pokaż nazwę muzyki w szybkim skrócie</string>
   <string name="quick_settings_vibrate_title">Wibracja przy dotknięciu</string>
@@ -2061,6 +2074,8 @@
   <string name="recent_panel_bg_color_title">Kolor tła panelu</string>
   <string name="recent_card_bg_color_title">Kolor tła karty</string>
   <string name="recent_card_text_color_title">Kolor tekstu kart</string>
+  <string name="slim_recents_mem_display_long_click_clear_title">Długie przyciśnięcie paska pamięci</string>
+  <string name="slim_recents_mem_display_long_click_clear_summary">Wyczyść ostatnio uruchamiane przez długie przyciśnięcie paska pamięci</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <string name="recent_panel_lefty_mode_title">Pokaż na lewej krawędzi ekranu</string>
   <string name="recent_panel_lefty_mode_summary">Wyświetlaj panel ostatnich aplikacji z lewej strony</string>
@@ -2094,6 +2109,8 @@
   <!-- Hide Statusbar on Lockscreen -->
   <string name="lockscreen_hide_status_bar_title">Ukryj pasek stanu</string>
   <string name="lockscreen_hide_status_bar_summary">Widoczność paska statusu na ekranie blokady</string>
+  <string name="confirm_shutdown_switch_title">Wyłącz potwierdzenie wyłączenia</string>
+  <string name="confirm_shutdown_switch_desc">Po dotknięciu przycisku wyłączania w menu zasilania, dodaje okno dialogowe potwierdzające wyłączenie</string>
   <!-- Notification guts kill app button -->
   <string name="notification_guts_kill_app_button_title">Przycisk zabijania aplikacji</string>
   <string name="notification_guts_kill_app_button_summary">Pokaż przycisk zabijania aplikacji w menu długo przyciśniętego powiadomienia</string>
@@ -2101,4 +2118,16 @@
   <string name="weather_config_title">Ustawienia usługi</string>
   <string name="weather_icon_pack_title">Paczka ikon stanu</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Zezwalaj na instalowanie motywów z nieznanych źródeł</string>
+  <string name="force_authorize_substratum_packages_summary">Wymuś autoryzację każdego motywu</string>
+  <string name="magisk_title">Menedżer Magisk</string>
+  <string name="magisk_summary">Zarządzanie rootem</string>
+  <string name="notif_text_color">Kolor tekstu</string>
+  <string name="status_bar_expanded_empty_shade_view_settings_title">Widok bez powiadomień</string>
+  <string name="status_bar_expanded_empty_shade_view_settings_summary">Dostosuj widok bez powiadomień</string>
+  <!-- Statusbar expanded empty shade view settings -->
+  <string name="empty_shade_view_show_carrier_name_title">Pokaż nazwę operatora</string>
+  <string name="empty_shade_view_show_carrier_name_summary">Włącz pokazywanie nazwy operatora</string>
+  <string name="empty_shade_view_show_wifi_name_title">Pokaż nazwę sieci WiFi</string>
+  <string name="empty_shade_view_show_wifi_name_summary">Włącz pokazywanie nazwy sieci WiFi</string>
 </resources>
