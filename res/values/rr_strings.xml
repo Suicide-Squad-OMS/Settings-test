@@ -2242,7 +2242,7 @@
     <string name="retract_anim_duration_title">Retract duration</string>
     <string name="diamond_anim_duration_title">Diamond duration</string>
     <string name="dots_anim_duration_title">Dots duration</string>
-    <string name="home_resize_anim_duration_title">Home button resize duration</string>
+    <string name="home_resize_anim_duration_title">Button resize duration</string>
 
 
     <!--One handed mode -->
