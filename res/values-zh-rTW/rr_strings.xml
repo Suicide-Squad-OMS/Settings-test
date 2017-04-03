@@ -2019,6 +2019,7 @@
   <string name="retract_anim_duration_title">撤回持續時間</string>
   <string name="diamond_anim_duration_title">鑽石持續時間</string>
   <string name="dots_anim_duration_title">點的持續時間</string>
+  <string name="home_resize_anim_duration_title">按鍵調整持續時間</string>
   <!--One handed mode -->
   <string name="one_handed_mode_title">單手模式</string>
   <string name="one_handed_mode_summary">允許在導覽列上滑動以啟用單手模式</string>

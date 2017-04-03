@@ -2162,4 +2162,9 @@
   <string name="no_sim_cluster_switch_title">Kein Sim Netz verstecken</string>
   <string name="no_sim_cluster_switch_summary">Versteckt die Netzwerk-Leiste, wenn das Abonnement der Sim inaktiv und deaktiviert ist. Wenn die SIM-Karte nicht deaktiviert ist, wird dieser Schalter nicht funktionieren.</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Helligkeit</string>
+  <string name="night_brightness_value_title">Nachtlicht Helligkeit</string>
+  <string name="night_bright_disabled">Deaktiviert</string>
+  <string name="night_bright_min">Minimale Helligkeit</string>
+  <string name="night_bright_medium">Mittlere Helligkeit</string>
 </resources>
