@@ -21,6 +21,8 @@
   <!-- General -->
   <string name="ok">Oké</string>
   <string name="reset">Reset</string>
+  <string name="dlg_reset_rr">RR</string>
+  <string name="dlg_reset_android">Standaard</string>
   <string name="default_string">Standaard</string>
   <string name="add">Voeg toe</string>
   <string name="enabled">Ingeschakeld</string>
@@ -100,6 +102,8 @@
   <string name="fab_reset">Reset</string>
   <string name="fab_about">Over RR-OS</string>
   <string name="fab_layout">Indeling bijwerken</string>
+  <string name="fab_layout_update">Klassieke lay-out schakelaar</string>
+  <string name="fab_layout_toggle">Tabblad lay-out schakelaar</string>
   <string name="rr_reset_message">Alle configuraties herstellen naar standaard waardes?</string>
   <string name="rr_reset_settings">Instellingen terugzetten</string>
   <string name="rr_reset_yes">Ja</string>
@@ -115,6 +119,7 @@
   <string name="qs_advanced_title">Geavanceerd</string>
   <string name="rr_notification_panel_title">Panelen</string>
   <string name="rr_tuner">Systeem UI fijnafstelling</string>
+  <string name="rr_tuner_summary">Onderdeel van standaard aanpassingen</string>
   <string name="rr_battery">Accu</string>
   <string name="rr_sb_icons">Systeempictogrammen</string>
   <string name="rr_sb_battery">Statusbalk</string>
@@ -124,6 +129,7 @@
   <string name="animation_title">Animaties</string>
   <string name="button_settings">Knoppen</string>
   <string name="rr_misc_title">Overige</string>
+  <string name="rr_ui_title">Uiterlijk</string>
   <string name="rr_dash_board_title">Dashboard</string>
   <string name="system_animations">Systeem animaties</string>
   <string name="toast">Zwevende melding</string>
@@ -146,6 +152,8 @@
   <string name="breathing_notifications_summary">Geef een pulserend effect aan notificaties zoals sms, gemiste oproepen en voicemail</string>
   <string name="rr_trans_summary">Wijzig eigenschappen van het notificatiepaneel, zoals transparantie en omlijning</string>
   <string name="rr_volume_summary">Wijzig eigenschappen van het volume paneel, zoals transparantie en omlijning</string>
+  <string name="rr_power_summary">Pas achtergrondsterkte en transparantie aan van het afsluitmenu</string>
+  <string name="rr_recents_ui_summary">Pas verschillende elementen aan in het recente apps paneel zoals geheugenbalk, meeslepende recente apps etc.</string>
   <string name="recents_clear_all_summary">Verander standaard Clear knop naar de originele knop en verander de positie</string>
   <string name="omniswitch_summary">Vervang recente app overzicht door Omni</string>
   <string name="rr_qs_animation_summary">In- of uitschakelen animatie van Si tegels</string>
@@ -168,7 +176,7 @@
   <string name="rr_toast_summary">Aanpassen animatie en pictogrammen van zwevende meldingen</string>
   <string name="rr_expanded_desktop_summary">Uitgebreide bureaublad opties per app</string>
   <string name="rr_doze_summary">In/-uitschakelen actieve display</string>
-  <string name="rr_heads_up_summary">Kies uit te schakelen of heads-up meldingen en ook hun time-outs instellen </string>
+  <string name="rr_heads_up_summary">In- of uitschakelen heads-up meldingen en stel hun timeouts in </string>
   <string name="rr_dash_board_summary">Aanpassen van de dashboard weergave</string>
   <string name="misc_weather_settings_summary">Verschillende opties van de cLock app aanpassen</string>
   <string name="system_app_remover_summary">Verwijder overbodige systeem apps</string>
@@ -186,8 +194,16 @@
   <string name="animation_title">Animaties</string>
   <string name="system_animation_title">Systeem animaties</string>
   <string name="activity_open_title">Activiteit open animatie</string>
+  <string name="activity_close_title">Activiteit sluiten animatie</string>
   <string name="task_open_title">Taak open animatie</string>
+  <string name="task_open_behind_title">Taak open achter animatie</string>
   <string name="task_close_title">Taak sluiten animatie</string>
+  <string name="task_move_to_front_title">Verplaats naar voorste animatie</string>
+  <string name="task_move_to_back_title">Verplaats naar achteren animatie</string>
+  <string name="wallpaper_open_title">Beginscherm tonen animatie</string>
+  <string name="wallpaper_close_title">Beginscherm sluiten animatie</string>
+  <string name="wallpaper_intra_open_title">Bureaubladachtergrond intra open animatie</string>
+  <string name="wallpaper_intra_close_title">Bureaubladachtergrond intra sluiten animatie</string>
   <string name="animation_duration_title">Animatieduur</string>
   <string name="title_animation_no_override">Voorkom App overschrijvingen</string>
   <string name="summary_animation_no_override">Voorkom dat apps de ingestelde overgangen negeren</string>
@@ -221,6 +237,8 @@
   <string name="listview_stack_bottom">Stapelen (Onder)</string>
   <string name="listview_unfold">Uitvouwen</string>
   <string name="listview_fold">Invouwen</string>
+  <string name="listview_translate_left">Inschuiven (links)</string>
+  <string name="listview_translate_right">Inschuiven (rechts)</string>
   <!-- ListView interpolator -->
   <string name="listview_interpolator_title">LijstWeergave interpolator</string>
   <string name="listview_accelerate_interpolator">Versnellen</string>
@@ -401,6 +419,7 @@
   <!-- Immersive Recents -->
   <string name="immersive_recents_title">Recente fullscreen</string>
   <string name="immersive_recents_summary">Wijzig weergave van het recente apps paneel</string>
+  <string name="immersive_recents_dialog_title">Selecteer Recent Overzicht</string>
   <string name="immersive_recents_default">Standaard</string>
   <string name="immersive_recents_fullscreen">Volledig scherm</string>
   <string name="immersive_recents_statusbar">Alleen statusbalk</string>
@@ -611,6 +630,7 @@
   <string name="shortcuts_icon_presets">Systeempictogrammen</string>
   <string name="shortcuts_icon_custom">Galerij</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Pictogram kiezen</string>
+  <string name="image_exceeds_max_allowed_size">Beeld mag niet groter zijn dan 512 x 512</string>
   <string name="lockscreen_shortcuts_category">Sneltoetsen</string>
   <string name="keyguard_torch_title">Vergrendelscherm zaklamp</string>
   <string name="keyguard_torch_summary">Lang ingedrukt houden van de uitknop wanneer scherm uitstaat zal de zaklamp aanzetten</string>
@@ -681,6 +701,7 @@
   <string name="shortcut_action_menu">Menu</string>
   <string name="shortcut_action_ime">Open invoermethode keuze</string>
   <string name="shortcut_action_power_menu">Afsluitmenu</string>
+  <string name="shortcut_action_recent">Recente apps</string>
   <string name="shortcut_action_power">Scherm uit</string>
   <string name="shortcut_action_search">Zoeken in app</string>
   <string name="shortcut_action_ring_vib">Belgeluid/Trillen</string>
@@ -782,9 +803,9 @@
   <string name="docs">Docs</string>
   <string name="googledrive">Google Drive</string>
   <string name="googleearth">Google earth</string>
-  <string name="googlehangouts">Google Hangouts</string>
-  <string name="googlekeep">Google Keep</string>
-  <string name="googleplay">Google Play</string>
+  <string name="googlehangouts">Google hangouts</string>
+  <string name="googlekeep">Google keep</string>
+  <string name="googleplay">Google play</string>
   <string name="googletranslate">Google Translate</string>
   <string name="google">Google</string>
   <string name="googleplus">Google plus</string>
@@ -798,7 +819,7 @@
   <string name="notepad">Direct Bericht</string>
   <string name="opera">Opera</string>
   <string name="paint">Paint</string>
-  <string name="paypal">PayPal</string>
+  <string name="paypal">Paypal</string>
   <string name="phone">Telefoon</string>
   <string name="picasa">Picasa</string>
   <string name="pictures2">Afbeeldingen2</string>
@@ -851,6 +872,7 @@
   <string name="lock_clock_font_thin">Dun</string>
   <string name="lock_clock_font_condensed_normal">Smal</string>
   <string name="lock_clock_font_condensed_italic">Smal cursief</string>
+  <string name="lock_clock_font_condensed_bold">Compact Dikgedrukt</string>
   <string name="lock_clock_font_condensed_bold_italic">Smal dikgedrukt cursief</string>
   <string name="lock_clock_font_medium_normal">Middelgroot</string>
   <string name="lock_clock_font_medium_italic">Middelgroot cursief</string>
@@ -1389,6 +1411,7 @@
   <string name="voicemail_breath_summary">Voicemail meldingen zullen een met een pulserend effect in de statusbalk worden weergeven</string>
   <!-- Navigation Bar -->
   <string name="navigation_category">Navigatie</string>
+  <string name="navbar_interface_title">Uiterlijk</string>
   <string name="navbar_size">Balk afmeting</string>
   <string name="navbar_mode">Navigatiemodus</string>
   <string name="navbar_visibility">Schakel navigatiebalk in</string>
@@ -1399,6 +1422,7 @@
   <string name="smartbar_interface">SmartBar</string>
   <string name="navbar_tint_switch">Navigatieknop kleur</string>
   <string name="navbar_button_color">Navigatiebalk knoppen</string>
+  <string name="navbar_button_custom_icon_switch_title">Kleurenfilter over app knoppen leggen</string>
   <string name="icon_pack_picker_dialog_title">Pictogrampakketten</string>
   <string name="invalid_icon_from_uri">Kan afbeelding niet laden</string>
   <string name="picker_activities">Activiteiten</string>
@@ -1406,6 +1430,7 @@
   <string name="select_custom_activity_title">Selecteer activiteit</string>
   <string name="profile_applist_title">Applicaties</string>
   <string name="default_string">Standaard</string>
+  <string name="reset">Terug naar standaard</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <string name="choose_action_title">Kies actie</string>
   <string name="action_entry_default_action">Standaardinstellingen</string>
@@ -1439,7 +1464,6 @@
   <string name="fling_ripple_color">Rimpel kleur</string>
   <string name="fling_longpress_timeout_label_left">Minder vertraging</string>
   <string name="fling_longpress_timeout_label_right">Meer vertraging</string>
-  <string name="fling_longpress_title">Lang duwen vertraging</string>
   <string name="fling_longpress_summary">Vermeerder of verminder tijd nodig om lang duwen uit te voeren</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_title">Over Pulse</string>
@@ -1456,7 +1480,6 @@
   <string name="eos_fling_lavalamp_summary">Pulse animeert een vloeiende lavalamp stijl kleurenmix</string>
   <string name="pulse_advanced_category">Geavanceerd</string>
   <string name="pulse_legacy_mode_advanced_category">Vervagende blokken modus instellingen</string>
-  <string name="pulse_custom_fudge_factor">Zinnigheidsniveau</string>
   <string name="lavamp_solid_speed_title">Lavalamp snelheid</string>
   <string name="pulse_solid_units_count">Vaste lijnen telling</string>
   <string name="pulse_solid_units_opacity">Vaste lijnen opaciteit</string>
@@ -1536,6 +1559,7 @@
   <string name="logo22">Pro gebruiker</string>
   <string name="logo26">Weer aan</string>
   <string name="logo27">Poes</string>
+  <string name="logo31">Poep</string>
   <string name="logo33">Google</string>
   <string name="logo35">Geslacht: mannelijk</string>
   <string name="logo36">Geslacht: vrouwelijk</string>
@@ -1593,17 +1617,23 @@
   <string name="pa_pie_gap_small">Klein</string>
   <string name="pa_pie_gap_big">Groot (standaard)</string>
   <string name="pa_pie_gap_huge">Enorm</string>
+  <string name="pa_pie_mode_title">Pie stijl</string>
   <string name="pa_pie_mode_bare">Kaal</string>
   <string name="pa_pie_mode_quick">Snel</string>
   <string name="pa_pie_mode_default">Standaard</string>
   <string name="pa_pie_mode_slow">Langzaam</string>
   <string name="pa_pie_lastapp_title">Laatste app</string>
+  <string name="pa_pie_lastapp_summary">Activeer laatste app knop</string>
   <string name="pa_pie_killtask_title">Taak beëindigen</string>
+  <string name="pa_pie_killtask_summary">Activeer stop app knop</string>
   <string name="pa_pie_notifications_title">Meldingen</string>
   <string name="pa_pie_notifications_summary">Notificatieknop inschakelen</string>
   <string name="pa_pie_settings_panel_title">Snelle instellingen paneel</string>
   <string name="pa_pie_screenshot_title">Schermafdruk</string>
   <string name="pa_pie_screenshot_summary">Schermafbeelding knop inschakelen</string>
+  <string name="pa_pie_color_title">Pie kleurinstellingen</string>
+  <string name="pa_pie_color_style_title">Pie kleurstijl</string>
+  <string name="pa_pie_background_title">Achtergrond Kleur</string>
   <string name="pa_pie_status_clock_title">Klok kleur</string>
   <string name="pa_pie_status_title">Status kleur</string>
   <string name="pa_pie_button_color">Knop kleur</string>
@@ -1801,6 +1831,8 @@
   <string name="custom_header_browse_summary">Lang drukken op afbeelding om te gebruiken in statische modus</string>
   <!-- Task Manager -->
   <string name="enable_task_manager_title">Taakbeheer</string>
+  <string name="task_manager_kill_button">Stop app knop</string>
+  <string name="task_manager_left_button_title">Meldingen knop</string>
   <string name="task_manager_kill_button_default">Standaard</string>
   <string name="task_manager_kill_button_1">Rond</string>
   <string name="task_manager_kill_button_2">Tekst</string>
@@ -1857,6 +1889,11 @@
   <string name="recent_panel_expanded_mode_auto">Automatisch (standaard)</string>
   <string name="recent_panel_expanded_mode_always">Altijd</string>
   <string name="recent_panel_expanded_mode_never">Nooit</string>
+  <string name="slim_icon_pack_title">Pictogrammenpakket</string>
+  <string name="slim_icon_pack_summary">Aangepast pictogrammenpakket gebruiken</string>
+  <string name="no_iconpacks_summary">Geen pictogrampakketten geïnstalleerd</string>
+  <string name="dialog_pick_iconpack_title">Pictogrampakket kiezen</string>
+  <string name="default_iconpack_title">Standaard pictogrammen</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <!-- Fingerprint unlock keystore -->
   <string name="fp_unlock_keystore_summary">Ontgrendelen van apparaat met vingerafdruk na herstart zonder pincode/wachtwoord\nLet op: eigen risico!</string>
@@ -1878,8 +1915,10 @@
   <string name="notification_guts_kill_app_button_title">Sluit app knop</string>
   <string name="notification_guts_kill_app_button_summary">Toon een geforceerd sluiten knop in het notificatie menu</string>
   <string name="weather_title">Weer</string>
+  <string name="weather_config_title">Service instellingen</string>
   <string name="weather_icon_pack_title">Pictogram verzameling</string>
   <!-- Force authorize substratum packages -->
+  <string name="magisk_title">Magisk manager</string>
   <string name="magisk_summary">Root beheer</string>
   <string name="notif_text_color">Tekstkleur</string>
   <string name="status_bar_expanded_empty_shade_view_settings_title">Geen meldingen weergave</string>
@@ -1889,7 +1928,35 @@
   <string name="empty_shade_view_show_wifi_name_title">Toon wifi netwerknaam</string>
   <string name="empty_shade_view_show_wifi_name_summary">Inschakelen om de wifi netwerknaam te tonen</string>
   <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">Toon roaming indicator</string>
+  <string name="roaming_indicator_icon_summary">Toon roaming indicator in het signaal pictogram wanneer het toestel aan het roamen is</string>
   <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">\@null</string>
+  <string name="screen_state_toggles_title">Onderbreek activiteiten</string>
+  <string name="screen_state_toggles_enable_title">Activeer</string>
+  <string name="screen_state_toggles_enable_summary">Situatie tijdelijk wijzigen bij uitgeschakeld scherm. Als het scherm weer aan gaat wordt de eerdere situatie hersteld.</string>
+  <string name="screen_state_toggles_mobile_title">Mobiel netwerk</string>
+  <string name="screen_state_toggles_location_title">Locatie</string>
+  <string name="screen_state_toggles_twog">Overschakelen naar 2G</string>
+  <string name="screen_state_toggles_twog_summary">Netwerkmodus zal worden overgeschakeld naar 2G bij uitgeschakeld scherm</string>
+  <string name="screen_state_toggles_gps">Schakel GPS uit</string>
+  <string name="screen_state_toggles_gps_summary">GPS gebaseerde locatie service wordt niet gebruikt bij uitgeschakeld scherm</string>
+  <string name="screen_state_toggles_mobile_data">Schakel mobiele gegevens uit</string>
+  <string name="screen_state_toggles_mobile_data_summary">Mobiele gegevens wordt gestopt bij uitgeschakeld scherm</string>
+  <string name="screen_state_off_delay_title">Uitgeschakeld scherm vertraging</string>
+  <string name="screen_state_off_delay_summary">Aantal seconden dat wordt gewacht na uitschakelen scherm voordat acties uitgevoerd worden</string>
+  <string name="screen_state_on_delay_title">Ingeschakeld scherm vertraging</string>
+  <string name="screen_state_on_delay_summary">Aantal seconden dat wordt gewacht na inschakelen scherm voordat acties uitgevoerd worden</string>
   <!-- In-call DND -->
+  <string name="dnd_when_call_title">Niet-Storen tijdens oproep</string>
+  <string name="dnd_when_call_summary">Schakel Niet-Storen in tijdens oproepen</string>
+  <string name="no_sim_cluster_switch_title">Verberg netwerk zonder simkaart</string>
+  <string name="no_sim_cluster_switch_summary">Verberg netwerk indicator bij uitgeschakelde of inactieve simkaart(-sleuf)</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Helderheid</string>
+  <string name="night_brightness_value_title">Nacht licht helderheid</string>
+  <string name="night_bright_disabled">Inactief</string>
+  <string name="night_bright_min">Minimale helderheid</string>
+  <string name="night_bright_low">Lage helderheid</string>
+  <string name="night_bright_medium">Gemiddelde helderheid</string>
 </resources>

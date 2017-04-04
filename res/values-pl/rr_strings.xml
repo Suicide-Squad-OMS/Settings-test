@@ -21,6 +21,7 @@
   <!-- General -->
   <string name="ok">Ok</string>
   <string name="reset">Resetuj</string>
+  <string name="dlg_reset_rr">RR</string>
   <string name="default_string">Domyślne</string>
   <string name="add">Dodaj</string>
   <string name="enabled">Włączono</string>
@@ -627,6 +628,7 @@
   <string name="shortcuts_icon_presets">Ikony systemowe</string>
   <string name="shortcuts_icon_custom">Galeria</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Wybierz ikonę</string>
+  <string name="image_exceeds_max_allowed_size">Obraz nie może przekraczać 512x512</string>
   <string name="lockscreen_shortcuts_category">Skróty</string>
   <string name="keyguard_torch_title">Latarka ekranu blokady</string>
   <string name="keyguard_torch_summary">Przytrzymaj przycisk zasilania przy wyłączonym ekranie, aby włączyć latarkę</string>
@@ -2119,6 +2121,7 @@
   <!-- Force authorize substratum packages -->
   <string name="force_authorize_substratum_packages_title">Zezwalaj na instalowanie motywów z nieznanych źródeł</string>
   <string name="force_authorize_substratum_packages_summary">Wymuś autoryzację każdego motywu</string>
+  <string name="magisk_title">Menedżer Magisk</string>
   <string name="magisk_summary">Zarządzanie rootem</string>
   <string name="notif_text_color">Kolor tekstu</string>
   <string name="status_bar_expanded_empty_shade_view_settings_title">Widok bez powiadomień</string>
@@ -2155,6 +2158,7 @@
   <string name="no_sim_cluster_switch_summary">Ukryj słupki zasięgu gdy karta SIM jest wyłączona lub nieaktywna. Jeśli karta SIM nie jest wyłączona, ten przełącznik nie będzie działać</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Jasność</string>
+  <string name="night_bright_disabled">Wyłączony</string>
   <string name="night_bright_min">Minimalna jasność</string>
   <string name="night_bright_low">Niska jasność</string>
   <string name="night_bright_medium">Średnia jasność</string>
