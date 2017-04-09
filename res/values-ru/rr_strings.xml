@@ -1521,6 +1521,7 @@
   <string name="lavamp_solid_speed_title">Скорость Lava Lamp</string>
   <string name="pulse_solid_units_count">Количество сплошных линий</string>
   <string name="pulse_solid_units_opacity">Прозрачность сплошных линий</string>
+  <string name="pulse_fading_blocks_opacity">Прозрачность затухающих блоков</string>
   <string name="pulse_solid_dimen_category">Настройки режима сплошных линий</string>
   <string name="pulse_custom_buttons_opacity_title">Прозрачность кнопок в режиме Pulse</string>
   <string name="fling_lavalamp_color_from">Цвет запуска Lava Lamp</string>
@@ -2018,6 +2019,9 @@
   <string name="smartbar_doubletap_sleep_title">Двойное нажатие для отключения экрана</string>
   <string name="smartbar_doubletap_sleep_summary">Двойное нажатие на пустое место на панели навигации для отключения экрана</string>
   <!-- Pixel Animation Duration -->
+  <string name="pixel_anim_title">Pixel анимация панели навигации</string>
+  <string name="pixel_anim_summary">Настройка различных элементов анимации Pixel на панели навигации</string>
+  <string name="pixel_anim_warning">Настройте различные продолжительности Pixel анимации на панели навигации. ПРЕДУПРЕЖДЕНИЕ! Изменение значений по умолчанию может вызвать потерю производительности в анимации. Продолжайте на свой страх и риск</string>
   <string name="pixel_anim_x_title">Горизонтальная продолжительность</string>
   <string name="pixel_anim_y_title">Вертикальная продолжительность</string>
   <string name="collapse_anim_duration_ry_title">Продолжительность сворачивания</string>
@@ -2026,6 +2030,16 @@
   <string name="diamond_anim_duration_title">Продолжительность анимации ромба</string>
   <string name="dots_anim_duration_title">Продолжительность для точек</string>
   <string name="home_resize_anim_duration_title">Продолжительность изменения размера кнопки</string>
+  <string name="pixel_anim_color_title">Цвета точек</string>
+  <string name="dot_top_color_title">Верхняя точка</string>
+  <string name="dot_bottom_color_title">Нижняя точка</string>
+  <string name="dot_left_color_title">Левая точка</string>
+  <string name="dot_right_color_title">Правая точка</string>
+  <string name="dot_obey_themes">По умолчанию (цвет темы)</string>
+  <string name="dot_custom_color">Пользовательский</string>
+  <string name="dot_random_color">Случайный</string>
+  <string name="dot_random_color_more">Очень случайный</string>
+  <string name="dot_color_switch_title">Стиль</string>
   <!--One handed mode -->
   <string name="one_handed_mode_title">Режим \"Управление одной рукой\"</string>
   <string name="one_handed_mode_summary">Позволяет свайпом по панели навигации включать режим \"Управление одной рукой\"</string>

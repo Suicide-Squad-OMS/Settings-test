@@ -43,7 +43,6 @@
   <string name="device_A7010a48">Lenovo Vibe K4 Note</string>
   <string name="device_A7010a48_summary">A7010a48\nMainteneur - Mohan Cm (mohancm100)</string>
   <string name="device_A6020">Vibe K5</string>
-  <string name="device_A6020_summary">A6020\nMainteneur - Henrique Silva (jhenrique09)</string>
   <string name="device_a6000">Lenovo A6000</string>
   <string name="device_a6000_summary">a6000\nMainteneur - Harshit Jain (dev_harsh1998)</string>
   <string name="device_p2a42">Lenovo P2</string>
@@ -113,6 +112,7 @@
   <string name="device_herolte">Galaxy S7</string>
   <string name="device_herolte_summary">SM-G930F/FD/W8/S/K/L \nMainteneur - Gwolf2u (gwolfu@xda) </string>
   <string name="device_j5ltexx">Galaxy J5</string>
+  <string name="device_j5ltexx_summary">SM-J500F/FN/M/G \nMainteneur - SoUnd001 </string>
   <string name="device_i9001">Galaxy S Plus</string>
   <string name="device_i9001_summary">GT-I9001 \nMainteneur(s) - </string>
   <string name="device_w">Samsung Galaxy W I8150</string>
@@ -202,11 +202,9 @@
   <string name="device_deb">Nexus 7 LTE 2013</string>
   <string name="device_deb_summary">Deb \nMainteneur - Aclegg2011</string>
   <string name="device_falcon">Moto G</string>
-  <string name="device_falcon_summary">Falcon \nMainteneur - Henrique Silva (jhenrique09)</string>
   <string name="device_titan">Moto G 2014</string>
   <string name="device_titan_summary">Titan \nMainteneur - mrunalkaran</string>
   <string name="device_osprey">Moto G 2015</string>
-  <string name="device_osprey_summary">Osprey\nMainteneur - Henrique Silva (jhenrique09)</string>
   <string name="device_athene">Moto G4 Plus</string>
   <string name="device_athene_summary">athene \nMainteneur - Silesh.Nair</string>
   <string name="device_harpia">Moto G4 Play</string>
@@ -373,4 +371,6 @@
   <string name="device_nubia_nx531j_summary">nx531j \nMainteneur - ZhangXueZe</string>
   <string name="device_vega_A910">Vega Sky A910</string>
   <string name="device_vega_A910_summary">A910 \nMainteneur - XDAVN</string>
+  <string name="device_lenovo_P1a42">Lenovo Vibe P1 Turbo</string>
+  <string name="device_lenovo_P1a42_summary">P1a42  \nMainteneur - Subham (DerkLord)</string>
 </resources>

@@ -879,7 +879,7 @@
   <string name="navbar_settings_title">Pasek nawigacji</string>
   <!-- kill app long press back -->
   <string name="kill_app_longpress_back">Zamykanie aplikacji przyciskiem wstecz</string>
-  <string name="kill_app_longpress_back_summary">Zamknij aktywną aplikację przytrzymując klawisz cofania</string>
+  <string name="kill_app_longpress_back_summary">Zamknij aktywną aplikację przytrzymując klawisz wstecz</string>
   <string name="long_press_kill_delay">Opóźnienie zabicia aplikacji</string>
   <!-- Advanced data tile -->
   <string name="qs_advanced_data_title">Zaawansowany przełącznik danych</string>
@@ -1184,7 +1184,7 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Suwak jasności</string>
   <string name="qs_brightness_slider_summary">Pokaż suwak jasności w panelu szybkich ustawień</string>
-  <string name="brightness_icon_title">Ikona jasności </string>
+  <string name="brightness_icon_title">Ikona jasności</string>
   <string name="brightness_icon_summary">Pokaż ikonę kontroli jasności na lewo od paska, aby dostosować auto jasność</string>
   <string name="show_clear_all_recents_button_title">Przycisk \"Wyczyść wszystko\"</string>
   <string name="show_clear_all_recents_button_summary">Pokaż przycisk \"Wyczyść wszystko\"</string>
