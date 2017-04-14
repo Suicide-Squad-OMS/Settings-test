@@ -97,7 +97,7 @@
 	<string name="device_r7plus_summary">R7plus \nMaintainer - Pixelfreak2005</string>
 
 	<string name="device_oneplus2">OnePlus Two</string>
-	<string name="device_oneplus2_summary">OnePlus 2 \nMaintainer - Ashok Soni (nicesoni_ash)</string>
+	<string name="device_oneplus2_summary">OnePlus 2 \nMaintainer - Subham Padhi (DerkLord)</string>
 	
 	<string name="device_oneplus3">OnePlus Three</string>
 	<string name="device_oneplus3_summary">OnePlus 3 \nMaintainer sud.vastav</string>
@@ -289,7 +289,7 @@
 	<string name="device_deb_summary">Deb \nMaintainer - Aclegg2011</string>
 	
 	<string name="device_falcon">Moto G</string>
-	<string name="device_falcon_summary">Falcon \nMaintainer -</string>
+	<string name="device_falcon_summary">Falcon \nMaintainer - Hasan Okarci</string>
 	
 	<string name="device_titan">Moto G 2014</string>
 	<string name="device_titan_summary">Titan \nMaintainer - mrunalkaran</string>
