@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="rr_mod_version">RR-OS Version</string>
+  <string name="rr_mod_version">ZeNiTy-RR-Evolution Version</string>
   <string name="build_date">Build-Datum</string>
   <string name="mod_version_default">Standard</string>
   <!-- General -->
@@ -2188,7 +2188,6 @@
   <string name="ok_string">Ok</string>
   <!-- Hide Statusbar on Lockscreen -->
   <string name="lockscreen_hide_status_bar_title">Statusleiste ausblenden</string>
-  <string name="lockscreen_hide_status_bar_summary">Schalte Statusbar Sicht im Sperrbildschirm</string>
   <string name="confirm_shutdown_switch_title">Schließe den Bestätigungsdialog</string>
   <string name="confirm_shutdown_switch_desc">Wenn die Schließ-Taste im Powermenü gedrückt wird, füge ein Dialog zur Bestätigung des Schließens hinzu.</string>
   <!-- Notification guts kill app button -->

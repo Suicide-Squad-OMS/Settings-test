@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="rr_mod_version">RR-OS version</string>
+    <string name="rr_mod_version">ZeNiTy-RR-Evolution version</string>
     <string name="build_date">Build date</string>
     <string name="mod_version_default">Default</string>
 
